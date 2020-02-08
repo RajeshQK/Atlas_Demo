@@ -1,0 +1,12 @@
+{
+  "clientRequestId": "LALAfreelook${randomInt1}",
+  "clientRequestTime": "${currentTime}.000+0530",
+  "serviceReqTime": "${currentTime}.000+0530",
+  "policyNumber": "${policyNumber}",
+  "submissionDate": "${currentTime}.000+0530",
+  "effectiveDate": "2019-06-25T00:00:00.000+0530",
+  "item": {
+    "freelookReason": 61,
+    "acknowledgementDate": "2019-05-20T00:00:00.000+0530"
+  }
+}

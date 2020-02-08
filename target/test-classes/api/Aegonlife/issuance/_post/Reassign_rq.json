@@ -1,0 +1,7 @@
+{
+"comment":"${reassign_comments}",
+"remarks":"${reassign_remarks}",
+"policyNumber":"${policyNumber}",
+"nextAssignmentTo":"${reassign_nextAssignmentTo}",
+"assignedToRole":"${reassign_assignedToRole}"
+}

@@ -1,0 +1,5 @@
+{
+  "clientRequestId": "withdraw${randomInt}",
+  "clientRequestTime": "${currentTime}.000+0530",
+  "proposalNumber": "${proposalNumber}"
+}

@@ -1,0 +1,171 @@
+{
+    "insured": {
+        "firstName": "${insured_firstName}",
+        "lastName": "${insured_lastName}",
+        "gender": "${insured_gender}",
+        "dateOfBirth": "${insured_datOfBirth}",
+        "partyRefId": "${insured_partyRefId}",
+        "emailId": "${insured_emailId}",
+        "mobile": "${insured_mobile}",
+        "correspondenceAddress": {
+            "addressLine1": "${insured_corr_add1}",
+            "addressLine2": "${insured_corr_add2}",
+            "city": "${insured_corr_city}",
+            "country": "${insured_corr_country}",
+            "pincode": "${insured_corr_pincode}",
+            "state": "${insured_corr_state}"
+        },
+        "permanentAddress": {
+            "addressLine1": "${insured_pa_add1}",
+            "addressLine2": "${insured_pa_add2}",
+            "city": "${insured_pa_city}",
+            "country": "${insured_pa_country}",
+            "pincode": "${insured_pa_pincode}",
+            "state": "${insured_pa_state}"
+        },
+        "nationality": "${insured_nationality}",
+        "maritalStatus": "${insured_maritalStatus}",
+        "qualification": "${insured_qualification}",
+        "birthPlace": "${insured_birthPlace}",
+        "identityInfo": [
+            {
+                "type": "${insured_identityInfo_type1}",
+                "value": "${insured_identityInfo_value1}"
+            },
+            {
+                "type": "${insured_identityInfo_type2}",
+                "value": "${insured_identityInfo_value2}"
+            }
+        ],
+        "professionalInfo": {
+            "annualIncome": ${insured_professionalInfo_annualIncome},
+            "occupation": "${insured_professionalInfo_occupation}",
+            "organizationName": "${insured_professionalInfo_orgName}"
+        },
+        "contactName": "${insured_contactName}"
+    },
+        "paymentInfo": {
+        "siOpted": ${paymentInfo_siOpted},
+        "transactionId": "${paymentInfo_transactionId}",
+        "vendor":"${paymentInfo_vendor}",
+        "paymentMode":"${paymentInfo_paymentMode}"
+    },
+    "policyInfo": {
+        "relationToHolder": "${policyinfo_relationtoHolder}",
+        "policyNumber": "${policyinfo_policynumber}",
+        "termValue" : ${policyinfo_termValue},
+        "purchaseDateTime": "${policyinfo_purchaseDatetime}",
+       "startDate": "${policyinfo_startdate}",  
+        "coiDispatchDateTime": "${policyinfo_coidispatchdatetime}",
+        "planCode": "${policyinfo_planCode}",
+        "premium": {
+            "paymentFrequency": "${policyinfo_paymentFrequency}",
+            "initialPremium": ${policyinfo_initialPremium},
+            "premiumPayingTerm":"${policyinfo_PPT}",
+            "premiumPayOption":"${policyinfo_premiumPayOption}"
+        },
+        "coverages": [
+            {
+                "code": "${policyinfo_CoverageCode}",
+                "sumAssured": ${policyinfo_CoverageSumAssured}
+            }
+            <#if policyinfo_RiderCode??>,
+            {
+                "code": "${policyinfo_RiderCode}",
+                "sumAssured": ${policyinfo_RiderSumAssured}
+            }</#if>
+        ],
+        "nominees": [
+            {
+                "firstName": "${Nominee_firstName}",
+                "middleName": "${Nominee_middleName}",
+                "lastName": "${Nominee_lastName}",
+                "gender": "${Nominee_gender}",
+                "dateOfBirth": "${Nominee_dateOfBirth}",
+                "relationOfNominee": "${Nominee_relationOfNominee}",
+                "nominationPercentage": ${Nominee_Percentage},
+                "address": "${Nominee_address}",
+                "emailId": "${Nominee_emailId}",
+                "mobile": "${Nominee_mobile}",
+                "age": "${Nominee_age}",
+                "appointee":{
+                                "name":"${Nominee_Appointee_name}",
+                                "dob":"${Nominee_Appointee_dob}",
+                                "email":"${Nominee_Appointee_email}",
+                                "mobile":"${Nominee_Appointee_mobile}"
+                }
+            }
+        ],
+        "documents": [
+            {
+                "type": "${documents_type}",
+                "url": "${documents_url}"
+            }
+        ],
+        "healthInfo": {
+            "height": ${height},
+            "questionnaires": [
+                {
+                    "optedAnswer": "${question_optedAnswer1}",
+                    "questionId": "${question_questionId1}"
+                },
+                {
+                    "optedAnswer": "${question_optedAnswer2}",
+                    "questionId": "${question_questionId2}"
+                }
+            ],
+            "smoker": "${smoker}",
+            "weight": ${weight}
+        }
+    },
+    "policyHolder": {
+        "firstName": "${ph_firstName}",
+        "lastName": "${ph_lastName}",
+        "gender": "${ph_gender}",
+        "dateOfBirth": "${ph_dob}",
+        "partyRefId": "${ph_partyRefId}",
+        "emailId": "${ph_emailId}",
+        "mobile": "${ph_mobile}",
+        "correspondenceAddress": {
+            "addressLine1": "${ph_corr_add1}",
+            "addressLine2": "${ph_corr_add2}",
+            "city": "${ph_corr_city}",
+            "country": "${ph_corr_country}",
+            "pincode": "${ph_corr_pincode}",
+            "state": "${ph_corr_state}"
+        },
+        "permanentAddress": {
+            "addressLine1": "${ph_pa_add1}",
+            "addressLine2": "${ph_pa_add2}",
+            "city": "${ph_pa_city}",
+            "country": "${ph_pa_country}",
+            "pincode": "${ph_pa_pincode}",
+            "state": "${ph_pa_state}"
+        },
+        "nationality": "${ph_nationality}",
+        "maritalStatus": "${ph_maritalStatus}",
+        "qualification": "${ph_Qualification}",
+        "birthPlace": "${ph_birthPlace}",
+        "identityInfo": [
+            {
+                "type": "${ph_identityInfo_type1}",
+                "value": "${ph_identityInfo_value1}"
+            },
+            {
+                "type": "${ph_identityInfo_type2}",
+                "value": "${ph_identityInfo_value2}"
+            }
+        ],
+        "professionalInfo": {
+            "annualIncome": ${ph_professionalInfo_annualIncome},
+            "occupation": "${ph_professionalInfo_occupation}",
+            "organizationName": "${ph_professionalInfo_orgName}"
+        },
+        "contactName": "${ph_contactName}"
+    },
+    "sourceInfo": {
+        "id": "${sourceinfo_id}",
+        "type": "${sourceinfo_type}"
+    },
+    "policyType":"${policyType}"
+}

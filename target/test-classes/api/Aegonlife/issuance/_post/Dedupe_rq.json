@@ -1,0 +1,13 @@
+{
+<#if panNumber??>
+  "panNumber": "${panNumber}",</#if>
+  "dob": "${dob}",
+  "mobileNumber": "${mobileNumber}",
+  "emailAddress": "${emailAddress}",
+  "firstName": "${firstName}",
+  <#if lastName??>
+  "lastName": "${lastName}",</#if>
+  "laPhFlag": "${laPhFlag}",
+  "gender": "${gender}",
+  "typeId": "${typeId}"
+}

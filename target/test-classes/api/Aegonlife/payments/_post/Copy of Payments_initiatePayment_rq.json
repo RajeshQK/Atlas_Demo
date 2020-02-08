@@ -1,0 +1,38 @@
+{
+  "additionalInformation": {},
+  "amount": 400,
+  "dueDate": "${dueDate}",
+  "mandateType": "CCSI",
+  "payer": {
+    "businessId": "GS557444525116",
+    "email": "abc@an.d",
+    "mobileNumber": "8888888888",
+    "name": "Satishagarval Annavarapu",
+    "policyNumber": "GS5574445251169",
+    "vendorCode": "RAZORPAY"
+  },
+  "paymentType": "Renewal Payment",
+  "policyNumber": "PRII7G465661221",
+  "receiptInstrument": {
+    "bankName": "",
+    "branchName": "",
+    "cardType": "",
+    "chequeDate": "",
+    "chequeNumber": "",
+    "chequeType": "",
+    "collectedAmount": 400,
+    "ftType": "",
+    "ifscCode": "",
+    "micrNumber": "",
+    "newPolicyNumber": "",
+    "newPolicySuspenseType": "",
+    "oldPolicyNumber": "",
+    "oldPolicySuspenseType": "",
+    "paymentMode": "cash",
+    "transactionId": "23124414"
+  },
+  "transactionDate": "2019-02-21",
+  "userId": "string",
+  "vendorCode": "RAZORPAY",
+  "vendorPaymentId": "string"
+}

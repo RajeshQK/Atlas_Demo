@@ -1,0 +1,10 @@
+{
+  "clientRequestId": "Confirm${randomInt}",
+  "clientRequestTime": "${currentDate}.000+0530",
+  "policyNumber": "${policyNumber}",
+  "collection": {
+    "payMode": 1,
+    "currency": 31,
+    "feeAmount": "${totalRenewalPremium}"
+  }
+}
