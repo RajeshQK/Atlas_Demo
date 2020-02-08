@@ -1,26 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite thread-count="1" guice-stage="DEVELOPMENT" name="Failed suite [Carina Demo Tests - Mobile Sample (Android)]" parallel="tests" data-provider-thread-count="1">
-  <parameter name="suiteOwner" value="qpsdemo"/>
-  <parameter name="zafira_project" value="CarinaTraining"/>
-  <test thread-count="1" name="Mobile test 1(failed)" parallel="tests">
-    <parameter name="deviceName" value="Samsung_Galaxy_J4_Plus.properties"/>
+<suite thread-count="1" guice-stage="DEVELOPMENT" name="Failed suite [Default suite]" data-provider-thread-count="1">
+  <test thread-count="1" name="Default test(failed)">
     <classes>
-      <class name="com.qaprosoft.carina.demo.MobileSampleTest">
+      <class name="com.qaprosoft.carina.demo.WebSampleTest">
         <methods>
-          <include name="testLoginUser" invocation-numbers="0"/>
+          <include name="testModelSpecs" invocation-numbers="0"/>
+          <include name="testNewsSearch"/>
         </methods>
-      </class> <!-- com.qaprosoft.carina.demo.MobileSampleTest -->
+      </class> <!-- com.qaprosoft.carina.demo.WebSampleTest -->
     </classes>
-  </test> <!-- Mobile test 1(failed) -->
-  <test thread-count="1" name="Mobile test 2(failed)" parallel="tests">
-    <parameter name="deviceName" value="Samsung_Galaxy_J5_Prime.properties"/>
-    <classes>
-      <class name="com.qaprosoft.carina.demo.HDFC_MobileSalesDemo">
-        <methods>
-          <include name="testMobileSalesDiary" invocation-numbers="0"/>
-        </methods>
-      </class> <!-- com.qaprosoft.carina.demo.HDFC_MobileSalesDemo -->
-    </classes>
-  </test> <!-- Mobile test 2(failed) -->
-</suite> <!-- Failed suite [Carina Demo Tests - Mobile Sample (Android)] -->
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

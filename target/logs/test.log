@@ -25237,3 +25237,1520 @@ X-Frame-Options: DENY
 2020-02-08 11:41:34 Messager [INFO] RESULT #3: TEST [E2E API Test [Test_Cases=TC005] - Proposal_Submission (InvCount=0003)] PASS [log=file://E:\Nikita_workspace\Atlas_Demo\.\reports\qa\1581142259480/bc119137-2f81-488a-976a-f07ace45b9cb/test.log]
 2020-02-08 11:41:34 Messager [INFO] RESULT #4: TEST [E2E API Test [Test_Cases=TC005] - Proposal_Submission (InvCount=0004)] PASS [log=file://E:\Nikita_workspace\Atlas_Demo\.\reports\qa\1581142259480/1edf92d7-bba9-4d1a-bade-05b8b09bdbbd/test.log]
 2020-02-08 11:41:34 Messager [INFO] RESULT #5: TEST [E2E API Test [Test_Cases=TC005] - Proposal_Submission (InvCount=0005)] PASS [log=file://E:\Nikita_workspace\Atlas_Demo\.\reports\qa\1581142259480/69b9f094-115b-4779-a2f4-c8601863e2a4/test.log]
+2020-02-08 13:23:54 CarinaListener [INFO] 
+============= Test configuration =============
+url=https://www.gsmarena.com
+env=DEMO
+env_arg_resolver=com.qaprosoft.carina.core.foundation.utils.DefaultEnvArgResolver
+platform=*
+browser=chrome
+browser_version=*
+browser_language=
+selenium_host=http://localhost:4444/wd/hub
+driver_event_listeners=
+max_driver_count=3
+custom_capabilities=
+chrome_args=
+chrome_experimental_opts=
+chrome_mobile_emulation_opts=
+firefox_args=
+firefox_preferences=
+app_version=
+proxy_host=
+proxy_port=
+proxy_protocols=http,https,ftp
+browsermob_proxy=false
+browsermob_host=
+browsermob_port=0
+browsermob_ports_range=
+browsermob_disabled_mitm=false
+proxy_set_to_system=false
+report_url=
+email_list=
+failure_email_list=
+track_known_issues=false
+auto_screenshot=true
+implicit_timeout=10
+explicit_timeout=20
+auto_download=false
+auto_download_apps=
+custom_artifacts_folder=
+retry_interval=5
+project_report_directory=./reports/qa
+max_screen_history=10
+max_log_file_size=150
+result_sorting=true
+big_screen_width=-1
+big_screen_height=-1
+small_screen_width=90
+small_screen_height=60
+init_retry_count=0
+init_retry_interval=1
+retry_count=0
+enable_l10n=true
+l10n_encoding=ISO-8859-1
+locale=en_US
+enable_i18n=true
+language=en_US
+thread_count=1
+data_provider_thread_count=-1
+core_log_level=INFO
+core_log_packages=com.qaprosoft.carina.core
+artifacts_expiration_seconds=2592000
+log_all_json=true
+date_format=HH:mm:ss yyyy-MM-dd
+time_format=HH:mm:ss
+suite_name=
+jira_updater=com.qaprosoft.carina.core.foundation.jira.DefaultJiraUpdater
+jira_url=
+jira_user=
+jira_password=
+jira_suite_id=
+jira_project=
+jira_project_short=
+jira_create_new_ticket=false
+test_naming_pattern={method_name}
+optimize_video_recording=false
+testrail_run_name=
+testrail_milestone=
+testrail_assignee=
+qtest_cycle_name=DailyAutomation
+qtest_suite_name=
+s3_bucket_name=
+access_key_id=
+secret_key=
+s3_use_presign_url=false
+s3_local_storage=.
+appcenter_token=
+appcenter_local_storage=.
+add_new_localization=false
+add_new_localization_encoding=utf-8
+add_new_localization_path=
+add_new_localization_property_name=new_custom_messages_
+tls_keysecure_location=
+health_check_class=
+health_check_methods=
+uninstall_related_apps=false
+default_device_timezone=GMT
+default_device_time_format=24
+default_device_language=en_US
+android_screen_record_size=
+android_screen_record_bitrate=
+android_enable_bug_report=true
+ios_screen_record_quality=MEDIUM
+ios_screen_record_codec=libx264
+ios_screen_record_fps=10
+screen_record_duration=180
+video_scale=-2:720
+ignore_ssl=false
+test_run_rules=
+hub_mode=selenium
+extract_sys_log=false
+selenium_host=http://localhost:4444/wd/hub
+
+------------- Driver capabilities -----------
+capabilities.appPackage=com.solvd.carinademoapplication
+capabilities.appActivity=com.solvd.carinademoapplication.ActivitySplash
+capabilities.automationName=uiautomator2
+capabilities.app=src/main/resources/carinademoexample.apk
+capabilities.platformName=ANDROID
+capabilities.deviceType=phone
+================================================
+
+2020-02-08 13:23:54 CarinaListener [INFO] Set data_provider_thread_count=1
+2020-02-08 13:23:54 CarinaListener [INFO] CARINA_CORE_VERSION: 6.3.30
+2020-02-08 13:23:54 Messager [INFO]  TEST [Default test - testCompareModels] STARTED at [13:23:54 2020-02-08]
+2020-02-08 13:24:24 Messager [INFO] INFO: url 'https://www.gsmarena.com' is being opened...
+2020-02-08 13:24:35 DriverListener [INFO] INFO: url 'https://www.gsmarena.com' is opened.
+2020-02-08 13:24:46 DriverListener [INFO] PASS: element 'compareLink' is clicked.
+2020-02-08 13:24:56 DriverListener [INFO] PASS: element 'inputField' is clicked.
+2020-02-08 13:24:57 DriverListener [INFO] PASS: keys cleared in element 'inputField'.
+2020-02-08 13:24:58 DriverListener [INFO] PASS: keys 'Samsung Galaxy J3' are sent to element 'inputField'.
+2020-02-08 13:25:02 DriverListener [INFO] PASS: element 'Samsung Galaxy J3 (2016)' is clicked.
+2020-02-08 13:25:04 DriverListener [INFO] PASS: element 'inputField' is clicked.
+2020-02-08 13:25:05 DriverListener [INFO] PASS: keys cleared in element 'inputField'.
+2020-02-08 13:25:06 DriverListener [INFO] PASS: keys 'Samsung Galaxy J5' are sent to element 'inputField'.
+2020-02-08 13:25:09 DriverListener [INFO] PASS: element 'Samsung Galaxy J5' is clicked.
+2020-02-08 13:25:11 DriverListener [INFO] PASS: element 'inputField' is clicked.
+2020-02-08 13:25:12 DriverListener [INFO] PASS: keys cleared in element 'inputField'.
+2020-02-08 13:25:13 DriverListener [INFO] PASS: keys 'Samsung Galaxy J7 Pro' are sent to element 'inputField'.
+2020-02-08 13:25:20 DriverListener [INFO] PASS: element 'Samsung Galaxy J7 Pro' is clicked.
+2020-02-08 13:25:22 Messager [INFO]  TEST [Default test - testCompareModels] PASSED at [13:25:22 2020-02-08]
+2020-02-08 13:25:23 Messager [INFO]  TEST [GSMA0001 - Default test - testModelSpecs] STARTED at [13:25:23 2020-02-08]
+2020-02-08 13:25:26 Messager [INFO] INFO: url 'https://www.gsmarena.com' is being opened...
+2020-02-08 13:25:35 DriverListener [INFO] INFO: url 'https://www.gsmarena.com' is opened.
+2020-02-08 13:25:56 HomePage [INFO] selecting 'Samsung' brand...
+2020-02-08 13:25:59 HomePage [INFO] currentBrand: PHONE FINDER
+2020-02-08 13:25:59 HomePage [INFO] currentBrand: SAMSUNG
+2020-02-08 13:26:05 DriverListener [INFO] PASS: element 'SAMSUNG' is clicked.
+2020-02-08 13:26:16 DriverListener [INFO] PASS: element 'modelLink' is clicked.
+2020-02-08 13:26:19 Messager [ERROR]  TEST [GSMA0001 - Default test - testModelSpecs] FAILED at [13:26:19 2020-02-08] - Invalid ram info! expected [12GB RAM] but found [8/12GB RAM]
+
+org.testng.Assert.fail(Assert.java:96)
+org.testng.Assert.failNotEquals(Assert.java:776)
+org.testng.Assert.assertEqualsImpl(Assert.java:137)
+org.testng.Assert.assertEquals(Assert.java:118)
+org.testng.Assert.assertEquals(Assert.java:453)
+com.qaprosoft.carina.demo.WebSampleTest.testModelSpecs(WebSampleTest.java:73)
+sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+java.lang.reflect.Method.invoke(Unknown Source)
+org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+org.testng.TestRunner.privateRun(TestRunner.java:648)
+org.testng.TestRunner.run(TestRunner.java:505)
+org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+org.testng.SuiteRunner.run(SuiteRunner.java:364)
+org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+org.testng.TestNG.runSuites(TestNG.java:1049)
+org.testng.TestNG.run(TestNG.java:1017)
+org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+2020-02-08 13:26:19 Messager [INFO]  TEST [GSMA0002 - Default test - testModelSpecs] STARTED at [13:26:19 2020-02-08]
+2020-02-08 13:26:21 Messager [INFO] INFO: url 'https://www.gsmarena.com' is being opened...
+2020-02-08 13:26:33 DriverListener [INFO] INFO: url 'https://www.gsmarena.com' is opened.
+2020-02-08 13:26:55 HomePage [INFO] selecting 'Samsung' brand...
+2020-02-08 13:26:55 HomePage [INFO] currentBrand: PHONE FINDER
+2020-02-08 13:26:56 HomePage [INFO] currentBrand: SAMSUNG
+2020-02-08 13:27:01 DriverListener [INFO] PASS: element 'SAMSUNG' is clicked.
+2020-02-08 13:27:12 DriverListener [INFO] PASS: element 'modelLink' is clicked.
+2020-02-08 13:27:13 Messager [INFO]  TEST [GSMA0002 - Default test - testModelSpecs] PASSED at [13:27:13 2020-02-08]
+2020-02-08 13:27:13 Messager [INFO]  TEST [GSMA0003 - Default test - testModelSpecs] STARTED at [13:27:13 2020-02-08]
+2020-02-08 13:27:16 Messager [INFO] INFO: url 'https://www.gsmarena.com' is being opened...
+2020-02-08 13:27:25 DriverListener [INFO] INFO: url 'https://www.gsmarena.com' is opened.
+2020-02-08 13:27:47 HomePage [INFO] selecting 'Samsung' brand...
+2020-02-08 13:27:48 HomePage [INFO] currentBrand: PHONE FINDER
+2020-02-08 13:27:48 HomePage [INFO] currentBrand: SAMSUNG
+2020-02-08 13:28:12 DriverListener [INFO] PASS: element 'SAMSUNG' is clicked.
+2020-02-08 13:28:17 DriverListener [INFO] PASS: element 'modelLink' is clicked.
+2020-02-08 13:28:19 Messager [INFO]  TEST [GSMA0003 - Default test - testModelSpecs] PASSED at [13:28:19 2020-02-08]
+2020-02-08 13:28:19 Messager [INFO]  TEST [Default test - testNewsSearch] STARTED at [13:28:19 2020-02-08]
+2020-02-08 13:28:21 Messager [INFO] INFO: url 'https://www.gsmarena.com' is being opened...
+2020-02-08 13:28:29 DriverListener [INFO] INFO: url 'https://www.gsmarena.com' is opened.
+2020-02-08 13:28:33 DriverListener [INFO] PASS: element 'newsLink' is clicked.
+2020-02-08 13:28:54 DriverHelper [WARN] Actual URL differs from expected one. Expected 'https://qkm1.qualitykiosk.com/api/news.php3' but found 'https://www.gsmarena.com/news.php3'
+2020-02-08 13:28:55 Messager [ERROR]  TEST [Default test - testNewsSearch] FAILED at [13:28:55 2020-02-08] - News page is not opened! expected [true] but found [false]
+
+org.testng.Assert.fail(Assert.java:96)
+org.testng.Assert.failNotEquals(Assert.java:776)
+org.testng.Assert.assertTrue(Assert.java:44)
+com.qaprosoft.carina.demo.WebSampleTest.testNewsSearch(WebSampleTest.java:107)
+sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+java.lang.reflect.Method.invoke(Unknown Source)
+org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+org.testng.TestRunner.privateRun(TestRunner.java:648)
+org.testng.TestRunner.run(TestRunner.java:505)
+org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+org.testng.SuiteRunner.run(SuiteRunner.java:364)
+org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+org.testng.TestNG.runSuites(TestNG.java:1049)
+org.testng.TestNG.run(TestNG.java:1017)
+org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+2020-02-08 13:28:56 Messager [INFO] INFO: '**************** Test execution summary ****************'.
+2020-02-08 13:28:56 Messager [INFO] RESULT #1: TEST [Default test - testCompareModels] PASS [screenshots=file://E:\Nikita_workspace\Atlas_Demo\.\reports\qa\1581148434740/4a3427d1-405a-4ebc-8b90-8d83d7ff9651/report.html | log=file://E:\Nikita_workspace\Atlas_Demo\.\reports\qa\1581148434740/4a3427d1-405a-4ebc-8b90-8d83d7ff9651/test.log]
+2020-02-08 13:28:56 Messager [INFO] RESULT #2: TEST [GSMA0001 - Default test - testModelSpecs] FAIL [screenshots=file://E:\Nikita_workspace\Atlas_Demo\.\reports\qa\1581148434740/dd8f78d4-3b2f-489c-ad51-67e7e9e6ca94/report.html | log=file://E:\Nikita_workspace\Atlas_Demo\.\reports\qa\1581148434740/dd8f78d4-3b2f-489c-ad51-67e7e9e6ca94/test.log]
+2020-02-08 13:28:56 Messager [INFO] RESULT #3: TEST [GSMA0002 - Default test - testModelSpecs] PASS [screenshots=file://E:\Nikita_workspace\Atlas_Demo\.\reports\qa\1581148434740/4481b02d-9553-42e1-a8a3-4a56d687f954/report.html | log=file://E:\Nikita_workspace\Atlas_Demo\.\reports\qa\1581148434740/4481b02d-9553-42e1-a8a3-4a56d687f954/test.log]
+2020-02-08 13:28:56 Messager [INFO] RESULT #4: TEST [GSMA0003 - Default test - testModelSpecs] PASS [screenshots=file://E:\Nikita_workspace\Atlas_Demo\.\reports\qa\1581148434740/70316d2b-362e-438b-a38f-229c163140de/report.html | log=file://E:\Nikita_workspace\Atlas_Demo\.\reports\qa\1581148434740/70316d2b-362e-438b-a38f-229c163140de/test.log]
+2020-02-08 13:28:56 Messager [INFO] RESULT #5: TEST [Default test - testNewsSearch] FAIL [screenshots=file://E:\Nikita_workspace\Atlas_Demo\.\reports\qa\1581148434740/8572efa3-158b-4b8f-adf3-ac9c897ad791/report.html | log=file://E:\Nikita_workspace\Atlas_Demo\.\reports\qa\1581148434740/8572efa3-158b-4b8f-adf3-ac9c897ad791/test.log]
+2020-02-08 15:10:45 CarinaListener [INFO] 
+============= Test configuration =============
+url=https://www.gsmarena.com
+env=DEMO
+env_arg_resolver=com.qaprosoft.carina.core.foundation.utils.DefaultEnvArgResolver
+platform=*
+browser=chrome
+browser_version=*
+browser_language=
+selenium_host=http://localhost:4444/wd/hub
+driver_event_listeners=
+max_driver_count=3
+custom_capabilities=
+chrome_args=
+chrome_experimental_opts=
+chrome_mobile_emulation_opts=
+firefox_args=
+firefox_preferences=
+app_version=
+proxy_host=
+proxy_port=
+proxy_protocols=http,https,ftp
+browsermob_proxy=false
+browsermob_host=
+browsermob_port=0
+browsermob_ports_range=
+browsermob_disabled_mitm=false
+proxy_set_to_system=false
+report_url=
+email_list=
+failure_email_list=
+track_known_issues=false
+auto_screenshot=true
+implicit_timeout=10
+explicit_timeout=20
+auto_download=false
+auto_download_apps=
+custom_artifacts_folder=
+retry_interval=5
+project_report_directory=./reports/qa
+max_screen_history=10
+max_log_file_size=150
+result_sorting=true
+big_screen_width=-1
+big_screen_height=-1
+small_screen_width=90
+small_screen_height=60
+init_retry_count=0
+init_retry_interval=1
+retry_count=0
+enable_l10n=true
+l10n_encoding=ISO-8859-1
+locale=en_US
+enable_i18n=true
+language=en_US
+thread_count=1
+data_provider_thread_count=-1
+core_log_level=INFO
+core_log_packages=com.qaprosoft.carina.core
+artifacts_expiration_seconds=2592000
+log_all_json=true
+date_format=HH:mm:ss yyyy-MM-dd
+time_format=HH:mm:ss
+suite_name=
+jira_updater=com.qaprosoft.carina.core.foundation.jira.DefaultJiraUpdater
+jira_url=
+jira_user=
+jira_password=
+jira_suite_id=
+jira_project=
+jira_project_short=
+jira_create_new_ticket=false
+test_naming_pattern={method_name}
+optimize_video_recording=false
+testrail_run_name=
+testrail_milestone=
+testrail_assignee=
+qtest_cycle_name=DailyAutomation
+qtest_suite_name=
+s3_bucket_name=
+access_key_id=
+secret_key=
+s3_use_presign_url=false
+s3_local_storage=.
+appcenter_token=
+appcenter_local_storage=.
+add_new_localization=false
+add_new_localization_encoding=utf-8
+add_new_localization_path=
+add_new_localization_property_name=new_custom_messages_
+tls_keysecure_location=
+health_check_class=
+health_check_methods=
+uninstall_related_apps=false
+default_device_timezone=GMT
+default_device_time_format=24
+default_device_language=en_US
+android_screen_record_size=
+android_screen_record_bitrate=
+android_enable_bug_report=true
+ios_screen_record_quality=MEDIUM
+ios_screen_record_codec=libx264
+ios_screen_record_fps=10
+screen_record_duration=180
+video_scale=-2:720
+ignore_ssl=false
+test_run_rules=
+hub_mode=selenium
+extract_sys_log=false
+selenium_host=http://localhost:4444/wd/hub
+
+------------- Driver capabilities -----------
+capabilities.appPackage=com.solvd.carinademoapplication
+capabilities.appActivity=com.solvd.carinademoapplication.ActivitySplash
+capabilities.automationName=uiautomator2
+capabilities.app=src/main/resources/carinademoexample.apk
+capabilities.platformName=ANDROID
+capabilities.deviceType=phone
+================================================
+
+2020-02-08 15:10:45 CarinaListener [INFO] Set data_provider_thread_count=1
+2020-02-08 15:10:45 CarinaListener [INFO] CARINA_CORE_VERSION: 6.3.30
+2020-02-08 15:10:45 Messager [INFO]  TEST [Default test - testCompareModels] STARTED at [15:10:45 2020-02-08]
+2020-02-08 15:10:46 IDriverPool [ERROR] Driver initialization 'default' FAILED! Retry 1 of 1 time - org.openqa.selenium.WebDriverException: Error forwarding the new session cannot find : Capabilities {app: src/main/resources/carinade..., appActivity: com.solvd.carinademoapplica..., appPackage: com.solvd.carinademoapplica..., automationName: uiautomator2, browserName: chrome, carinaTestRunId: 22d5a497-b9f8-46e1-9d34-13f..., deviceType: phone, goog:chromeOptions: {args: [test-type, --no-first-run, --disable-notifications], extensions: [], w3c: false}, platformName: android}
+Command duration or timeout: 312 milliseconds
+org.openqa.selenium.WebDriverException: org.openqa.selenium.WebDriverException: Error forwarding the new session cannot find : Capabilities {app: src/main/resources/carinade..., appActivity: com.solvd.carinademoapplica..., appPackage: com.solvd.carinademoapplica..., automationName: uiautomator2, browserName: chrome, carinaTestRunId: 22d5a497-b9f8-46e1-9d34-13f..., deviceType: phone, goog:chromeOptions: {args: [test-type, --no-first-run, --disable-notifications], extensions: [], w3c: false}, platformName: android}
+Command duration or timeout: 312 milliseconds
+	at com.qaprosoft.carina.core.foundation.webdriver.listener.EventFiringAppiumCommandExecutor.execute(EventFiringAppiumCommandExecutor.java:169)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:41)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at io.appium.java_client.AppiumDriver.startSession(AppiumDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
+	at io.appium.java_client.DefaultGenericMobileDriver.<init>(DefaultGenericMobileDriver.java:37)
+	at io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:86)
+	at io.appium.java_client.android.AndroidDriver.<init>(AndroidDriver.java:84)
+	at com.qaprosoft.carina.core.foundation.webdriver.core.factory.impl.MobileFactory.create(MobileFactory.java:167)
+	at com.qaprosoft.carina.core.foundation.webdriver.core.factory.DriverFactory.create(DriverFactory.java:71)
+	at com.qaprosoft.carina.core.foundation.webdriver.IDriverPool.createDriver(IDriverPool.java:353)
+	at com.qaprosoft.carina.core.foundation.webdriver.IDriverPool.getDriver(IDriverPool.java:143)
+	at com.qaprosoft.carina.core.foundation.webdriver.IDriverPool.getDriver(IDriverPool.java:78)
+	at com.qaprosoft.carina.core.foundation.webdriver.IDriverPool.getDriver(IDriverPool.java:66)
+	at com.qaprosoft.carina.demo.WebSampleTest.testCompareModels(WebSampleTest.java:84)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: org.openqa.selenium.WebDriverException: Error forwarding the new session cannot find : Capabilities {app: src/main/resources/carinade..., appActivity: com.solvd.carinademoapplica..., appPackage: com.solvd.carinademoapplica..., automationName: uiautomator2, browserName: chrome, carinaTestRunId: 22d5a497-b9f8-46e1-9d34-13f..., deviceType: phone, goog:chromeOptions: {args: [test-type, --no-first-run, --disable-notifications], extensions: [], w3c: false}, platformName: android}
+Command duration or timeout: 312 milliseconds
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.JsonWireProtocolResponse.lambda$errorHandler$0(JsonWireProtocolResponse.java:54)
+	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+	at java.util.stream.ReferencePipeline$3$1.accept(Unknown Source)
+	at java.util.Spliterators$ArraySpliterator.tryAdvance(Unknown Source)
+	at java.util.stream.ReferencePipeline.forEachWithCancel(Unknown Source)
+	at java.util.stream.AbstractPipeline.copyIntoWithCancel(Unknown Source)
+	at java.util.stream.AbstractPipeline.copyInto(Unknown Source)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(Unknown Source)
+	at java.util.stream.FindOps$FindOp.evaluateSequential(Unknown Source)
+	at java.util.stream.AbstractPipeline.evaluate(Unknown Source)
+	at java.util.stream.ReferencePipeline.findFirst(Unknown Source)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+	at com.qaprosoft.carina.core.foundation.webdriver.listener.EventFiringAppiumCommandExecutor.execute(EventFiringAppiumCommandExecutor.java:150)
+	... 42 more
+Caused by: org.openqa.selenium.WebDriverException: Error forwarding the new session cannot find : Capabilities {app: src/main/resources/carinade..., appActivity: com.solvd.carinademoapplica..., appPackage: com.solvd.carinademoapplica..., automationName: uiautomator2, browserName: chrome, carinaTestRunId: 22d5a497-b9f8-46e1-9d34-13f..., deviceType: phone, goog:chromeOptions: {args: [test-type, --no-first-run, --disable-notifications], extensions: [], w3c: false}, platformName: android}
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'QKNBK474', ip: '10.0.75.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+Driver info: driver.version: unknown
+	at org.openqa.grid.web.servlet.handler.RequestHandler.process(RequestHandler.java:118)
+	at org.openqa.grid.web.servlet.DriverServlet.process(DriverServlet.java:85)
+	at org.openqa.grid.web.servlet.DriverServlet.doPost(DriverServlet.java:69)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:707)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at org.seleniumhq.jetty9.servlet.ServletHolder.handle(ServletHolder.java:865)
+	at org.seleniumhq.jetty9.servlet.ServletHandler.doHandle(ServletHandler.java:535)
+	at org.seleniumhq.jetty9.server.handler.ScopedHandler.handle(ScopedHandler.java:146)
+	at org.seleniumhq.jetty9.security.SecurityHandler.handle(SecurityHandler.java:548)
+	at org.seleniumhq.jetty9.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
+	at org.seleniumhq.jetty9.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:257)
+	at org.seleniumhq.jetty9.server.session.SessionHandler.doHandle(SessionHandler.java:1595)
+	at org.seleniumhq.jetty9.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:255)
+	at org.seleniumhq.jetty9.server.handler.ContextHandler.doHandle(ContextHandler.java:1340)
+	at org.seleniumhq.jetty9.server.handler.ScopedHandler.nextScope(ScopedHandler.java:203)
+	at org.seleniumhq.jetty9.servlet.ServletHandler.doScope(ServletHandler.java:473)
+	at org.seleniumhq.jetty9.server.session.SessionHandler.doScope(SessionHandler.java:1564)
+	at org.seleniumhq.jetty9.server.handler.ScopedHandler.nextScope(ScopedHandler.java:201)
+	at org.seleniumhq.jetty9.server.handler.ContextHandler.doScope(ContextHandler.java:1242)
+	at org.seleniumhq.jetty9.server.handler.ScopedHandler.handle(ScopedHandler.java:144)
+	at org.seleniumhq.jetty9.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
+	at org.seleniumhq.jetty9.server.Server.handle(Server.java:503)
+	at org.seleniumhq.jetty9.server.HttpChannel.handle(HttpChannel.java:364)
+	at org.seleniumhq.jetty9.server.HttpConnection.onFillable(HttpConnection.java:260)
+	at org.seleniumhq.jetty9.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:305)
+	at org.seleniumhq.jetty9.io.FillInterest.fillable(FillInterest.java:103)
+	at org.seleniumhq.jetty9.io.ChannelEndPoint$2.run(ChannelEndPoint.java:118)
+	at org.seleniumhq.jetty9.util.thread.strategy.EatWhatYouKill.runTask(EatWhatYouKill.java:333)
+	at org.seleniumhq.jetty9.util.thread.strategy.EatWhatYouKill.doProduce(EatWhatYouKill.java:310)
+	at org.seleniumhq.jetty9.util.thread.strategy.EatWhatYouKill.tryProduce(EatWhatYouKill.java:168)
+	at org.seleniumhq.jetty9.util.thread.strategy.EatWhatYouKill.run(EatWhatYouKill.java:126)
+	at org.seleniumhq.jetty9.util.thread.ReservedThreadExecutor$ReservedThread.run(ReservedThreadExecutor.java:366)
+	at org.seleniumhq.jetty9.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:765)
+	at org.seleniumhq.jetty9.util.thread.QueuedThreadPool$2.run(QueuedThreadPool.java:683)
+	at java.lang.Thread.run(Thread.java:748)
+2020-02-08 15:10:46 Messager [ERROR]  TEST [Default test - testCompareModels] FAILED at [15:10:46 2020-02-08] - org.openqa.selenium.WebDriverException: Error forwarding the new session cannot find : Capabilities {app: src/main/resources/carinade..., appActivity: com.solvd.carinademoapplica..., appPackage: com.solvd.carinademoapplica..., automationName: uiautomator2, browserName: chrome, carinaTestRunId: 22d5a497-b9f8-46e1-9d34-13f..., deviceType: phone, goog:chromeOptions: {args: [test-type, --no-first-run, --disable-notifications], extensions: [], w3c: false}, platformName: android}
+Command duration or timeout: 312 milliseconds
+
+com.qaprosoft.carina.core.foundation.webdriver.listener.EventFiringAppiumCommandExecutor.execute(EventFiringAppiumCommandExecutor.java:169)
+org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:41)
+io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+io.appium.java_client.AppiumDriver.startSession(AppiumDriver.java:323)
+org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
+io.appium.java_client.DefaultGenericMobileDriver.<init>(DefaultGenericMobileDriver.java:37)
+io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:86)
+io.appium.java_client.android.AndroidDriver.<init>(AndroidDriver.java:84)
+com.qaprosoft.carina.core.foundation.webdriver.core.factory.impl.MobileFactory.create(MobileFactory.java:167)
+com.qaprosoft.carina.core.foundation.webdriver.core.factory.DriverFactory.create(DriverFactory.java:71)
+com.qaprosoft.carina.core.foundation.webdriver.IDriverPool.createDriver(IDriverPool.java:353)
+com.qaprosoft.carina.core.foundation.webdriver.IDriverPool.getDriver(IDriverPool.java:143)
+com.qaprosoft.carina.core.foundation.webdriver.IDriverPool.getDriver(IDriverPool.java:78)
+com.qaprosoft.carina.core.foundation.webdriver.IDriverPool.getDriver(IDriverPool.java:66)
+com.qaprosoft.carina.demo.WebSampleTest.testCompareModels(WebSampleTest.java:84)
+sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+java.lang.reflect.Method.invoke(Unknown Source)
+org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+org.testng.TestRunner.privateRun(TestRunner.java:648)
+org.testng.TestRunner.run(TestRunner.java:505)
+org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+org.testng.SuiteRunner.run(SuiteRunner.java:364)
+org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+org.testng.TestNG.runSuites(TestNG.java:1049)
+org.testng.TestNG.run(TestNG.java:1017)
+org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+2020-02-08 15:10:47 Messager [INFO]  TEST [GSMA0001 - Default test - testModelSpecs] STARTED at [15:10:47 2020-02-08]
+2020-02-08 15:10:47 IDriverPool [ERROR] Driver initialization 'default' FAILED! Retry 1 of 1 time - org.openqa.selenium.WebDriverException: Error forwarding the new session cannot find : Capabilities {app: src/main/resources/carinade..., appActivity: com.solvd.carinademoapplica..., appPackage: com.solvd.carinademoapplica..., automationName: uiautomator2, browserName: chrome, carinaTestRunId: 22d5a497-b9f8-46e1-9d34-13f..., deviceType: phone, goog:chromeOptions: {args: [test-type, --no-first-run, --disable-notifications], extensions: [], w3c: false}, platformName: android}
+Command duration or timeout: 17 milliseconds
+org.openqa.selenium.WebDriverException: org.openqa.selenium.WebDriverException: Error forwarding the new session cannot find : Capabilities {app: src/main/resources/carinade..., appActivity: com.solvd.carinademoapplica..., appPackage: com.solvd.carinademoapplica..., automationName: uiautomator2, browserName: chrome, carinaTestRunId: 22d5a497-b9f8-46e1-9d34-13f..., deviceType: phone, goog:chromeOptions: {args: [test-type, --no-first-run, --disable-notifications], extensions: [], w3c: false}, platformName: android}
+Command duration or timeout: 17 milliseconds
+	at com.qaprosoft.carina.core.foundation.webdriver.listener.EventFiringAppiumCommandExecutor.execute(EventFiringAppiumCommandExecutor.java:169)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:41)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at io.appium.java_client.AppiumDriver.startSession(AppiumDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
+	at io.appium.java_client.DefaultGenericMobileDriver.<init>(DefaultGenericMobileDriver.java:37)
+	at io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:86)
+	at io.appium.java_client.android.AndroidDriver.<init>(AndroidDriver.java:84)
+	at com.qaprosoft.carina.core.foundation.webdriver.core.factory.impl.MobileFactory.create(MobileFactory.java:167)
+	at com.qaprosoft.carina.core.foundation.webdriver.core.factory.DriverFactory.create(DriverFactory.java:71)
+	at com.qaprosoft.carina.core.foundation.webdriver.IDriverPool.createDriver(IDriverPool.java:353)
+	at com.qaprosoft.carina.core.foundation.webdriver.IDriverPool.getDriver(IDriverPool.java:143)
+	at com.qaprosoft.carina.core.foundation.webdriver.IDriverPool.getDriver(IDriverPool.java:78)
+	at com.qaprosoft.carina.core.foundation.webdriver.IDriverPool.getDriver(IDriverPool.java:66)
+	at com.qaprosoft.carina.demo.WebSampleTest.testModelSpecs(WebSampleTest.java:58)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: org.openqa.selenium.WebDriverException: Error forwarding the new session cannot find : Capabilities {app: src/main/resources/carinade..., appActivity: com.solvd.carinademoapplica..., appPackage: com.solvd.carinademoapplica..., automationName: uiautomator2, browserName: chrome, carinaTestRunId: 22d5a497-b9f8-46e1-9d34-13f..., deviceType: phone, goog:chromeOptions: {args: [test-type, --no-first-run, --disable-notifications], extensions: [], w3c: false}, platformName: android}
+Command duration or timeout: 17 milliseconds
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.JsonWireProtocolResponse.lambda$errorHandler$0(JsonWireProtocolResponse.java:54)
+	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+	at java.util.stream.ReferencePipeline$3$1.accept(Unknown Source)
+	at java.util.Spliterators$ArraySpliterator.tryAdvance(Unknown Source)
+	at java.util.stream.ReferencePipeline.forEachWithCancel(Unknown Source)
+	at java.util.stream.AbstractPipeline.copyIntoWithCancel(Unknown Source)
+	at java.util.stream.AbstractPipeline.copyInto(Unknown Source)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(Unknown Source)
+	at java.util.stream.FindOps$FindOp.evaluateSequential(Unknown Source)
+	at java.util.stream.AbstractPipeline.evaluate(Unknown Source)
+	at java.util.stream.ReferencePipeline.findFirst(Unknown Source)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+	at com.qaprosoft.carina.core.foundation.webdriver.listener.EventFiringAppiumCommandExecutor.execute(EventFiringAppiumCommandExecutor.java:150)
+	... 42 more
+Caused by: org.openqa.selenium.WebDriverException: Error forwarding the new session cannot find : Capabilities {app: src/main/resources/carinade..., appActivity: com.solvd.carinademoapplica..., appPackage: com.solvd.carinademoapplica..., automationName: uiautomator2, browserName: chrome, carinaTestRunId: 22d5a497-b9f8-46e1-9d34-13f..., deviceType: phone, goog:chromeOptions: {args: [test-type, --no-first-run, --disable-notifications], extensions: [], w3c: false}, platformName: android}
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'QKNBK474', ip: '10.0.75.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+Driver info: driver.version: unknown
+	at org.openqa.grid.web.servlet.handler.RequestHandler.process(RequestHandler.java:118)
+	at org.openqa.grid.web.servlet.DriverServlet.process(DriverServlet.java:85)
+	at org.openqa.grid.web.servlet.DriverServlet.doPost(DriverServlet.java:69)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:707)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at org.seleniumhq.jetty9.servlet.ServletHolder.handle(ServletHolder.java:865)
+	at org.seleniumhq.jetty9.servlet.ServletHandler.doHandle(ServletHandler.java:535)
+	at org.seleniumhq.jetty9.server.handler.ScopedHandler.handle(ScopedHandler.java:146)
+	at org.seleniumhq.jetty9.security.SecurityHandler.handle(SecurityHandler.java:548)
+	at org.seleniumhq.jetty9.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
+	at org.seleniumhq.jetty9.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:257)
+	at org.seleniumhq.jetty9.server.session.SessionHandler.doHandle(SessionHandler.java:1595)
+	at org.seleniumhq.jetty9.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:255)
+	at org.seleniumhq.jetty9.server.handler.ContextHandler.doHandle(ContextHandler.java:1340)
+	at org.seleniumhq.jetty9.server.handler.ScopedHandler.nextScope(ScopedHandler.java:203)
+	at org.seleniumhq.jetty9.servlet.ServletHandler.doScope(ServletHandler.java:473)
+	at org.seleniumhq.jetty9.server.session.SessionHandler.doScope(SessionHandler.java:1564)
+	at org.seleniumhq.jetty9.server.handler.ScopedHandler.nextScope(ScopedHandler.java:201)
+	at org.seleniumhq.jetty9.server.handler.ContextHandler.doScope(ContextHandler.java:1242)
+	at org.seleniumhq.jetty9.server.handler.ScopedHandler.handle(ScopedHandler.java:144)
+	at org.seleniumhq.jetty9.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
+	at org.seleniumhq.jetty9.server.Server.handle(Server.java:503)
+	at org.seleniumhq.jetty9.server.HttpChannel.handle(HttpChannel.java:364)
+	at org.seleniumhq.jetty9.server.HttpConnection.onFillable(HttpConnection.java:260)
+	at org.seleniumhq.jetty9.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:305)
+	at org.seleniumhq.jetty9.io.FillInterest.fillable(FillInterest.java:103)
+	at org.seleniumhq.jetty9.io.ChannelEndPoint$2.run(ChannelEndPoint.java:118)
+	at org.seleniumhq.jetty9.util.thread.strategy.EatWhatYouKill.runTask(EatWhatYouKill.java:333)
+	at org.seleniumhq.jetty9.util.thread.strategy.EatWhatYouKill.doProduce(EatWhatYouKill.java:310)
+	at org.seleniumhq.jetty9.util.thread.strategy.EatWhatYouKill.tryProduce(EatWhatYouKill.java:168)
+	at org.seleniumhq.jetty9.util.thread.strategy.EatWhatYouKill.run(EatWhatYouKill.java:126)
+	at org.seleniumhq.jetty9.util.thread.ReservedThreadExecutor$ReservedThread.run(ReservedThreadExecutor.java:366)
+	at org.seleniumhq.jetty9.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:765)
+	at org.seleniumhq.jetty9.util.thread.QueuedThreadPool$2.run(QueuedThreadPool.java:683)
+	at java.lang.Thread.run(Thread.java:748)
+2020-02-08 15:10:47 Messager [ERROR]  TEST [GSMA0001 - Default test - testModelSpecs] FAILED at [15:10:47 2020-02-08] - org.openqa.selenium.WebDriverException: Error forwarding the new session cannot find : Capabilities {app: src/main/resources/carinade..., appActivity: com.solvd.carinademoapplica..., appPackage: com.solvd.carinademoapplica..., automationName: uiautomator2, browserName: chrome, carinaTestRunId: 22d5a497-b9f8-46e1-9d34-13f..., deviceType: phone, goog:chromeOptions: {args: [test-type, --no-first-run, --disable-notifications], extensions: [], w3c: false}, platformName: android}
+Command duration or timeout: 17 milliseconds
+
+com.qaprosoft.carina.core.foundation.webdriver.listener.EventFiringAppiumCommandExecutor.execute(EventFiringAppiumCommandExecutor.java:169)
+org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:41)
+io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+io.appium.java_client.AppiumDriver.startSession(AppiumDriver.java:323)
+org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
+io.appium.java_client.DefaultGenericMobileDriver.<init>(DefaultGenericMobileDriver.java:37)
+io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:86)
+io.appium.java_client.android.AndroidDriver.<init>(AndroidDriver.java:84)
+com.qaprosoft.carina.core.foundation.webdriver.core.factory.impl.MobileFactory.create(MobileFactory.java:167)
+com.qaprosoft.carina.core.foundation.webdriver.core.factory.DriverFactory.create(DriverFactory.java:71)
+com.qaprosoft.carina.core.foundation.webdriver.IDriverPool.createDriver(IDriverPool.java:353)
+com.qaprosoft.carina.core.foundation.webdriver.IDriverPool.getDriver(IDriverPool.java:143)
+com.qaprosoft.carina.core.foundation.webdriver.IDriverPool.getDriver(IDriverPool.java:78)
+com.qaprosoft.carina.core.foundation.webdriver.IDriverPool.getDriver(IDriverPool.java:66)
+com.qaprosoft.carina.demo.WebSampleTest.testModelSpecs(WebSampleTest.java:58)
+sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+java.lang.reflect.Method.invoke(Unknown Source)
+org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+org.testng.TestRunner.privateRun(TestRunner.java:648)
+org.testng.TestRunner.run(TestRunner.java:505)
+org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+org.testng.SuiteRunner.run(SuiteRunner.java:364)
+org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+org.testng.TestNG.runSuites(TestNG.java:1049)
+org.testng.TestNG.run(TestNG.java:1017)
+org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+2020-02-08 15:10:47 Messager [INFO]  TEST [GSMA0002 - Default test - testModelSpecs] STARTED at [15:10:47 2020-02-08]
+2020-02-08 15:10:47 IDriverPool [ERROR] Driver initialization 'default' FAILED! Retry 1 of 1 time - org.openqa.selenium.WebDriverException: Error forwarding the new session cannot find : Capabilities {app: src/main/resources/carinade..., appActivity: com.solvd.carinademoapplica..., appPackage: com.solvd.carinademoapplica..., automationName: uiautomator2, browserName: chrome, carinaTestRunId: 22d5a497-b9f8-46e1-9d34-13f..., deviceType: phone, goog:chromeOptions: {args: [test-type, --no-first-run, --disable-notifications], extensions: [], w3c: false}, platformName: android}
+Command duration or timeout: 38 milliseconds
+org.openqa.selenium.WebDriverException: org.openqa.selenium.WebDriverException: Error forwarding the new session cannot find : Capabilities {app: src/main/resources/carinade..., appActivity: com.solvd.carinademoapplica..., appPackage: com.solvd.carinademoapplica..., automationName: uiautomator2, browserName: chrome, carinaTestRunId: 22d5a497-b9f8-46e1-9d34-13f..., deviceType: phone, goog:chromeOptions: {args: [test-type, --no-first-run, --disable-notifications], extensions: [], w3c: false}, platformName: android}
+Command duration or timeout: 38 milliseconds
+	at com.qaprosoft.carina.core.foundation.webdriver.listener.EventFiringAppiumCommandExecutor.execute(EventFiringAppiumCommandExecutor.java:169)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:41)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at io.appium.java_client.AppiumDriver.startSession(AppiumDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
+	at io.appium.java_client.DefaultGenericMobileDriver.<init>(DefaultGenericMobileDriver.java:37)
+	at io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:86)
+	at io.appium.java_client.android.AndroidDriver.<init>(AndroidDriver.java:84)
+	at com.qaprosoft.carina.core.foundation.webdriver.core.factory.impl.MobileFactory.create(MobileFactory.java:167)
+	at com.qaprosoft.carina.core.foundation.webdriver.core.factory.DriverFactory.create(DriverFactory.java:71)
+	at com.qaprosoft.carina.core.foundation.webdriver.IDriverPool.createDriver(IDriverPool.java:353)
+	at com.qaprosoft.carina.core.foundation.webdriver.IDriverPool.getDriver(IDriverPool.java:143)
+	at com.qaprosoft.carina.core.foundation.webdriver.IDriverPool.getDriver(IDriverPool.java:78)
+	at com.qaprosoft.carina.core.foundation.webdriver.IDriverPool.getDriver(IDriverPool.java:66)
+	at com.qaprosoft.carina.demo.WebSampleTest.testModelSpecs(WebSampleTest.java:58)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: org.openqa.selenium.WebDriverException: Error forwarding the new session cannot find : Capabilities {app: src/main/resources/carinade..., appActivity: com.solvd.carinademoapplica..., appPackage: com.solvd.carinademoapplica..., automationName: uiautomator2, browserName: chrome, carinaTestRunId: 22d5a497-b9f8-46e1-9d34-13f..., deviceType: phone, goog:chromeOptions: {args: [test-type, --no-first-run, --disable-notifications], extensions: [], w3c: false}, platformName: android}
+Command duration or timeout: 38 milliseconds
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.JsonWireProtocolResponse.lambda$errorHandler$0(JsonWireProtocolResponse.java:54)
+	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+	at java.util.stream.ReferencePipeline$3$1.accept(Unknown Source)
+	at java.util.Spliterators$ArraySpliterator.tryAdvance(Unknown Source)
+	at java.util.stream.ReferencePipeline.forEachWithCancel(Unknown Source)
+	at java.util.stream.AbstractPipeline.copyIntoWithCancel(Unknown Source)
+	at java.util.stream.AbstractPipeline.copyInto(Unknown Source)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(Unknown Source)
+	at java.util.stream.FindOps$FindOp.evaluateSequential(Unknown Source)
+	at java.util.stream.AbstractPipeline.evaluate(Unknown Source)
+	at java.util.stream.ReferencePipeline.findFirst(Unknown Source)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+	at com.qaprosoft.carina.core.foundation.webdriver.listener.EventFiringAppiumCommandExecutor.execute(EventFiringAppiumCommandExecutor.java:150)
+	... 42 more
+Caused by: org.openqa.selenium.WebDriverException: Error forwarding the new session cannot find : Capabilities {app: src/main/resources/carinade..., appActivity: com.solvd.carinademoapplica..., appPackage: com.solvd.carinademoapplica..., automationName: uiautomator2, browserName: chrome, carinaTestRunId: 22d5a497-b9f8-46e1-9d34-13f..., deviceType: phone, goog:chromeOptions: {args: [test-type, --no-first-run, --disable-notifications], extensions: [], w3c: false}, platformName: android}
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'QKNBK474', ip: '10.0.75.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+Driver info: driver.version: unknown
+	at org.openqa.grid.web.servlet.handler.RequestHandler.process(RequestHandler.java:118)
+	at org.openqa.grid.web.servlet.DriverServlet.process(DriverServlet.java:85)
+	at org.openqa.grid.web.servlet.DriverServlet.doPost(DriverServlet.java:69)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:707)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at org.seleniumhq.jetty9.servlet.ServletHolder.handle(ServletHolder.java:865)
+	at org.seleniumhq.jetty9.servlet.ServletHandler.doHandle(ServletHandler.java:535)
+	at org.seleniumhq.jetty9.server.handler.ScopedHandler.handle(ScopedHandler.java:146)
+	at org.seleniumhq.jetty9.security.SecurityHandler.handle(SecurityHandler.java:548)
+	at org.seleniumhq.jetty9.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
+	at org.seleniumhq.jetty9.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:257)
+	at org.seleniumhq.jetty9.server.session.SessionHandler.doHandle(SessionHandler.java:1595)
+	at org.seleniumhq.jetty9.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:255)
+	at org.seleniumhq.jetty9.server.handler.ContextHandler.doHandle(ContextHandler.java:1340)
+	at org.seleniumhq.jetty9.server.handler.ScopedHandler.nextScope(ScopedHandler.java:203)
+	at org.seleniumhq.jetty9.servlet.ServletHandler.doScope(ServletHandler.java:473)
+	at org.seleniumhq.jetty9.server.session.SessionHandler.doScope(SessionHandler.java:1564)
+	at org.seleniumhq.jetty9.server.handler.ScopedHandler.nextScope(ScopedHandler.java:201)
+	at org.seleniumhq.jetty9.server.handler.ContextHandler.doScope(ContextHandler.java:1242)
+	at org.seleniumhq.jetty9.server.handler.ScopedHandler.handle(ScopedHandler.java:144)
+	at org.seleniumhq.jetty9.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
+	at org.seleniumhq.jetty9.server.Server.handle(Server.java:503)
+	at org.seleniumhq.jetty9.server.HttpChannel.handle(HttpChannel.java:364)
+	at org.seleniumhq.jetty9.server.HttpConnection.onFillable(HttpConnection.java:260)
+	at org.seleniumhq.jetty9.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:305)
+	at org.seleniumhq.jetty9.io.FillInterest.fillable(FillInterest.java:103)
+	at org.seleniumhq.jetty9.io.ChannelEndPoint$2.run(ChannelEndPoint.java:118)
+	at org.seleniumhq.jetty9.util.thread.strategy.EatWhatYouKill.runTask(EatWhatYouKill.java:333)
+	at org.seleniumhq.jetty9.util.thread.strategy.EatWhatYouKill.doProduce(EatWhatYouKill.java:310)
+	at org.seleniumhq.jetty9.util.thread.strategy.EatWhatYouKill.tryProduce(EatWhatYouKill.java:168)
+	at org.seleniumhq.jetty9.util.thread.strategy.EatWhatYouKill.run(EatWhatYouKill.java:126)
+	at org.seleniumhq.jetty9.util.thread.ReservedThreadExecutor$ReservedThread.run(ReservedThreadExecutor.java:366)
+	at org.seleniumhq.jetty9.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:765)
+	at org.seleniumhq.jetty9.util.thread.QueuedThreadPool$2.run(QueuedThreadPool.java:683)
+	at java.lang.Thread.run(Thread.java:748)
+2020-02-08 15:10:47 Messager [ERROR]  TEST [GSMA0002 - Default test - testModelSpecs] FAILED at [15:10:47 2020-02-08] - org.openqa.selenium.WebDriverException: Error forwarding the new session cannot find : Capabilities {app: src/main/resources/carinade..., appActivity: com.solvd.carinademoapplica..., appPackage: com.solvd.carinademoapplica..., automationName: uiautomator2, browserName: chrome, carinaTestRunId: 22d5a497-b9f8-46e1-9d34-13f..., deviceType: phone, goog:chromeOptions: {args: [test-type, --no-first-run, --disable-notifications], extensions: [], w3c: false}, platformName: android}
+Command duration or timeout: 38 milliseconds
+
+com.qaprosoft.carina.core.foundation.webdriver.listener.EventFiringAppiumCommandExecutor.execute(EventFiringAppiumCommandExecutor.java:169)
+org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:41)
+io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+io.appium.java_client.AppiumDriver.startSession(AppiumDriver.java:323)
+org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
+io.appium.java_client.DefaultGenericMobileDriver.<init>(DefaultGenericMobileDriver.java:37)
+io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:86)
+io.appium.java_client.android.AndroidDriver.<init>(AndroidDriver.java:84)
+com.qaprosoft.carina.core.foundation.webdriver.core.factory.impl.MobileFactory.create(MobileFactory.java:167)
+com.qaprosoft.carina.core.foundation.webdriver.core.factory.DriverFactory.create(DriverFactory.java:71)
+com.qaprosoft.carina.core.foundation.webdriver.IDriverPool.createDriver(IDriverPool.java:353)
+com.qaprosoft.carina.core.foundation.webdriver.IDriverPool.getDriver(IDriverPool.java:143)
+com.qaprosoft.carina.core.foundation.webdriver.IDriverPool.getDriver(IDriverPool.java:78)
+com.qaprosoft.carina.core.foundation.webdriver.IDriverPool.getDriver(IDriverPool.java:66)
+com.qaprosoft.carina.demo.WebSampleTest.testModelSpecs(WebSampleTest.java:58)
+sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+java.lang.reflect.Method.invoke(Unknown Source)
+org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+org.testng.TestRunner.privateRun(TestRunner.java:648)
+org.testng.TestRunner.run(TestRunner.java:505)
+org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+org.testng.SuiteRunner.run(SuiteRunner.java:364)
+org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+org.testng.TestNG.runSuites(TestNG.java:1049)
+org.testng.TestNG.run(TestNG.java:1017)
+org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+2020-02-08 15:10:47 Messager [INFO]  TEST [GSMA0003 - Default test - testModelSpecs] STARTED at [15:10:47 2020-02-08]
+2020-02-08 15:10:47 IDriverPool [ERROR] Driver initialization 'default' FAILED! Retry 1 of 1 time - org.openqa.selenium.WebDriverException: Error forwarding the new session cannot find : Capabilities {app: src/main/resources/carinade..., appActivity: com.solvd.carinademoapplica..., appPackage: com.solvd.carinademoapplica..., automationName: uiautomator2, browserName: chrome, carinaTestRunId: 22d5a497-b9f8-46e1-9d34-13f..., deviceType: phone, goog:chromeOptions: {args: [test-type, --no-first-run, --disable-notifications], extensions: [], w3c: false}, platformName: android}
+Command duration or timeout: 21 milliseconds
+org.openqa.selenium.WebDriverException: org.openqa.selenium.WebDriverException: Error forwarding the new session cannot find : Capabilities {app: src/main/resources/carinade..., appActivity: com.solvd.carinademoapplica..., appPackage: com.solvd.carinademoapplica..., automationName: uiautomator2, browserName: chrome, carinaTestRunId: 22d5a497-b9f8-46e1-9d34-13f..., deviceType: phone, goog:chromeOptions: {args: [test-type, --no-first-run, --disable-notifications], extensions: [], w3c: false}, platformName: android}
+Command duration or timeout: 21 milliseconds
+	at com.qaprosoft.carina.core.foundation.webdriver.listener.EventFiringAppiumCommandExecutor.execute(EventFiringAppiumCommandExecutor.java:169)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:41)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at io.appium.java_client.AppiumDriver.startSession(AppiumDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
+	at io.appium.java_client.DefaultGenericMobileDriver.<init>(DefaultGenericMobileDriver.java:37)
+	at io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:86)
+	at io.appium.java_client.android.AndroidDriver.<init>(AndroidDriver.java:84)
+	at com.qaprosoft.carina.core.foundation.webdriver.core.factory.impl.MobileFactory.create(MobileFactory.java:167)
+	at com.qaprosoft.carina.core.foundation.webdriver.core.factory.DriverFactory.create(DriverFactory.java:71)
+	at com.qaprosoft.carina.core.foundation.webdriver.IDriverPool.createDriver(IDriverPool.java:353)
+	at com.qaprosoft.carina.core.foundation.webdriver.IDriverPool.getDriver(IDriverPool.java:143)
+	at com.qaprosoft.carina.core.foundation.webdriver.IDriverPool.getDriver(IDriverPool.java:78)
+	at com.qaprosoft.carina.core.foundation.webdriver.IDriverPool.getDriver(IDriverPool.java:66)
+	at com.qaprosoft.carina.demo.WebSampleTest.testModelSpecs(WebSampleTest.java:58)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: org.openqa.selenium.WebDriverException: Error forwarding the new session cannot find : Capabilities {app: src/main/resources/carinade..., appActivity: com.solvd.carinademoapplica..., appPackage: com.solvd.carinademoapplica..., automationName: uiautomator2, browserName: chrome, carinaTestRunId: 22d5a497-b9f8-46e1-9d34-13f..., deviceType: phone, goog:chromeOptions: {args: [test-type, --no-first-run, --disable-notifications], extensions: [], w3c: false}, platformName: android}
+Command duration or timeout: 21 milliseconds
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.JsonWireProtocolResponse.lambda$errorHandler$0(JsonWireProtocolResponse.java:54)
+	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+	at java.util.stream.ReferencePipeline$3$1.accept(Unknown Source)
+	at java.util.Spliterators$ArraySpliterator.tryAdvance(Unknown Source)
+	at java.util.stream.ReferencePipeline.forEachWithCancel(Unknown Source)
+	at java.util.stream.AbstractPipeline.copyIntoWithCancel(Unknown Source)
+	at java.util.stream.AbstractPipeline.copyInto(Unknown Source)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(Unknown Source)
+	at java.util.stream.FindOps$FindOp.evaluateSequential(Unknown Source)
+	at java.util.stream.AbstractPipeline.evaluate(Unknown Source)
+	at java.util.stream.ReferencePipeline.findFirst(Unknown Source)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+	at com.qaprosoft.carina.core.foundation.webdriver.listener.EventFiringAppiumCommandExecutor.execute(EventFiringAppiumCommandExecutor.java:150)
+	... 42 more
+Caused by: org.openqa.selenium.WebDriverException: Error forwarding the new session cannot find : Capabilities {app: src/main/resources/carinade..., appActivity: com.solvd.carinademoapplica..., appPackage: com.solvd.carinademoapplica..., automationName: uiautomator2, browserName: chrome, carinaTestRunId: 22d5a497-b9f8-46e1-9d34-13f..., deviceType: phone, goog:chromeOptions: {args: [test-type, --no-first-run, --disable-notifications], extensions: [], w3c: false}, platformName: android}
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'QKNBK474', ip: '10.0.75.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+Driver info: driver.version: unknown
+	at org.openqa.grid.web.servlet.handler.RequestHandler.process(RequestHandler.java:118)
+	at org.openqa.grid.web.servlet.DriverServlet.process(DriverServlet.java:85)
+	at org.openqa.grid.web.servlet.DriverServlet.doPost(DriverServlet.java:69)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:707)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at org.seleniumhq.jetty9.servlet.ServletHolder.handle(ServletHolder.java:865)
+	at org.seleniumhq.jetty9.servlet.ServletHandler.doHandle(ServletHandler.java:535)
+	at org.seleniumhq.jetty9.server.handler.ScopedHandler.handle(ScopedHandler.java:146)
+	at org.seleniumhq.jetty9.security.SecurityHandler.handle(SecurityHandler.java:548)
+	at org.seleniumhq.jetty9.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
+	at org.seleniumhq.jetty9.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:257)
+	at org.seleniumhq.jetty9.server.session.SessionHandler.doHandle(SessionHandler.java:1595)
+	at org.seleniumhq.jetty9.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:255)
+	at org.seleniumhq.jetty9.server.handler.ContextHandler.doHandle(ContextHandler.java:1340)
+	at org.seleniumhq.jetty9.server.handler.ScopedHandler.nextScope(ScopedHandler.java:203)
+	at org.seleniumhq.jetty9.servlet.ServletHandler.doScope(ServletHandler.java:473)
+	at org.seleniumhq.jetty9.server.session.SessionHandler.doScope(SessionHandler.java:1564)
+	at org.seleniumhq.jetty9.server.handler.ScopedHandler.nextScope(ScopedHandler.java:201)
+	at org.seleniumhq.jetty9.server.handler.ContextHandler.doScope(ContextHandler.java:1242)
+	at org.seleniumhq.jetty9.server.handler.ScopedHandler.handle(ScopedHandler.java:144)
+	at org.seleniumhq.jetty9.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
+	at org.seleniumhq.jetty9.server.Server.handle(Server.java:503)
+	at org.seleniumhq.jetty9.server.HttpChannel.handle(HttpChannel.java:364)
+	at org.seleniumhq.jetty9.server.HttpConnection.onFillable(HttpConnection.java:260)
+	at org.seleniumhq.jetty9.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:305)
+	at org.seleniumhq.jetty9.io.FillInterest.fillable(FillInterest.java:103)
+	at org.seleniumhq.jetty9.io.ChannelEndPoint$2.run(ChannelEndPoint.java:118)
+	at org.seleniumhq.jetty9.util.thread.strategy.EatWhatYouKill.runTask(EatWhatYouKill.java:333)
+	at org.seleniumhq.jetty9.util.thread.strategy.EatWhatYouKill.doProduce(EatWhatYouKill.java:310)
+	at org.seleniumhq.jetty9.util.thread.strategy.EatWhatYouKill.tryProduce(EatWhatYouKill.java:168)
+	at org.seleniumhq.jetty9.util.thread.strategy.EatWhatYouKill.run(EatWhatYouKill.java:126)
+	at org.seleniumhq.jetty9.util.thread.ReservedThreadExecutor$ReservedThread.run(ReservedThreadExecutor.java:366)
+	at org.seleniumhq.jetty9.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:765)
+	at org.seleniumhq.jetty9.util.thread.QueuedThreadPool$2.run(QueuedThreadPool.java:683)
+	at java.lang.Thread.run(Thread.java:748)
+2020-02-08 15:10:47 Messager [ERROR]  TEST [GSMA0003 - Default test - testModelSpecs] FAILED at [15:10:47 2020-02-08] - org.openqa.selenium.WebDriverException: Error forwarding the new session cannot find : Capabilities {app: src/main/resources/carinade..., appActivity: com.solvd.carinademoapplica..., appPackage: com.solvd.carinademoapplica..., automationName: uiautomator2, browserName: chrome, carinaTestRunId: 22d5a497-b9f8-46e1-9d34-13f..., deviceType: phone, goog:chromeOptions: {args: [test-type, --no-first-run, --disable-notifications], extensions: [], w3c: false}, platformName: android}
+Command duration or timeout: 21 milliseconds
+
+com.qaprosoft.carina.core.foundation.webdriver.listener.EventFiringAppiumCommandExecutor.execute(EventFiringAppiumCommandExecutor.java:169)
+org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:41)
+io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+io.appium.java_client.AppiumDriver.startSession(AppiumDriver.java:323)
+org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
+io.appium.java_client.DefaultGenericMobileDriver.<init>(DefaultGenericMobileDriver.java:37)
+io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:86)
+io.appium.java_client.android.AndroidDriver.<init>(AndroidDriver.java:84)
+com.qaprosoft.carina.core.foundation.webdriver.core.factory.impl.MobileFactory.create(MobileFactory.java:167)
+com.qaprosoft.carina.core.foundation.webdriver.core.factory.DriverFactory.create(DriverFactory.java:71)
+com.qaprosoft.carina.core.foundation.webdriver.IDriverPool.createDriver(IDriverPool.java:353)
+com.qaprosoft.carina.core.foundation.webdriver.IDriverPool.getDriver(IDriverPool.java:143)
+com.qaprosoft.carina.core.foundation.webdriver.IDriverPool.getDriver(IDriverPool.java:78)
+com.qaprosoft.carina.core.foundation.webdriver.IDriverPool.getDriver(IDriverPool.java:66)
+com.qaprosoft.carina.demo.WebSampleTest.testModelSpecs(WebSampleTest.java:58)
+sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+java.lang.reflect.Method.invoke(Unknown Source)
+org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+org.testng.TestRunner.privateRun(TestRunner.java:648)
+org.testng.TestRunner.run(TestRunner.java:505)
+org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+org.testng.SuiteRunner.run(SuiteRunner.java:364)
+org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+org.testng.TestNG.runSuites(TestNG.java:1049)
+org.testng.TestNG.run(TestNG.java:1017)
+org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+2020-02-08 15:10:47 Messager [INFO]  TEST [Default test - testNewsSearch] STARTED at [15:10:47 2020-02-08]
+2020-02-08 15:10:47 IDriverPool [ERROR] Driver initialization 'default' FAILED! Retry 1 of 1 time - org.openqa.selenium.WebDriverException: Error forwarding the new session cannot find : Capabilities {app: src/main/resources/carinade..., appActivity: com.solvd.carinademoapplica..., appPackage: com.solvd.carinademoapplica..., automationName: uiautomator2, browserName: chrome, carinaTestRunId: 22d5a497-b9f8-46e1-9d34-13f..., deviceType: phone, goog:chromeOptions: {args: [test-type, --no-first-run, --disable-notifications], extensions: [], w3c: false}, platformName: android}
+Command duration or timeout: 44 milliseconds
+org.openqa.selenium.WebDriverException: org.openqa.selenium.WebDriverException: Error forwarding the new session cannot find : Capabilities {app: src/main/resources/carinade..., appActivity: com.solvd.carinademoapplica..., appPackage: com.solvd.carinademoapplica..., automationName: uiautomator2, browserName: chrome, carinaTestRunId: 22d5a497-b9f8-46e1-9d34-13f..., deviceType: phone, goog:chromeOptions: {args: [test-type, --no-first-run, --disable-notifications], extensions: [], w3c: false}, platformName: android}
+Command duration or timeout: 44 milliseconds
+	at com.qaprosoft.carina.core.foundation.webdriver.listener.EventFiringAppiumCommandExecutor.execute(EventFiringAppiumCommandExecutor.java:169)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:41)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at io.appium.java_client.AppiumDriver.startSession(AppiumDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
+	at io.appium.java_client.DefaultGenericMobileDriver.<init>(DefaultGenericMobileDriver.java:37)
+	at io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:86)
+	at io.appium.java_client.android.AndroidDriver.<init>(AndroidDriver.java:84)
+	at com.qaprosoft.carina.core.foundation.webdriver.core.factory.impl.MobileFactory.create(MobileFactory.java:167)
+	at com.qaprosoft.carina.core.foundation.webdriver.core.factory.DriverFactory.create(DriverFactory.java:71)
+	at com.qaprosoft.carina.core.foundation.webdriver.IDriverPool.createDriver(IDriverPool.java:353)
+	at com.qaprosoft.carina.core.foundation.webdriver.IDriverPool.getDriver(IDriverPool.java:143)
+	at com.qaprosoft.carina.core.foundation.webdriver.IDriverPool.getDriver(IDriverPool.java:78)
+	at com.qaprosoft.carina.core.foundation.webdriver.IDriverPool.getDriver(IDriverPool.java:66)
+	at com.qaprosoft.carina.demo.WebSampleTest.testNewsSearch(WebSampleTest.java:102)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: org.openqa.selenium.WebDriverException: Error forwarding the new session cannot find : Capabilities {app: src/main/resources/carinade..., appActivity: com.solvd.carinademoapplica..., appPackage: com.solvd.carinademoapplica..., automationName: uiautomator2, browserName: chrome, carinaTestRunId: 22d5a497-b9f8-46e1-9d34-13f..., deviceType: phone, goog:chromeOptions: {args: [test-type, --no-first-run, --disable-notifications], extensions: [], w3c: false}, platformName: android}
+Command duration or timeout: 44 milliseconds
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.JsonWireProtocolResponse.lambda$errorHandler$0(JsonWireProtocolResponse.java:54)
+	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+	at java.util.stream.ReferencePipeline$3$1.accept(Unknown Source)
+	at java.util.Spliterators$ArraySpliterator.tryAdvance(Unknown Source)
+	at java.util.stream.ReferencePipeline.forEachWithCancel(Unknown Source)
+	at java.util.stream.AbstractPipeline.copyIntoWithCancel(Unknown Source)
+	at java.util.stream.AbstractPipeline.copyInto(Unknown Source)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(Unknown Source)
+	at java.util.stream.FindOps$FindOp.evaluateSequential(Unknown Source)
+	at java.util.stream.AbstractPipeline.evaluate(Unknown Source)
+	at java.util.stream.ReferencePipeline.findFirst(Unknown Source)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+	at com.qaprosoft.carina.core.foundation.webdriver.listener.EventFiringAppiumCommandExecutor.execute(EventFiringAppiumCommandExecutor.java:150)
+	... 42 more
+Caused by: org.openqa.selenium.WebDriverException: Error forwarding the new session cannot find : Capabilities {app: src/main/resources/carinade..., appActivity: com.solvd.carinademoapplica..., appPackage: com.solvd.carinademoapplica..., automationName: uiautomator2, browserName: chrome, carinaTestRunId: 22d5a497-b9f8-46e1-9d34-13f..., deviceType: phone, goog:chromeOptions: {args: [test-type, --no-first-run, --disable-notifications], extensions: [], w3c: false}, platformName: android}
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'QKNBK474', ip: '10.0.75.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+Driver info: driver.version: unknown
+	at org.openqa.grid.web.servlet.handler.RequestHandler.process(RequestHandler.java:118)
+	at org.openqa.grid.web.servlet.DriverServlet.process(DriverServlet.java:85)
+	at org.openqa.grid.web.servlet.DriverServlet.doPost(DriverServlet.java:69)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:707)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at org.seleniumhq.jetty9.servlet.ServletHolder.handle(ServletHolder.java:865)
+	at org.seleniumhq.jetty9.servlet.ServletHandler.doHandle(ServletHandler.java:535)
+	at org.seleniumhq.jetty9.server.handler.ScopedHandler.handle(ScopedHandler.java:146)
+	at org.seleniumhq.jetty9.security.SecurityHandler.handle(SecurityHandler.java:548)
+	at org.seleniumhq.jetty9.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
+	at org.seleniumhq.jetty9.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:257)
+	at org.seleniumhq.jetty9.server.session.SessionHandler.doHandle(SessionHandler.java:1595)
+	at org.seleniumhq.jetty9.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:255)
+	at org.seleniumhq.jetty9.server.handler.ContextHandler.doHandle(ContextHandler.java:1340)
+	at org.seleniumhq.jetty9.server.handler.ScopedHandler.nextScope(ScopedHandler.java:203)
+	at org.seleniumhq.jetty9.servlet.ServletHandler.doScope(ServletHandler.java:473)
+	at org.seleniumhq.jetty9.server.session.SessionHandler.doScope(SessionHandler.java:1564)
+	at org.seleniumhq.jetty9.server.handler.ScopedHandler.nextScope(ScopedHandler.java:201)
+	at org.seleniumhq.jetty9.server.handler.ContextHandler.doScope(ContextHandler.java:1242)
+	at org.seleniumhq.jetty9.server.handler.ScopedHandler.handle(ScopedHandler.java:144)
+	at org.seleniumhq.jetty9.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
+	at org.seleniumhq.jetty9.server.Server.handle(Server.java:503)
+	at org.seleniumhq.jetty9.server.HttpChannel.handle(HttpChannel.java:364)
+	at org.seleniumhq.jetty9.server.HttpConnection.onFillable(HttpConnection.java:260)
+	at org.seleniumhq.jetty9.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:305)
+	at org.seleniumhq.jetty9.io.FillInterest.fillable(FillInterest.java:103)
+	at org.seleniumhq.jetty9.io.ChannelEndPoint$2.run(ChannelEndPoint.java:118)
+	at org.seleniumhq.jetty9.util.thread.strategy.EatWhatYouKill.runTask(EatWhatYouKill.java:333)
+	at org.seleniumhq.jetty9.util.thread.strategy.EatWhatYouKill.doProduce(EatWhatYouKill.java:310)
+	at org.seleniumhq.jetty9.util.thread.strategy.EatWhatYouKill.tryProduce(EatWhatYouKill.java:168)
+	at org.seleniumhq.jetty9.util.thread.strategy.EatWhatYouKill.run(EatWhatYouKill.java:126)
+	at org.seleniumhq.jetty9.util.thread.ReservedThreadExecutor$ReservedThread.run(ReservedThreadExecutor.java:366)
+	at org.seleniumhq.jetty9.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:765)
+	at org.seleniumhq.jetty9.util.thread.QueuedThreadPool$2.run(QueuedThreadPool.java:683)
+	at java.lang.Thread.run(Thread.java:748)
+2020-02-08 15:10:47 Messager [ERROR]  TEST [Default test - testNewsSearch] FAILED at [15:10:47 2020-02-08] - org.openqa.selenium.WebDriverException: Error forwarding the new session cannot find : Capabilities {app: src/main/resources/carinade..., appActivity: com.solvd.carinademoapplica..., appPackage: com.solvd.carinademoapplica..., automationName: uiautomator2, browserName: chrome, carinaTestRunId: 22d5a497-b9f8-46e1-9d34-13f..., deviceType: phone, goog:chromeOptions: {args: [test-type, --no-first-run, --disable-notifications], extensions: [], w3c: false}, platformName: android}
+Command duration or timeout: 44 milliseconds
+
+com.qaprosoft.carina.core.foundation.webdriver.listener.EventFiringAppiumCommandExecutor.execute(EventFiringAppiumCommandExecutor.java:169)
+org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:41)
+io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+io.appium.java_client.AppiumDriver.startSession(AppiumDriver.java:323)
+org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
+io.appium.java_client.DefaultGenericMobileDriver.<init>(DefaultGenericMobileDriver.java:37)
+io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:86)
+io.appium.java_client.android.AndroidDriver.<init>(AndroidDriver.java:84)
+com.qaprosoft.carina.core.foundation.webdriver.core.factory.impl.MobileFactory.create(MobileFactory.java:167)
+com.qaprosoft.carina.core.foundation.webdriver.core.factory.DriverFactory.create(DriverFactory.java:71)
+com.qaprosoft.carina.core.foundation.webdriver.IDriverPool.createDriver(IDriverPool.java:353)
+com.qaprosoft.carina.core.foundation.webdriver.IDriverPool.getDriver(IDriverPool.java:143)
+com.qaprosoft.carina.core.foundation.webdriver.IDriverPool.getDriver(IDriverPool.java:78)
+com.qaprosoft.carina.core.foundation.webdriver.IDriverPool.getDriver(IDriverPool.java:66)
+com.qaprosoft.carina.demo.WebSampleTest.testNewsSearch(WebSampleTest.java:102)
+sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+java.lang.reflect.Method.invoke(Unknown Source)
+org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+org.testng.TestRunner.privateRun(TestRunner.java:648)
+org.testng.TestRunner.run(TestRunner.java:505)
+org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+org.testng.SuiteRunner.run(SuiteRunner.java:364)
+org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+org.testng.TestNG.runSuites(TestNG.java:1049)
+org.testng.TestNG.run(TestNG.java:1017)
+org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+2020-02-08 15:10:48 Messager [INFO] INFO: '**************** Test execution summary ****************'.
+2020-02-08 15:10:48 Messager [INFO] RESULT #1: TEST [Default test - testCompareModels] FAIL [log=file://E:\Nikita_workspace\Atlas_Demo\.\reports\qa\1581154845430/a74171e8-c8fd-4315-bde1-61f744aba328/test.log]
+2020-02-08 15:10:48 Messager [INFO] RESULT #2: TEST [GSMA0001 - Default test - testModelSpecs] FAIL [log=file://E:\Nikita_workspace\Atlas_Demo\.\reports\qa\1581154845430/bf0c6e03-c39e-4178-8b00-b6511ce3c56a/test.log]
+2020-02-08 15:10:48 Messager [INFO] RESULT #3: TEST [GSMA0002 - Default test - testModelSpecs] FAIL [log=file://E:\Nikita_workspace\Atlas_Demo\.\reports\qa\1581154845430/fe54ef81-ec86-4d13-8bd9-e2cafe3e9a14/test.log]
+2020-02-08 15:10:48 Messager [INFO] RESULT #4: TEST [GSMA0003 - Default test - testModelSpecs] FAIL [log=file://E:\Nikita_workspace\Atlas_Demo\.\reports\qa\1581154845430/9578953f-baff-4d45-98c8-8134cf83d843/test.log]
+2020-02-08 15:10:48 Messager [INFO] RESULT #5: TEST [Default test - testNewsSearch] FAIL [log=file://E:\Nikita_workspace\Atlas_Demo\.\reports\qa\1581154845430/ee68647e-7e53-4094-9eac-d2fc5ac2aec5/test.log]
+2020-02-08 15:12:02 CarinaListener [INFO] 
+============= Test configuration =============
+url=https://www.gsmarena.com
+env=DEMO
+env_arg_resolver=com.qaprosoft.carina.core.foundation.utils.DefaultEnvArgResolver
+platform=*
+browser=chrome
+browser_version=*
+browser_language=
+selenium_host=http://localhost:4444/wd/hub
+driver_event_listeners=
+max_driver_count=3
+custom_capabilities=
+chrome_args=
+chrome_experimental_opts=
+chrome_mobile_emulation_opts=
+firefox_args=
+firefox_preferences=
+app_version=
+proxy_host=
+proxy_port=
+proxy_protocols=http,https,ftp
+browsermob_proxy=false
+browsermob_host=
+browsermob_port=0
+browsermob_ports_range=
+browsermob_disabled_mitm=false
+proxy_set_to_system=false
+report_url=
+email_list=
+failure_email_list=
+track_known_issues=false
+auto_screenshot=true
+implicit_timeout=10
+explicit_timeout=20
+auto_download=false
+auto_download_apps=
+custom_artifacts_folder=
+retry_interval=5
+project_report_directory=./reports/qa
+max_screen_history=10
+max_log_file_size=150
+result_sorting=true
+big_screen_width=-1
+big_screen_height=-1
+small_screen_width=90
+small_screen_height=60
+init_retry_count=0
+init_retry_interval=1
+retry_count=0
+enable_l10n=true
+l10n_encoding=ISO-8859-1
+locale=en_US
+enable_i18n=true
+language=en_US
+thread_count=1
+data_provider_thread_count=-1
+core_log_level=INFO
+core_log_packages=com.qaprosoft.carina.core
+artifacts_expiration_seconds=2592000
+log_all_json=true
+date_format=HH:mm:ss yyyy-MM-dd
+time_format=HH:mm:ss
+suite_name=
+jira_updater=com.qaprosoft.carina.core.foundation.jira.DefaultJiraUpdater
+jira_url=
+jira_user=
+jira_password=
+jira_suite_id=
+jira_project=
+jira_project_short=
+jira_create_new_ticket=false
+test_naming_pattern={method_name}
+optimize_video_recording=false
+testrail_run_name=
+testrail_milestone=
+testrail_assignee=
+qtest_cycle_name=DailyAutomation
+qtest_suite_name=
+s3_bucket_name=
+access_key_id=
+secret_key=
+s3_use_presign_url=false
+s3_local_storage=.
+appcenter_token=
+appcenter_local_storage=.
+add_new_localization=false
+add_new_localization_encoding=utf-8
+add_new_localization_path=
+add_new_localization_property_name=new_custom_messages_
+tls_keysecure_location=
+health_check_class=
+health_check_methods=
+uninstall_related_apps=false
+default_device_timezone=GMT
+default_device_time_format=24
+default_device_language=en_US
+android_screen_record_size=
+android_screen_record_bitrate=
+android_enable_bug_report=true
+ios_screen_record_quality=MEDIUM
+ios_screen_record_codec=libx264
+ios_screen_record_fps=10
+screen_record_duration=180
+video_scale=-2:720
+ignore_ssl=false
+test_run_rules=
+hub_mode=selenium
+extract_sys_log=false
+selenium_host=http://localhost:4444/wd/hub
+
+------------- Driver capabilities -----------
+================================================
+
+2020-02-08 15:12:02 CarinaListener [INFO] Set data_provider_thread_count=1
+2020-02-08 15:12:02 CarinaListener [INFO] CARINA_CORE_VERSION: 6.3.30
+2020-02-08 15:12:02 Messager [INFO]  TEST [Default test - testCompareModels] STARTED at [15:12:02 2020-02-08]
+2020-02-08 15:12:14 DesktopFactory [INFO] Browser window was maximized
+2020-02-08 15:12:14 Messager [INFO] INFO: url 'https://www.gsmarena.com' is being opened...
+2020-02-08 15:12:25 DriverListener [INFO] INFO: url 'https://www.gsmarena.com' is opened.
+2020-02-08 15:14:17 CarinaListener [INFO] 
+============= Test configuration =============
+url=https://www.gsmarena.com
+env=DEMO
+env_arg_resolver=com.qaprosoft.carina.core.foundation.utils.DefaultEnvArgResolver
+platform=*
+browser=chrome
+browser_version=*
+browser_language=
+selenium_host=http://localhost:4444/wd/hub
+driver_event_listeners=
+max_driver_count=3
+custom_capabilities=
+chrome_args=
+chrome_experimental_opts=
+chrome_mobile_emulation_opts=
+firefox_args=
+firefox_preferences=
+app_version=
+proxy_host=
+proxy_port=
+proxy_protocols=http,https,ftp
+browsermob_proxy=false
+browsermob_host=
+browsermob_port=0
+browsermob_ports_range=
+browsermob_disabled_mitm=false
+proxy_set_to_system=false
+report_url=
+email_list=
+failure_email_list=
+track_known_issues=false
+auto_screenshot=true
+implicit_timeout=10
+explicit_timeout=20
+auto_download=false
+auto_download_apps=
+custom_artifacts_folder=
+retry_interval=5
+project_report_directory=./reports/qa
+max_screen_history=10
+max_log_file_size=150
+result_sorting=true
+big_screen_width=-1
+big_screen_height=-1
+small_screen_width=90
+small_screen_height=60
+init_retry_count=0
+init_retry_interval=1
+retry_count=0
+enable_l10n=true
+l10n_encoding=ISO-8859-1
+locale=en_US
+enable_i18n=true
+language=en_US
+thread_count=1
+data_provider_thread_count=-1
+core_log_level=INFO
+core_log_packages=com.qaprosoft.carina.core
+artifacts_expiration_seconds=2592000
+log_all_json=true
+date_format=HH:mm:ss yyyy-MM-dd
+time_format=HH:mm:ss
+suite_name=
+jira_updater=com.qaprosoft.carina.core.foundation.jira.DefaultJiraUpdater
+jira_url=
+jira_user=
+jira_password=
+jira_suite_id=
+jira_project=
+jira_project_short=
+jira_create_new_ticket=false
+test_naming_pattern={method_name}
+optimize_video_recording=false
+testrail_run_name=
+testrail_milestone=
+testrail_assignee=
+qtest_cycle_name=DailyAutomation
+qtest_suite_name=
+s3_bucket_name=
+access_key_id=
+secret_key=
+s3_use_presign_url=false
+s3_local_storage=.
+appcenter_token=
+appcenter_local_storage=.
+add_new_localization=false
+add_new_localization_encoding=utf-8
+add_new_localization_path=
+add_new_localization_property_name=new_custom_messages_
+tls_keysecure_location=
+health_check_class=
+health_check_methods=
+uninstall_related_apps=false
+default_device_timezone=GMT
+default_device_time_format=24
+default_device_language=en_US
+android_screen_record_size=
+android_screen_record_bitrate=
+android_enable_bug_report=true
+ios_screen_record_quality=MEDIUM
+ios_screen_record_codec=libx264
+ios_screen_record_fps=10
+screen_record_duration=180
+video_scale=-2:720
+ignore_ssl=false
+test_run_rules=
+hub_mode=selenium
+extract_sys_log=false
+selenium_host=http://localhost:4444/wd/hub
+
+------------- Driver capabilities -----------
+================================================
+
+2020-02-08 15:14:17 CarinaListener [INFO] Set data_provider_thread_count=1
+2020-02-08 15:14:17 CarinaListener [INFO] CARINA_CORE_VERSION: 6.3.30
+2020-02-08 15:14:17 Messager [INFO]  TEST [Default test - testCompareModels] STARTED at [15:14:17 2020-02-08]
+2020-02-08 15:14:20 DesktopFactory [INFO] Browser window was maximized
+2020-02-08 15:14:20 Messager [INFO] INFO: url 'https://www.gsmarena.com' is being opened...
+2020-02-08 15:14:23 DriverListener [INFO] INFO: url 'https://www.gsmarena.com' is opened.
+2020-02-08 15:14:27 DriverListener [INFO] PASS: element 'compareLink' is clicked.
+2020-02-08 15:14:30 DriverListener [INFO] PASS: element 'inputField' is clicked.
+2020-02-08 15:14:31 DriverListener [INFO] PASS: keys cleared in element 'inputField'.
+2020-02-08 15:14:33 DriverListener [INFO] PASS: keys 'Samsung Galaxy J3' are sent to element 'inputField'.
+2020-02-08 15:14:37 DriverListener [INFO] PASS: element 'Samsung Galaxy J3 (2016)' is clicked.
+2020-02-08 15:14:40 DriverListener [INFO] PASS: element 'inputField' is clicked.
+2020-02-08 15:14:41 DriverListener [INFO] PASS: keys cleared in element 'inputField'.
+2020-02-08 15:14:51 DriverListener [INFO] PASS: keys 'Samsung Galaxy J5' are sent to element 'inputField'.
+2020-02-08 15:14:55 DriverListener [INFO] PASS: element 'Samsung Galaxy J5' is clicked.
+2020-02-08 15:14:56 DriverListener [INFO] PASS: element 'inputField' is clicked.
+2020-02-08 15:14:58 DriverListener [INFO] PASS: keys cleared in element 'inputField'.
+2020-02-08 15:14:59 DriverListener [INFO] PASS: keys 'Samsung Galaxy J7 Pro' are sent to element 'inputField'.
+2020-02-08 15:15:03 DriverListener [INFO] PASS: element 'Samsung Galaxy J7 Pro' is clicked.
+2020-02-08 15:15:06 Messager [INFO]  TEST [Default test - testCompareModels] PASSED at [15:15:06 2020-02-08]
+2020-02-08 15:15:06 Messager [INFO]  TEST [GSMA0001 - Default test - testModelSpecs] STARTED at [15:15:06 2020-02-08]
+2020-02-08 15:15:08 DesktopFactory [INFO] Browser window was maximized
+2020-02-08 15:15:08 Messager [INFO] INFO: url 'https://www.gsmarena.com' is being opened...
+2020-02-08 15:15:11 DriverListener [INFO] INFO: url 'https://www.gsmarena.com' is opened.
+2020-02-08 15:15:32 HomePage [INFO] selecting 'Samsung' brand...
+2020-02-08 15:15:33 HomePage [INFO] currentBrand: PHONE FINDER
+2020-02-08 15:15:33 HomePage [INFO] currentBrand: SAMSUNG
+2020-02-08 15:15:36 DriverListener [INFO] PASS: element 'SAMSUNG' is clicked.
+2020-02-08 15:15:50 DriverListener [INFO] PASS: element 'modelLink' is clicked.
+2020-02-08 15:16:18 Messager [ERROR]  TEST [GSMA0001 - Default test - testModelSpecs] FAILED at [15:16:18 2020-02-08] - Invalid ram info! expected [12GB RAM] but found [8/12GB RAM]
+
+org.testng.Assert.fail(Assert.java:96)
+org.testng.Assert.failNotEquals(Assert.java:776)
+org.testng.Assert.assertEqualsImpl(Assert.java:137)
+org.testng.Assert.assertEquals(Assert.java:118)
+org.testng.Assert.assertEquals(Assert.java:453)
+com.qaprosoft.carina.demo.WebSampleTest.testModelSpecs(WebSampleTest.java:73)
+sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+java.lang.reflect.Method.invoke(Unknown Source)
+org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+org.testng.TestRunner.privateRun(TestRunner.java:648)
+org.testng.TestRunner.run(TestRunner.java:505)
+org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+org.testng.SuiteRunner.run(SuiteRunner.java:364)
+org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+org.testng.TestNG.runSuites(TestNG.java:1049)
+org.testng.TestNG.run(TestNG.java:1017)
+org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+2020-02-08 15:16:18 Messager [INFO]  TEST [GSMA0002 - Default test - testModelSpecs] STARTED at [15:16:18 2020-02-08]
+2020-02-08 15:16:20 DesktopFactory [INFO] Browser window was maximized
+2020-02-08 15:16:20 Messager [INFO] INFO: url 'https://www.gsmarena.com' is being opened...
+2020-02-08 15:16:23 DriverListener [INFO] INFO: url 'https://www.gsmarena.com' is opened.
+2020-02-08 15:16:44 HomePage [INFO] selecting 'Samsung' brand...
+2020-02-08 15:16:45 HomePage [INFO] currentBrand: PHONE FINDER
+2020-02-08 15:16:45 HomePage [INFO] currentBrand: SAMSUNG
+2020-02-08 15:16:48 DriverListener [INFO] PASS: element 'SAMSUNG' is clicked.
+2020-02-08 15:16:59 DriverListener [INFO] PASS: element 'modelLink' is clicked.
+2020-02-08 15:17:00 Messager [INFO]  TEST [GSMA0002 - Default test - testModelSpecs] PASSED at [15:17:00 2020-02-08]
+2020-02-08 15:17:01 Messager [INFO]  TEST [GSMA0003 - Default test - testModelSpecs] STARTED at [15:17:01 2020-02-08]
+2020-02-08 15:17:02 DesktopFactory [INFO] Browser window was maximized
+2020-02-08 15:17:02 Messager [INFO] INFO: url 'https://www.gsmarena.com' is being opened...
+2020-02-08 15:17:09 DriverListener [INFO] INFO: url 'https://www.gsmarena.com' is opened.
+2020-02-08 15:17:30 HomePage [INFO] selecting 'Samsung' brand...
+2020-02-08 15:17:31 HomePage [INFO] currentBrand: PHONE FINDER
+2020-02-08 15:17:31 HomePage [INFO] currentBrand: SAMSUNG
+2020-02-08 15:17:35 DriverListener [INFO] PASS: element 'SAMSUNG' is clicked.
+2020-02-08 15:17:40 DriverListener [INFO] PASS: element 'modelLink' is clicked.
+2020-02-08 15:17:42 Messager [INFO]  TEST [GSMA0003 - Default test - testModelSpecs] PASSED at [15:17:42 2020-02-08]
+2020-02-08 15:17:42 Messager [INFO]  TEST [Default test - testNewsSearch] STARTED at [15:17:42 2020-02-08]
+2020-02-08 15:17:43 DesktopFactory [INFO] Browser window was maximized
+2020-02-08 15:17:43 Messager [INFO] INFO: url 'https://www.gsmarena.com' is being opened...
+2020-02-08 15:17:47 DriverListener [INFO] INFO: url 'https://www.gsmarena.com' is opened.
+2020-02-08 15:17:50 DriverListener [INFO] PASS: element 'newsLink' is clicked.
+2020-02-08 15:18:12 DriverHelper [WARN] Actual URL differs from expected one. Expected 'https://qkm1.qualitykiosk.com/api/news.php3' but found 'https://www.gsmarena.com/news.php3'
+2020-02-08 15:18:33 Messager [ERROR]  TEST [Default test - testNewsSearch] FAILED at [15:18:33 2020-02-08] - News page is not opened! expected [true] but found [false]
+
+org.testng.Assert.fail(Assert.java:96)
+org.testng.Assert.failNotEquals(Assert.java:776)
+org.testng.Assert.assertTrue(Assert.java:44)
+com.qaprosoft.carina.demo.WebSampleTest.testNewsSearch(WebSampleTest.java:107)
+sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+java.lang.reflect.Method.invoke(Unknown Source)
+org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+org.testng.TestRunner.privateRun(TestRunner.java:648)
+org.testng.TestRunner.run(TestRunner.java:505)
+org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+org.testng.SuiteRunner.run(SuiteRunner.java:364)
+org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+org.testng.TestNG.runSuites(TestNG.java:1049)
+org.testng.TestNG.run(TestNG.java:1017)
+org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+2020-02-08 15:18:33 Messager [INFO] INFO: '**************** Test execution summary ****************'.
+2020-02-08 15:18:33 Messager [INFO] RESULT #1: TEST [Default test - testCompareModels] PASS [screenshots=file://E:\Nikita_workspace\Atlas_Demo\.\reports\qa\1581155057394/373cbe9d-d416-44bc-b024-8bb3a3bf633c/report.html | log=file://E:\Nikita_workspace\Atlas_Demo\.\reports\qa\1581155057394/373cbe9d-d416-44bc-b024-8bb3a3bf633c/test.log]
+2020-02-08 15:18:33 Messager [INFO] RESULT #2: TEST [GSMA0001 - Default test - testModelSpecs] FAIL [screenshots=file://E:\Nikita_workspace\Atlas_Demo\.\reports\qa\1581155057394/cc808aa2-2d42-446b-86f3-c2805e1b57ca/report.html | log=file://E:\Nikita_workspace\Atlas_Demo\.\reports\qa\1581155057394/cc808aa2-2d42-446b-86f3-c2805e1b57ca/test.log]
+2020-02-08 15:18:33 Messager [INFO] RESULT #3: TEST [GSMA0002 - Default test - testModelSpecs] PASS [screenshots=file://E:\Nikita_workspace\Atlas_Demo\.\reports\qa\1581155057394/5c4c1868-5396-4f1d-87ec-c09d85c41e96/report.html | log=file://E:\Nikita_workspace\Atlas_Demo\.\reports\qa\1581155057394/5c4c1868-5396-4f1d-87ec-c09d85c41e96/test.log]
+2020-02-08 15:18:33 Messager [INFO] RESULT #4: TEST [GSMA0003 - Default test - testModelSpecs] PASS [screenshots=file://E:\Nikita_workspace\Atlas_Demo\.\reports\qa\1581155057394/8cd0ad4a-0274-46bd-9928-e225e5f32adc/report.html | log=file://E:\Nikita_workspace\Atlas_Demo\.\reports\qa\1581155057394/8cd0ad4a-0274-46bd-9928-e225e5f32adc/test.log]
+2020-02-08 15:18:33 Messager [INFO] RESULT #5: TEST [Default test - testNewsSearch] FAIL [screenshots=file://E:\Nikita_workspace\Atlas_Demo\.\reports\qa\1581155057394/bfc2a18f-c52f-4c78-b74a-12af155ad40f/report.html | log=file://E:\Nikita_workspace\Atlas_Demo\.\reports\qa\1581155057394/bfc2a18f-c52f-4c78-b74a-12af155ad40f/test.log]

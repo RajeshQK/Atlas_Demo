@@ -1,9 +1,0 @@
-[2020-01-21 06:32:26] [IMessager.java] [1] [INFO]  TEST [GSMA0001 - Default test - testModelSpecs] STARTED at [18:32:26 2020-01-21]
-[2020-01-21 06:32:28] [IMessager.java] [1] [INFO] INFO: url 'https://www.gsmarena.com' is being opened...
-[2020-01-21 06:33:05] [DriverListener.java] [1] [INFO] INFO: url 'https://www.gsmarena.com' is opened.
-[2020-01-21 06:33:06] [PerfEventHandler.java] [1] [INFO] URL 'https://www.gsmarena.com' opened
-[2020-01-21 06:33:27] [HomePage.java] [1] [INFO] selecting 'Samsung' brand...
-[2020-01-21 06:33:29] [HomePage.java] [1] [INFO] currentBrand: PHONE FINDER
-[2020-01-21 06:33:29] [HomePage.java] [1] [INFO] currentBrand: SAMSUNG
-[2020-01-21 06:33:29] [DriverListener.java] [1] [INFO] PASS: element 'SAMSUNG' is clicked.
-[2020-01-21 06:33:30] [PerfEventHandler.java] [1] [INFO] Element clicked

@@ -1,30 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="2" ignored="0" total="2" passed="0">
+<testng-results skipped="0" failed="2" ignored="0" total="5" passed="3">
   <reporter-output>
     <line>
-      <![CDATA[ TEST [Mobile test 1 - testLoginUser] FAILED at [18:52:31 2020-01-21] - org.openqa.selenium.SessionNotCreatedException: com.ssts.pcloudy.exception.ConnectError : Application with name 'carinademoexample.apk' not found in Cloud Drive (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 651 milliseconds
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'QKNBK474', ip: '172.20.191.241', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
-Driver info: driver.version: AndroidDriver
+      <![CDATA[ TEST [GSMA0001 - Default test - testModelSpecs] FAILED at [15:16:18 2020-02-08] - Invalid ram info! expected [12GB RAM] but found [8/12GB RAM]
 
-com.qaprosoft.carina.core.foundation.webdriver.listener.EventFiringAppiumCommandExecutor.execute(EventFiringAppiumCommandExecutor.java:169)
-org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:41)
-io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
-io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
-org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
-io.appium.java_client.AppiumDriver.startSession(AppiumDriver.java:323)
-org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
-io.appium.java_client.DefaultGenericMobileDriver.<init>(DefaultGenericMobileDriver.java:37)
-io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:86)
-io.appium.java_client.android.AndroidDriver.<init>(AndroidDriver.java:84)
-com.qaprosoft.carina.core.foundation.webdriver.core.factory.impl.MobileFactory.create(MobileFactory.java:167)
-com.qaprosoft.carina.core.foundation.webdriver.core.factory.DriverFactory.create(DriverFactory.java:71)
-com.qaprosoft.carina.core.foundation.webdriver.IDriverPool.createDriver(IDriverPool.java:353)
-com.qaprosoft.carina.core.foundation.webdriver.IDriverPool.getDriver(IDriverPool.java:143)
-com.qaprosoft.carina.demo.MobileSampleTest.setCustCaps(MobileSampleTest.java:53)
-com.qaprosoft.carina.demo.MobileSampleTest.testLoginUser(MobileSampleTest.java:82)
+org.testng.Assert.fail(Assert.java:96)
+org.testng.Assert.failNotEquals(Assert.java:776)
+org.testng.Assert.assertEqualsImpl(Assert.java:137)
+org.testng.Assert.assertEquals(Assert.java:118)
+org.testng.Assert.assertEquals(Assert.java:453)
+com.qaprosoft.carina.demo.WebSampleTest.testModelSpecs(WebSampleTest.java:73)
 sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -38,38 +23,26 @@ org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
 org.testng.TestRunner.privateRun(TestRunner.java:648)
 org.testng.TestRunner.run(TestRunner.java:505)
 org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
-org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
-org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
-java.util.concurrent.FutureTask.run(Unknown Source)
-java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
-java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
-java.lang.Thread.run(Unknown Source)]]>
+org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+org.testng.SuiteRunner.run(SuiteRunner.java:364)
+org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+org.testng.TestNG.runSuites(TestNG.java:1049)
+org.testng.TestNG.run(TestNG.java:1017)
+org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)]]>
     </line>
     <line>
-      <![CDATA[ TEST [Mobile test 2 - testMobileSalesDiary] FAILED at [18:53:28 2020-01-21] - org.openqa.selenium.SessionNotCreatedException: Appium Server Error due to some reason please check Hub/AppiumStdErr logs for more Information (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 57.13 seconds
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'QKNBK474', ip: '172.20.191.241', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
-Driver info: driver.version: AndroidDriver
+      <![CDATA[ TEST [Default test - testNewsSearch] FAILED at [15:18:33 2020-02-08] - News page is not opened! expected [true] but found [false]
 
-com.qaprosoft.carina.core.foundation.webdriver.listener.EventFiringAppiumCommandExecutor.execute(EventFiringAppiumCommandExecutor.java:169)
-org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:41)
-io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
-io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
-org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
-io.appium.java_client.AppiumDriver.startSession(AppiumDriver.java:323)
-org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
-io.appium.java_client.DefaultGenericMobileDriver.<init>(DefaultGenericMobileDriver.java:37)
-io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:86)
-io.appium.java_client.android.AndroidDriver.<init>(AndroidDriver.java:84)
-com.qaprosoft.carina.core.foundation.webdriver.core.factory.impl.MobileFactory.create(MobileFactory.java:167)
-com.qaprosoft.carina.core.foundation.webdriver.core.factory.DriverFactory.create(DriverFactory.java:71)
-com.qaprosoft.carina.core.foundation.webdriver.IDriverPool.createDriver(IDriverPool.java:353)
-com.qaprosoft.carina.core.foundation.webdriver.IDriverPool.getDriver(IDriverPool.java:143)
-com.qaprosoft.carina.demo.HDFC_MobileSalesDemo.setCustCaps(HDFC_MobileSalesDemo.java:45)
-com.qaprosoft.carina.demo.HDFC_MobileSalesDemo.testMobileSalesDiary(HDFC_MobileSalesDemo.java:67)
+org.testng.Assert.fail(Assert.java:96)
+org.testng.Assert.failNotEquals(Assert.java:776)
+org.testng.Assert.assertTrue(Assert.java:44)
+com.qaprosoft.carina.demo.WebSampleTest.testNewsSearch(WebSampleTest.java:107)
 sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -83,59 +56,74 @@ org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
 org.testng.TestRunner.privateRun(TestRunner.java:648)
 org.testng.TestRunner.run(TestRunner.java:505)
 org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
-org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
-org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
-java.util.concurrent.FutureTask.run(Unknown Source)
-java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
-java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
-java.lang.Thread.run(Unknown Source)]]>
+org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+org.testng.SuiteRunner.run(SuiteRunner.java:364)
+org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+org.testng.TestNG.runSuites(TestNG.java:1049)
+org.testng.TestNG.run(TestNG.java:1017)
+org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)]]>
     </line>
   </reporter-output>
-  <suite name="Carina Demo Tests - Mobile Sample (Android)" duration-ms="58521" started-at="2020-01-21T13:22:30Z" finished-at="2020-01-21T13:23:28Z">
+  <suite name="Default suite" duration-ms="255915" started-at="2020-02-08T09:44:17Z" finished-at="2020-02-08T09:48:33Z">
     <groups>
     </groups>
-    <test name="Mobile test 1" duration-ms="1342" started-at="2020-01-21T13:22:30Z" finished-at="2020-01-21T13:22:31Z">
-      <class name="com.qaprosoft.carina.demo.MobileSampleTest">
-        <test-method status="FAIL" signature="testLoginUser(java.lang.String)[pri:0, instance:com.qaprosoft.carina.demo.MobileSampleTest@12e61fe6]" name="testLoginUser" duration-ms="1256" started-at="2020-01-21T13:22:30Z" description="JIRA#DEMO-0011" finished-at="2020-01-21T13:22:31Z">
+    <test name="Default test" duration-ms="255915" started-at="2020-02-08T09:44:17Z" finished-at="2020-02-08T09:48:33Z">
+      <class name="com.qaprosoft.carina.demo.WebSampleTest">
+        <test-method status="PASS" signature="testCompareModels()[pri:0, instance:com.qaprosoft.carina.demo.WebSampleTest@1f3f4916]" name="testCompareModels" duration-ms="48360" started-at="2020-02-08T09:44:17Z" description="JIRA#AUTO-0009" finished-at="2020-02-08T09:45:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCompareModels -->
+        <test-method status="FAIL" signature="testModelSpecs(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qaprosoft.carina.demo.WebSampleTest@1f3f4916]" name="testModelSpecs" duration-ms="47823" started-at="2020-02-08T09:45:06Z" description="JIRA#AUTO-0008" data-provider="SingleDataProvider" finished-at="2020-02-08T09:45:54Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[Samsung_Galaxy_J4_Plus.properties]]>
+                <![CDATA[Samsung]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Galaxy S10+]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[6.4"]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[16MP]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[12GB RAM]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[4100mAh]]>
               </value>
             </param>
           </params>
-          <exception class="org.openqa.selenium.WebDriverException">
+          <exception class="java.lang.AssertionError">
             <message>
-              <![CDATA[org.openqa.selenium.SessionNotCreatedException: com.ssts.pcloudy.exception.ConnectError : Application with name 'carinademoexample.apk' not found in Cloud Drive (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 651 milliseconds
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'QKNBK474', ip: '172.20.191.241', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
-Driver info: driver.version: AndroidDriver]]>
+              <![CDATA[Invalid ram info! expected [12GB RAM] but found [8/12GB RAM]]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.WebDriverException: org.openqa.selenium.SessionNotCreatedException: com.ssts.pcloudy.exception.ConnectError : Application with name 'carinademoexample.apk' not found in Cloud Drive (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 651 milliseconds
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'QKNBK474', ip: '172.20.191.241', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
-Driver info: driver.version: AndroidDriver
-at com.qaprosoft.carina.core.foundation.webdriver.listener.EventFiringAppiumCommandExecutor.execute(EventFiringAppiumCommandExecutor.java:169)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:41)
-at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
-at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
-at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
-at io.appium.java_client.AppiumDriver.startSession(AppiumDriver.java:323)
-at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
-at io.appium.java_client.DefaultGenericMobileDriver.<init>(DefaultGenericMobileDriver.java:37)
-at io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:86)
-at io.appium.java_client.android.AndroidDriver.<init>(AndroidDriver.java:84)
-at com.qaprosoft.carina.core.foundation.webdriver.core.factory.impl.MobileFactory.create(MobileFactory.java:167)
-at com.qaprosoft.carina.core.foundation.webdriver.core.factory.DriverFactory.create(DriverFactory.java:71)
-at com.qaprosoft.carina.core.foundation.webdriver.IDriverPool.createDriver(IDriverPool.java:353)
-at com.qaprosoft.carina.core.foundation.webdriver.IDriverPool.getDriver(IDriverPool.java:143)
-at com.qaprosoft.carina.demo.MobileSampleTest.setCustCaps(MobileSampleTest.java:53)
-at com.qaprosoft.carina.demo.MobileSampleTest.testLoginUser(MobileSampleTest.java:82)
+              <![CDATA[java.lang.AssertionError: Invalid ram info! expected [12GB RAM] but found [8/12GB RAM]
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+at org.testng.Assert.assertEquals(Assert.java:118)
+at org.testng.Assert.assertEquals(Assert.java:453)
+at com.qaprosoft.carina.demo.WebSampleTest.testModelSpecs(WebSampleTest.java:73)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -149,69 +137,31 @@ at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
 at org.testng.TestRunner.privateRun(TestRunner.java:648)
 at org.testng.TestRunner.run(TestRunner.java:505)
 at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
-at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
-at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
-at java.util.concurrent.FutureTask.run(Unknown Source)
-at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
-at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
-at java.lang.Thread.run(Unknown Source)
-Caused by: org.openqa.selenium.SessionNotCreatedException: com.ssts.pcloudy.exception.ConnectError : Application with name 'carinademoexample.apk' not found in Cloud Drive (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 651 milliseconds
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'QKNBK474', ip: '172.20.191.241', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
-Driver info: driver.version: AndroidDriver
-at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
-at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
-at java.lang.reflect.Constructor.newInstance(Unknown Source)
-at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
-at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
-at org.openqa.selenium.remote.JsonWireProtocolResponse.lambda$errorHandler$0(JsonWireProtocolResponse.java:54)
-at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
-at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
-at java.util.stream.ReferencePipeline$3$1.accept(Unknown Source)
-at java.util.Spliterators$ArraySpliterator.tryAdvance(Unknown Source)
-at java.util.stream.ReferencePipeline.forEachWithCancel(Unknown Source)
-at java.util.stream.AbstractPipeline.copyIntoWithCancel(Unknown Source)
-at java.util.stream.AbstractPipeline.copyInto(Unknown Source)
-at java.util.stream.AbstractPipeline.wrapAndCopyInto(Unknown Source)
-at java.util.stream.FindOps$FindOp.evaluateSequential(Unknown Source)
-at java.util.stream.AbstractPipeline.evaluate(Unknown Source)
-at java.util.stream.ReferencePipeline.findFirst(Unknown Source)
-at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
-at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
-at com.qaprosoft.carina.core.foundation.webdriver.listener.EventFiringAppiumCommandExecutor.execute(EventFiringAppiumCommandExecutor.java:150)
-... 36 more
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
             <line>
-              <![CDATA[ TEST [Mobile test 1 - testLoginUser] FAILED at [18:52:31 2020-01-21] - org.openqa.selenium.SessionNotCreatedException: com.ssts.pcloudy.exception.ConnectError : Application with name 'carinademoexample.apk' not found in Cloud Drive (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 651 milliseconds
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'QKNBK474', ip: '172.20.191.241', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
-Driver info: driver.version: AndroidDriver
+              <![CDATA[ TEST [GSMA0001 - Default test - testModelSpecs] FAILED at [15:16:18 2020-02-08] - Invalid ram info! expected [12GB RAM] but found [8/12GB RAM]
 
-com.qaprosoft.carina.core.foundation.webdriver.listener.EventFiringAppiumCommandExecutor.execute(EventFiringAppiumCommandExecutor.java:169)
-org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:41)
-io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
-io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
-org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
-io.appium.java_client.AppiumDriver.startSession(AppiumDriver.java:323)
-org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
-io.appium.java_client.DefaultGenericMobileDriver.<init>(DefaultGenericMobileDriver.java:37)
-io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:86)
-io.appium.java_client.android.AndroidDriver.<init>(AndroidDriver.java:84)
-com.qaprosoft.carina.core.foundation.webdriver.core.factory.impl.MobileFactory.create(MobileFactory.java:167)
-com.qaprosoft.carina.core.foundation.webdriver.core.factory.DriverFactory.create(DriverFactory.java:71)
-com.qaprosoft.carina.core.foundation.webdriver.IDriverPool.createDriver(IDriverPool.java:353)
-com.qaprosoft.carina.core.foundation.webdriver.IDriverPool.getDriver(IDriverPool.java:143)
-com.qaprosoft.carina.demo.MobileSampleTest.setCustCaps(MobileSampleTest.java:53)
-com.qaprosoft.carina.demo.MobileSampleTest.testLoginUser(MobileSampleTest.java:82)
+org.testng.Assert.fail(Assert.java:96)
+org.testng.Assert.failNotEquals(Assert.java:776)
+org.testng.Assert.assertEqualsImpl(Assert.java:137)
+org.testng.Assert.assertEquals(Assert.java:118)
+org.testng.Assert.assertEquals(Assert.java:453)
+com.qaprosoft.carina.demo.WebSampleTest.testModelSpecs(WebSampleTest.java:73)
 sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -225,59 +175,104 @@ org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
 org.testng.TestRunner.privateRun(TestRunner.java:648)
 org.testng.TestRunner.run(TestRunner.java:505)
 org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
-org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
-org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
-java.util.concurrent.FutureTask.run(Unknown Source)
-java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
-java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
-java.lang.Thread.run(Unknown Source)]]>
+org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+org.testng.SuiteRunner.run(SuiteRunner.java:364)
+org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+org.testng.TestNG.runSuites(TestNG.java:1049)
+org.testng.TestNG.run(TestNG.java:1017)
+org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)]]>
             </line>
           </reporter-output>
-        </test-method> <!-- testLoginUser -->
-      </class> <!-- com.qaprosoft.carina.demo.MobileSampleTest -->
-    </test> <!-- Mobile test 1 -->
-    <test name="Mobile test 2" duration-ms="57165" started-at="2020-01-21T13:22:31Z" finished-at="2020-01-21T13:23:28Z">
-      <class name="com.qaprosoft.carina.demo.HDFC_MobileSalesDemo">
-        <test-method status="FAIL" signature="testMobileSalesDiary(java.lang.String)[pri:0, instance:com.qaprosoft.carina.demo.HDFC_MobileSalesDemo@6ed3ccb2]" name="testMobileSalesDiary" duration-ms="57154" started-at="2020-01-21T13:22:31Z" finished-at="2020-01-21T13:23:28Z">
+        </test-method> <!-- testModelSpecs -->
+        <test-method status="PASS" signature="testModelSpecs(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qaprosoft.carina.demo.WebSampleTest@1f3f4916]" name="testModelSpecs" duration-ms="42236" started-at="2020-02-08T09:46:18Z" description="JIRA#AUTO-0008" data-provider="SingleDataProvider" finished-at="2020-02-08T09:47:00Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[Samsung_Galaxy_J5_Prime.properties]]>
+                <![CDATA[Samsung]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Galaxy S10]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[6.1"]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[16MP]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[8GB RAM]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[3400mAh]]>
               </value>
             </param>
           </params>
-          <exception class="org.openqa.selenium.WebDriverException">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testModelSpecs -->
+        <test-method status="PASS" signature="testModelSpecs(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qaprosoft.carina.demo.WebSampleTest@1f3f4916]" name="testModelSpecs" duration-ms="41896" started-at="2020-02-08T09:47:01Z" description="JIRA#AUTO-0008" data-provider="SingleDataProvider" finished-at="2020-02-08T09:47:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Samsung]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Galaxy View2]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[17.3"]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[NO]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[3GB RAM]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[12000mAh]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testModelSpecs -->
+        <test-method status="FAIL" signature="testNewsSearch()[pri:0, instance:com.qaprosoft.carina.demo.WebSampleTest@1f3f4916]" name="testNewsSearch" duration-ms="29108" started-at="2020-02-08T09:47:42Z" description="JIRA#AUTO-0010" finished-at="2020-02-08T09:48:12Z">
+          <exception class="java.lang.AssertionError">
             <message>
-              <![CDATA[org.openqa.selenium.SessionNotCreatedException: Appium Server Error due to some reason please check Hub/AppiumStdErr logs for more Information (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 57.13 seconds
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'QKNBK474', ip: '172.20.191.241', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
-Driver info: driver.version: AndroidDriver]]>
+              <![CDATA[News page is not opened! expected [true] but found [false]]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.WebDriverException: org.openqa.selenium.SessionNotCreatedException: Appium Server Error due to some reason please check Hub/AppiumStdErr logs for more Information (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 57.13 seconds
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'QKNBK474', ip: '172.20.191.241', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
-Driver info: driver.version: AndroidDriver
-at com.qaprosoft.carina.core.foundation.webdriver.listener.EventFiringAppiumCommandExecutor.execute(EventFiringAppiumCommandExecutor.java:169)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:41)
-at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
-at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
-at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
-at io.appium.java_client.AppiumDriver.startSession(AppiumDriver.java:323)
-at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
-at io.appium.java_client.DefaultGenericMobileDriver.<init>(DefaultGenericMobileDriver.java:37)
-at io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:86)
-at io.appium.java_client.android.AndroidDriver.<init>(AndroidDriver.java:84)
-at com.qaprosoft.carina.core.foundation.webdriver.core.factory.impl.MobileFactory.create(MobileFactory.java:167)
-at com.qaprosoft.carina.core.foundation.webdriver.core.factory.DriverFactory.create(DriverFactory.java:71)
-at com.qaprosoft.carina.core.foundation.webdriver.IDriverPool.createDriver(IDriverPool.java:353)
-at com.qaprosoft.carina.core.foundation.webdriver.IDriverPool.getDriver(IDriverPool.java:143)
-at com.qaprosoft.carina.demo.HDFC_MobileSalesDemo.setCustCaps(HDFC_MobileSalesDemo.java:45)
-at com.qaprosoft.carina.demo.HDFC_MobileSalesDemo.testMobileSalesDiary(HDFC_MobileSalesDemo.java:67)
+              <![CDATA[java.lang.AssertionError: News page is not opened! expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertTrue(Assert.java:44)
+at com.qaprosoft.carina.demo.WebSampleTest.testNewsSearch(WebSampleTest.java:107)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -291,69 +286,29 @@ at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
 at org.testng.TestRunner.privateRun(TestRunner.java:648)
 at org.testng.TestRunner.run(TestRunner.java:505)
 at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
-at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
-at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
-at java.util.concurrent.FutureTask.run(Unknown Source)
-at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
-at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
-at java.lang.Thread.run(Unknown Source)
-Caused by: org.openqa.selenium.SessionNotCreatedException: Appium Server Error due to some reason please check Hub/AppiumStdErr logs for more Information (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 57.13 seconds
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'QKNBK474', ip: '172.20.191.241', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
-Driver info: driver.version: AndroidDriver
-at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
-at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
-at java.lang.reflect.Constructor.newInstance(Unknown Source)
-at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
-at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
-at org.openqa.selenium.remote.JsonWireProtocolResponse.lambda$errorHandler$0(JsonWireProtocolResponse.java:54)
-at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
-at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
-at java.util.stream.ReferencePipeline$3$1.accept(Unknown Source)
-at java.util.Spliterators$ArraySpliterator.tryAdvance(Unknown Source)
-at java.util.stream.ReferencePipeline.forEachWithCancel(Unknown Source)
-at java.util.stream.AbstractPipeline.copyIntoWithCancel(Unknown Source)
-at java.util.stream.AbstractPipeline.copyInto(Unknown Source)
-at java.util.stream.AbstractPipeline.wrapAndCopyInto(Unknown Source)
-at java.util.stream.FindOps$FindOp.evaluateSequential(Unknown Source)
-at java.util.stream.AbstractPipeline.evaluate(Unknown Source)
-at java.util.stream.ReferencePipeline.findFirst(Unknown Source)
-at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
-at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
-at com.qaprosoft.carina.core.foundation.webdriver.listener.EventFiringAppiumCommandExecutor.execute(EventFiringAppiumCommandExecutor.java:150)
-... 36 more
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
             <line>
-              <![CDATA[ TEST [Mobile test 2 - testMobileSalesDiary] FAILED at [18:53:28 2020-01-21] - org.openqa.selenium.SessionNotCreatedException: Appium Server Error due to some reason please check Hub/AppiumStdErr logs for more Information (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 57.13 seconds
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'QKNBK474', ip: '172.20.191.241', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
-Driver info: driver.version: AndroidDriver
+              <![CDATA[ TEST [Default test - testNewsSearch] FAILED at [15:18:33 2020-02-08] - News page is not opened! expected [true] but found [false]
 
-com.qaprosoft.carina.core.foundation.webdriver.listener.EventFiringAppiumCommandExecutor.execute(EventFiringAppiumCommandExecutor.java:169)
-org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:41)
-io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
-io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
-org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
-io.appium.java_client.AppiumDriver.startSession(AppiumDriver.java:323)
-org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
-io.appium.java_client.DefaultGenericMobileDriver.<init>(DefaultGenericMobileDriver.java:37)
-io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:86)
-io.appium.java_client.android.AndroidDriver.<init>(AndroidDriver.java:84)
-com.qaprosoft.carina.core.foundation.webdriver.core.factory.impl.MobileFactory.create(MobileFactory.java:167)
-com.qaprosoft.carina.core.foundation.webdriver.core.factory.DriverFactory.create(DriverFactory.java:71)
-com.qaprosoft.carina.core.foundation.webdriver.IDriverPool.createDriver(IDriverPool.java:353)
-com.qaprosoft.carina.core.foundation.webdriver.IDriverPool.getDriver(IDriverPool.java:143)
-com.qaprosoft.carina.demo.HDFC_MobileSalesDemo.setCustCaps(HDFC_MobileSalesDemo.java:45)
-com.qaprosoft.carina.demo.HDFC_MobileSalesDemo.testMobileSalesDiary(HDFC_MobileSalesDemo.java:67)
+org.testng.Assert.fail(Assert.java:96)
+org.testng.Assert.failNotEquals(Assert.java:776)
+org.testng.Assert.assertTrue(Assert.java:44)
+com.qaprosoft.carina.demo.WebSampleTest.testNewsSearch(WebSampleTest.java:107)
 sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -367,17 +322,22 @@ org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
 org.testng.TestRunner.privateRun(TestRunner.java:648)
 org.testng.TestRunner.run(TestRunner.java:505)
 org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
-org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
-org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
-java.util.concurrent.FutureTask.run(Unknown Source)
-java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
-java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
-java.lang.Thread.run(Unknown Source)]]>
+org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+org.testng.SuiteRunner.run(SuiteRunner.java:364)
+org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+org.testng.TestNG.runSuites(TestNG.java:1049)
+org.testng.TestNG.run(TestNG.java:1017)
+org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)]]>
             </line>
           </reporter-output>
-        </test-method> <!-- testMobileSalesDiary -->
-      </class> <!-- com.qaprosoft.carina.demo.HDFC_MobileSalesDemo -->
-    </test> <!-- Mobile test 2 -->
-  </suite> <!-- Carina Demo Tests - Mobile Sample (Android) -->
+        </test-method> <!-- testNewsSearch -->
+      </class> <!-- com.qaprosoft.carina.demo.WebSampleTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
