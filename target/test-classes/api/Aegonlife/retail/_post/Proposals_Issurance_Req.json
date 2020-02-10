@@ -1,0 +1,15 @@
+{
+  "clientRequestId": "collection${randomInt}",
+  "clientRequestTime": "${currentDate}.000+0530",
+  "policy": {
+    "proposalNumber": "${proposalNumber}",
+    "payerAccount": {
+      "paymentMethod": 1
+    }
+  },
+  "collection": {
+    "payMode": 1,
+    "currency": 31,
+    "feeAmount": "${installPrem}"
+  }
+}

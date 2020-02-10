@@ -1,0 +1,71 @@
+{
+    "payment": {
+        "createdOn": "2019-07-13T13:34:01.020+0000",
+        "createdBy": null,
+        "updatedOn": null,
+        "updatedBy": null,
+        "versionNumber": null,
+        "id": 6886,
+        "businessId": "RPTR1307190000006886",
+        "paymentDateTime": null,
+        "amount": 400,
+        "vendorPayment": {
+            "vendorCode": "RAZORPAY",
+            "vendorOrderId": "order_CtAQ7SoTSkikQS",
+            "paymentId": null
+        },
+        "status": "INITIATED",
+        "paymentMode": null,
+        "receiptDocId": null,
+        "pasUpdatedOn": null,
+        "card": null,
+        "cheque": null,
+        "demandDraft": null,
+        "fundTransfer": null,
+        "micrNumber": null,
+        "ifscCode": null,
+        "bankName": null,
+        "userId": "SYSTEM",
+        "branchName": null,
+        "transactionId": null,
+        "processInstanceId": null
+    },
+    "payer": {
+        "createdOn": "2019-06-19T11:32:24.846+0000",
+        "createdBy": null,
+        "updatedOn": null,
+        "updatedBy": null,
+        "versionNumber": null,
+        "id": 5926,
+        "name": "Satishagarval Annavarapu ",
+        "email": "abc@an.d",
+        "mobileNumber": "8888888888",
+        "policyNumber": "GS5574445251169",
+        "vendorPayer": {
+            "vendorCode": "RAZORPAY",
+            "payerId": "cust_CeQui7v7blnoEQ"
+        },
+        "status": null
+    },
+    "bill": {
+        "createdOn": "2019-07-13T02:33:10.155+0000",
+        "createdBy": null,
+        "updatedOn": null,
+        "updatedBy": null,
+        "versionNumber": null,
+        "id": 15408,
+        "policyNumber": "GS5574445251169",
+        "dueDate": "2019-02-21",
+        "amount": 400,
+        "type": "RP",
+        "status": "GENERATED",
+        "product": {
+            "type": "Term",
+            "unitLinked": false
+        },
+        "businessId": "RPORGS557444525116900015408",
+        "productType": "Term"
+    },
+    "receiptDocUrl": null,
+    "anyTimeSiRegistered": false
+}

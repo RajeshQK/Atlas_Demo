@@ -1,0 +1,33 @@
+{
+    "extendedProps": {},
+    "clientRequestId": "regex:individual_\\d+",
+    "clientRequestTime": "2019-06-25T13:14:30.000+0530",
+    "result": 1,
+    "policy": {
+        "extendedProps": {},
+        "quotationCode": "QC1343223",
+        "inceptionDate": "2019-06-25T00:00:00.000+0530",
+        "currency": 31,
+        "installPrem": 42691,
+        "cGstAmount": 0,
+        "sGstAmount": 0,
+        "iGstAmount": 1838,
+        "stampDutyAmount": 2000,
+        "coverages": [
+            {
+                "extendedProps": {},
+                "coverageSerialId": 1,
+                "productCode": "ARMP0000113",
+                "sumAssured": 10000000,
+                "grossPremium": 40853,
+                "premium": 40853,
+                "cGstOfGrossPremium": 0,
+                "sGstOfGrossPremium": 0,
+                "iGstOfGrossPremium": 1838,
+                "stampDutyAmount": 2000,
+                "extraPrems": []
+            }
+        ],
+        "proposalNumber": "0010327441"
+    }
+}

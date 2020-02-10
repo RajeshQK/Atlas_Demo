@@ -1,0 +1,10 @@
+[2020-02-08 03:17:01] [IMessager.java] [1] [INFO]  TEST [GSMA0003 - Default test - testModelSpecs] STARTED at [15:17:01 2020-02-08]
+[2020-02-08 03:17:02] [DesktopFactory.java] [1] [INFO] Browser window was maximized
+[2020-02-08 03:17:02] [IMessager.java] [1] [INFO] INFO: url 'https://www.gsmarena.com' is being opened...
+[2020-02-08 03:17:09] [DriverListener.java] [1] [INFO] INFO: url 'https://www.gsmarena.com' is opened.
+[2020-02-08 03:17:30] [HomePage.java] [1] [INFO] selecting 'Samsung' brand...
+[2020-02-08 03:17:31] [HomePage.java] [1] [INFO] currentBrand: PHONE FINDER
+[2020-02-08 03:17:31] [HomePage.java] [1] [INFO] currentBrand: SAMSUNG
+[2020-02-08 03:17:35] [DriverListener.java] [1] [INFO] PASS: element 'SAMSUNG' is clicked.
+[2020-02-08 03:17:40] [DriverListener.java] [1] [INFO] PASS: element 'modelLink' is clicked.
+[2020-02-08 03:17:42] [IMessager.java] [1] [INFO]  TEST [GSMA0003 - Default test - testModelSpecs] PASSED at [15:17:42 2020-02-08]

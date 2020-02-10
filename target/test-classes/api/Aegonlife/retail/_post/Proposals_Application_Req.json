@@ -1,0 +1,130 @@
+{
+  "clientRequestId": "individual${randomInt}",
+  "clientRequestTime": "${currentDate}.000+0530",
+  "serviceReqTime": "${currentDate}.000+0530",
+  "policy": {
+    "quotationCode": "QC${randomInt}",
+    "discountType": "${discountType}",
+    "policyType": 1,
+    "applyDate": "${currentDate}.000+0530",
+    "currency": 31,
+    "inceptionDate": "${inceptionDate}T00:00:00.000+0530",
+    "submissionDate": "${currentDate}.000+0530",
+    "salesChannelCode": "AEGONLIFE-FRONT",
+    "serviceAgentCode": "AEGONLIFE-FRONT",
+    "policyHolderLocation": "${policyHolderLocation}",
+    "insurerLocation": "${insurerLocation}",
+    "coverages": [
+      {
+        "coverageSerialId": 1,
+        "masterCoverageSerialId": null,
+        "chargePeriod": ${chargePeriod},
+        "chargeYear": ${chargeYear},
+        "coveragePeriod": 2,
+        "coverageYear": ${coverageYear},
+        "productCode": "${productCode}",
+        "currentPremium": {
+          "paymentFreq": ${paymentFreq},
+          "sumAssured": ${sumAssured}
+        },
+        <#if payOption??>"payPlans": [
+          {
+            "payOption": ${payOption},
+            "planType": ${planType}
+          }
+        ],</#if>
+        "insureds": [
+          {
+            "partySerialId": 1,
+            "orderId": 1
+          }
+        ]<#if BaseEMR_extraType??>,
+        "extraPrems":[            
+            {
+                "extraType": "${BaseEMR_extraType}",
+                "extraArith": "${BaseEMR_extraArith}",
+                "extraPara": ${BaseEMR_extraPara}
+            },
+            {
+                "extraType": "${BasePerMille_extraType}",
+                "extraArith": "${BasePerMille_extraArith}",
+                "extraPara": ${BasePerMille_extraPara}
+            }
+        ]</#if>
+      }<#if ADsumAssured??>,
+       {
+        "coverageSerialId": 2,
+        "masterCoverageSerialId": 1,
+        "chargePeriod": ${chargePeriod},
+        "chargeYear": ${chargeYear},
+        "coveragePeriod": 2,
+        "coverageYear": ${coverageYear},
+        "productCode": "138B006V05",
+        "currentPremium": {
+          "paymentFreq": ${paymentFreq},
+          "sumAssured": ${ADsumAssured}
+        },
+        "insureds": [
+          {
+            "partySerialId": 1,
+            "orderId": 1
+          }
+        ]<#if RiderEMR_extraType??>,
+        "extraPrems":[            
+            {
+                "extraType": "${RiderEMR_extraType}",
+                "extraArith": "${RiderEMR_extraArith}",
+                "extraPara": ${RiderEMR_extraPara}
+            },
+            {
+                "extraType": "${RiderPerMille_extraType}",
+                "extraArith": "${RiderPerMille_extraArith}",
+                "extraPara": ${RiderPerMille_extraPara}
+            }
+        ]</#if>		
+      }</#if>
+    ],
+    "policyHolder": {
+      "partySerialId": 1,
+      "relationToLA": 1
+    },
+    "insureds": [
+      {
+        "partySerialId": 1,
+        "relationToPH": 1
+      }
+    ],
+  
+    "payers": [
+      {
+        "partySerialId": 1,
+        "relationToPH": 1,
+        "shareRate": 1
+      }
+    ],
+    "payerAccounts": [
+      {
+        "paymentMethod": 1,
+        "paymentMethodNext": 1,
+        "ddaMandateIndi": "${ddaMandateIndi}"
+      }
+    ],
+    "customers": [
+      {
+        "partySerialId": 1,
+        "partyType": 1,
+        "person": {
+          "refId": "${randomInt}",
+          "gender": "${gender}",
+          "birthdate": "${birthdate}",
+          "smoking": "${smoking}"
+        }
+      }
+    ]<#if proposals??>
+    },
+  	"collection": {
+    "payMode": 1,
+    "currency": 31,
+    "feeAmount": "${installPrem}"</#if>
+  }
+}
