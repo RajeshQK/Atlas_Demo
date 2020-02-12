@@ -39,19 +39,12 @@ public class PerfEventHandler implements WebDriverEventListener {
 	}
 
 	public void afterClickOn(WebElement element, WebDriver driver) {
-		String driverType = Configuration.getDriverType();
+		String driverType = R.CONFIG.getProperties().getProperty("platformType").toUpperCase();
 
 		switch (driverType) {
-		case SpecialKeywords.DESKTOP: {
-			PerformanceStats ptStats = new PerformanceStats(driver);
-			long endTime = System.currentTimeMillis();
-			ptStats.getResponseEndTime(endTime);
-			ptStats.getPerformanceStats("PGID_" + driver.getTitle());
-			String comment = "Element clicked";
-			captureScreenshot(comment, driver, element, false);
-		}
+		
 
-		case SpecialKeywords.MOBILE: {
+		case "MOBILE": {
 		WebDriver drv = driver;
 		 
 		if (drv instanceof EventFiringWebDriver) {
@@ -60,11 +53,20 @@ public class PerfEventHandler implements WebDriverEventListener {
 		PerformanceStats ptStats = new PerformanceStats(driver);
 		long endTime = System.currentTimeMillis();
 		ptStats.getResponseEndTime(endTime);
-		//System.out.println(R.CONFIG.getProperties().getProperty("class_name"));
 		ptStats.getPerformanceStats("PGID_" + R.CONFIG.getProperties().getProperty("class_name"));
 		String comment = "Element clicked";
 		captureScreenshot(comment, driver, element, false);
+		break;
+		}
 		
+		case"WEB": {
+			PerformanceStats ptStats = new PerformanceStats(driver);
+			long endTime = System.currentTimeMillis();
+			ptStats.getResponseEndTime(endTime);
+			ptStats.getPerformanceStats("PGID_" + driver.getTitle());
+			String comment = "Element clicked";
+			captureScreenshot(comment, driver, element, false);
+			break;
 		}
 		}
 

@@ -6,6 +6,7 @@ import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 
 import com.qaprosoft.carina.core.foundation.utils.Configuration;
+import com.qaprosoft.carina.core.foundation.utils.R;
 import com.qaprosoft.carina.core.foundation.utils.mobile.IMobileUtils;
 
 public class Get_PerformanceStats implements IMobileUtils {
@@ -21,9 +22,26 @@ public class Get_PerformanceStats implements IMobileUtils {
 
 	public JSONArray resource_data() {
 		Object resource = null;
-		String driverType = Configuration.getDriverType().toUpperCase();
+		String driverType = R.CONFIG.getProperties().getProperty("platformType").toUpperCase();
 		switch(driverType){
-		case"DESKTOP":{
+		
+		case"MOBILE":{
+		
+			json_array_resources.put("Mobile performance stats");
+			/*AppiumDriver<?> driver = (AppiumDriver<?>) castDriver();
+			
+			WebDriver drv = driver;
+			if (drv instanceof EventFiringWebDriver) {
+			drv = ((EventFiringWebDriver) drv).getWrappedDriver();
+			resource = javaScript.executeScript("return JSON.stringify(window.performance.getEntries())",
+					new Object[0]);
+			}
+			AndroidDriver<?> aDriver = (AndroidDriver<?>) drv;
+			performanceData = ((HasSupportedPerformanceDataType) driver).getPerformanceData("com.tatamotors.egurucrm", "cpuinfo", 5);
+			resource = performanceData;*/
+			break;
+		}
+		case"WEB":{
 			resource = javaScript.executeScript("return JSON.stringify(window.performance.getEntries())",
 					new Object[0]);
 			JSONArray json_array = new JSONArray(resource.toString());
@@ -71,21 +89,7 @@ public class Get_PerformanceStats implements IMobileUtils {
 			}
 			javaScript.executeScript("return window.performance.clearResourceTimings()", new Object[0]);
 		}
-		case"MOBILE":{
-		
-			resource = "Mobile performance stats";
-			/*AppiumDriver<?> driver = (AppiumDriver<?>) castDriver();
-			
-			WebDriver drv = driver;
-			if (drv instanceof EventFiringWebDriver) {
-			drv = ((EventFiringWebDriver) drv).getWrappedDriver();
-			resource = javaScript.executeScript("return JSON.stringify(window.performance.getEntries())",
-					new Object[0]);
-			}
-			AndroidDriver<?> aDriver = (AndroidDriver<?>) drv;
-			performanceData = ((HasSupportedPerformanceDataType) driver).getPerformanceData("com.tatamotors.egurucrm", "cpuinfo", 5);
-			resource = performanceData;*/
-		}
+		break;
 		}
 		
 		

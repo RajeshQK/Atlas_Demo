@@ -5,10 +5,12 @@ import java.util.Date;
 import org.apache.log4j.Logger;
 import org.elasticsearch.action.bulk.BulkRequestBuilder;
 import org.elasticsearch.action.bulk.BulkResponse;
+import org.elasticsearch.action.index.IndexResponse;
 import org.elasticsearch.client.transport.TransportClient;
 import org.elasticsearch.common.settings.Settings;
 import org.elasticsearch.common.transport.TransportAddress;
 import org.elasticsearch.common.xcontent.XContentFactory;
+import org.elasticsearch.common.xcontent.XContentType;
 import org.elasticsearch.transport.client.PreBuiltTransportClient;
 import org.json.JSONArray;
 import org.json.JSONObject;
@@ -84,12 +86,15 @@ public class PerformanceStats extends AbstractPage {
 		 * TransportAddress(InetAddress.getByName("192.168.209.129"), 9300));
 		 */
 		
-		  /*TransportClient client = client = new
+		 /* TransportClient client = client = new
 		  PreBuiltTransportClient(Settings.EMPTY) .addTransportAddress(new
-		  TransportAddress(InetAddress.getByName("192.168.2.17"), 9300));*/
+		  TransportAddress(InetAddress.getByName("192.168.2.17"), 9300));
 		 
 		TransportClient client = client = new PreBuiltTransportClient(Settings.EMPTY)
-				.addTransportAddress(new TransportAddress(InetAddress.getByName("atlas.corp.qualitykiosk.com"), 9200));
+				.addTransportAddress(new TransportAddress(InetAddress.getByName("atlas.corp.qualitykiosk.com"), 9300));
+		
+		TransportClient client = client = new PreBuiltTransportClient(Settings.EMPTY)
+				.addTransportAddress(new TransportAddress(InetAddress.getByName("10.250.5.120"), 9300));
 
 		BulkRequestBuilder bulkRequest = client.prepareBulk();
 
@@ -104,7 +109,34 @@ public class PerformanceStats extends AbstractPage {
 		BulkResponse bulkResponse = bulkRequest.get();
 		if (bulkResponse.hasFailures()) {
 			System.out.println(bulkResponse.buildFailureMessage());
-		}
+		}*/
+		
+		/*String json = "{" + "\"RunID\":\"" + ZafiraRunID + "\"," + "\"SuiteName\":\"" + SuiteName + "\","
+				+ "\"TestCaseID\":\"" + TestCaseID + "\"," + "\"PageName\":\"" + PageName + "\"," + "\"PageStat\":\""
+				+ pagestat + "\"," + "\"PageResponseTime\":\"" + calculateResponseTime() + "\"," + "}";
+		IndexResponse response = client.prepareIndex(index_name, "doc").setSource(json, XContentType.JSON).get();
+		System.out.println(response.getResult());*/
+		
+		RestAssured.baseURI = "http://10.250.5.120:9200/" + index_name + "/doc";
+		RequestSpecification httpRequest = RestAssured.given();
+		
+		JSONObject mapping = new JSONObject();
+		mapping.put("RunID", ZafiraRunID);
+		mapping.put("SuiteName", SuiteName);
+		mapping.put("TestCaseID", TestCaseID);
+		mapping.put("PageName", PageName);
+		mapping.put("PageStat", pagestat);
+		mapping.put("PageResponseTime", calculateResponseTime());
+
+		
+		httpRequest.header("Content-Type", "application/json");
+
+		httpRequest.body(mapping);
+
+		Response response = httpRequest.request().post();
+		
+		System.out.println(response.getStatusCode());
+		
 	}
 
 	public void getResponseStartTime(long time) {
@@ -135,8 +167,10 @@ public class PerformanceStats extends AbstractPage {
 	}
 
 	public void createIndex() {
-		RestAssured.baseURI = "http://atlas.corp.qualitykiosk.com:9200/" + index_name;
-
+//		RestAssured.baseURI = "http://atlas.corp.qualitykiosk.com:9200/" + index_name;
+		// RestAssured.baseURI =
+		// "http://atlas.corp.qualitykiosk.com:9200/early_pt";
+		RestAssured.baseURI = "http://192.168.2.17:9200/" + index_name;
 		RequestSpecification httpRequest = RestAssured.given();
 
 		Response verify_index = httpRequest.request().get();
@@ -144,6 +178,10 @@ public class PerformanceStats extends AbstractPage {
 		if (verify_index.getStatusCode() == 200) {
 			LOGGER.info(index_name + " index is present");
 		} else {
+			JSONObject setting = new JSONObject();
+			setting.put("number_of_shards", 5);
+			setting.put("number_of_replicas", 3);
+
 			JSONObject type = new JSONObject();
 			type.put("type", "keyword");
 
@@ -162,6 +200,7 @@ public class PerformanceStats extends AbstractPage {
 			doc.put("doc", properties);
 
 			JSONObject mapping = new JSONObject();
+			mapping.put("settings", setting);
 			mapping.put("mappings", doc);
 
 			System.out.println(mapping);

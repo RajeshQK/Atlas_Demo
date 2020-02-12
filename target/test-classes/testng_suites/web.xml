@@ -1,33 +1,18 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 
 
-<suite verbose="1" name="Carina Demo Tests - Web Sample" skipfailedinvocationcounts="false" junit="false" parallel="methods" annotations="JDK">
+<suite verbose="1" name="PT Web Suite" skipfailedinvocationcounts="false" junit="false" parallel="methods" annotations="JDK">
 
   <listeners>
 		<listener class-name="com.qaprosoft.zafira.listener.ZafiraListener"/>
 	</listeners>
 	
-	<parameter name="suiteOwner" value="qpsdemo"/>
-	<parameter name="zafira_project" value="CarinaTraining"/>
-	<!-- <parameter name="jenkinsJobCreation" value="true"/>
-	<parameter name="jenkinsJobName" value="Web-Demo-Test"/>
-	<parameter name="jenkinsJobType" value="web"/>
-	<parameter name="jenkinsEnvironments" value="DEMO"/>
-	<parameter name="jenkinsEmail" value="demo@qaprosoft.com"/>
-	
-	Example howto override default job thread_count via jobDSL parameter
-	<parameter name="jenkinsDefaultThreadCount" value="3"/>
+	<parameter name="suiteOwner" value="admin"/>
+	<parameter name="zafira_project" value="TataDigital_Demo"/>
 
-	<parameter name="jenkinsRegressionPipeline" value="Carina-Demo-Regression-Pipeline"/>
-	<parameter name="jenkinsPipelineEnvironments" value="DEMO"/>
-
-	<parameter name="jenkinsPipelineBrowsers" value="browser: chrome; browser: firefox"/>
-	<parameter name="jenkinsJobExecutionOrder" value="1"/>
-	<parameter name="jenkinsJobExecutionMode" value="continue"/> -->
-
-	<test name="GSM arena web tests">
+	<test name="PT Web Test">
 		<classes>
-			<class name="com.qaprosoft.carina.demo.WebSampleTest" />
+			<class name="com.qaprosoft.carina.demo.WebSamplePerformanceTest" />
 		</classes>
 	</test>
 	

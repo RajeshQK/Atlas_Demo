@@ -1,6 +1,0 @@
-[2020-02-08 03:10:48] [IMessager.java] [1] [INFO] INFO: '**************** Test execution summary ****************'.
-[2020-02-08 03:10:48] [IMessager.java] [1] [INFO] RESULT #1: TEST [Default test - testCompareModels] FAIL [log=file://E:\Nikita_workspace\Atlas_Demo\.\reports\qa\1581154845430/a74171e8-c8fd-4315-bde1-61f744aba328/test.log]
-[2020-02-08 03:10:48] [IMessager.java] [1] [INFO] RESULT #2: TEST [GSMA0001 - Default test - testModelSpecs] FAIL [log=file://E:\Nikita_workspace\Atlas_Demo\.\reports\qa\1581154845430/bf0c6e03-c39e-4178-8b00-b6511ce3c56a/test.log]
-[2020-02-08 03:10:48] [IMessager.java] [1] [INFO] RESULT #3: TEST [GSMA0002 - Default test - testModelSpecs] FAIL [log=file://E:\Nikita_workspace\Atlas_Demo\.\reports\qa\1581154845430/fe54ef81-ec86-4d13-8bd9-e2cafe3e9a14/test.log]
-[2020-02-08 03:10:48] [IMessager.java] [1] [INFO] RESULT #4: TEST [GSMA0003 - Default test - testModelSpecs] FAIL [log=file://E:\Nikita_workspace\Atlas_Demo\.\reports\qa\1581154845430/9578953f-baff-4d45-98c8-8134cf83d843/test.log]
-[2020-02-08 03:10:48] [IMessager.java] [1] [INFO] RESULT #5: TEST [Default test - testNewsSearch] FAIL [log=file://E:\Nikita_workspace\Atlas_Demo\.\reports\qa\1581154845430/ee68647e-7e53-4094-9eac-d2fc5ac2aec5/test.log]
