@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite thread-count="1" guice-stage="DEVELOPMENT" name="Failed suite [PT Web Suite]" parallel="methods" data-provider-thread-count="1">
-  <parameter name="suiteOwner" value="admin"/>
-  <parameter name="zafira_project" value="TataDigital_Demo"/>
+<suite thread-count="3" guice-stage="DEVELOPMENT" name="Failed suite [M1 Parallel Suite]" parallel="tests" data-provider-thread-count="2">
+  <parameter name="suiteOwner" value="qpsdemo"/>
+  <parameter name="zafira_project" value="CarinaTraining"/>
   <listeners>
     <listener class-name="com.qaprosoft.zafira.listener.ZafiraListener"/>
   </listeners>
-  <test thread-count="1" name="PT Web Test(failed)" parallel="methods">
+  <test thread-count="3" name="Mobile test 2(failed)" parallel="tests">
+    <parameter name="deviceName" value="Samsung_Galaxy_J8.properties"/>
     <classes>
-      <class name="com.qaprosoft.carina.demo.WebSamplePerformanceTest">
+      <class name="com.qaprosoft.carina.demo.MobileSampleTest2">
         <methods>
-          <include name="testNewsSearch"/>
-          <include name="beforeMethod"/>
+          <include name="testWebView" invocation-numbers="0"/>
         </methods>
-      </class> <!-- com.qaprosoft.carina.demo.WebSamplePerformanceTest -->
+      </class> <!-- com.qaprosoft.carina.demo.MobileSampleTest2 -->
     </classes>
-  </test> <!-- PT Web Test(failed) -->
-</suite> <!-- Failed suite [PT Web Suite] -->
+  </test> <!-- Mobile test 2(failed) -->
+</suite> <!-- Failed suite [M1 Parallel Suite] -->

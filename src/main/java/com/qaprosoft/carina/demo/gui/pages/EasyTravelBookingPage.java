@@ -55,6 +55,8 @@ public class EasyTravelBookingPage extends AbstractPage{
 		booknow.click();
 	}
 	
+	
+	
 	public void hotelConfirmation() {
 		transactionbtn.click();
 	}

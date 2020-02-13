@@ -1,0 +1,34 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="M1 Parallel Suite" verbose="1"
+	skipfailedinvocationcounts="false" junit="false" parallel="tests"
+	data-provider-thread-count="2" thread-count="3" annotations="JDK">
+
+	<parameter name="suiteOwner" value="qpsdemo" />
+	<parameter name="zafira_project" value="CarinaTraining" />
+
+	<listeners>
+		<listener class-name="com.qaprosoft.zafira.listener.ZafiraListener" />
+	</listeners>
+
+	<test name="Mobile test 1">
+		<parameter name="deviceName" value="Samsung_Galaxy_J4_Plus.properties"></parameter>
+		<classes>
+			<class name="com.qaprosoft.carina.demo.MobileSampleTest1" />
+		</classes>
+	</test>
+
+	<test name="Mobile test 2">
+		<parameter name="deviceName" value="Samsung_Galaxy_J8.properties"></parameter>
+		<classes>
+			<class name="com.qaprosoft.carina.demo.MobileSampleTest2" />
+		</classes>
+	</test>
+
+	<test name="Mobile test 3">
+		<parameter name="deviceName" value="Samsung_Galaxy_J7_Prime.properties"></parameter>
+		<classes>
+			<class name="com.qaprosoft.carina.demo.MobileSampleTest3" />
+		</classes>
+	</test>
+
+</suite>
