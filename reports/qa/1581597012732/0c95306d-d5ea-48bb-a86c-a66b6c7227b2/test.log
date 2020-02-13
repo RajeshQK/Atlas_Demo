@@ -1,0 +1,26 @@
+[2020-02-13 06:00:13] [IMessager.java] [23] [INFO]  TEST [Mobile test 3 - testUIElements] STARTED at [18:00:13 2020-02-13]
+[2020-02-13 06:00:14] [M1CloudActivities.java] [23] [INFO] DeviceName: Samsung_Galaxy_J7_Prime.properties
+[2020-02-13 06:00:59] [DriverListener.java] [23] [INFO] PASS: element 'nextBtn' is clicked.
+[2020-02-13 06:01:01] [DriverListener.java] [23] [INFO] PASS: keys cleared in element 'nameInputField'.
+[2020-02-13 06:01:02] [DriverListener.java] [23] [INFO] PASS: keys 'Test user' are sent to element 'nameInputField'.
+[2020-02-13 06:01:05] [DriverListener.java] [23] [INFO] PASS: keys cleared in element 'passwordInputField'.
+[2020-02-13 06:01:07] [DriverListener.java] [23] [INFO] PASS: keys 'CxUMIdMBqj' are sent to element 'passwordInputField'.
+[2020-02-13 06:01:08] [DriverListener.java] [23] [INFO] PASS: element 'maleRadioBtn' is clicked.
+[2020-02-13 06:01:10] [DriverListener.java] [23] [INFO] PASS: element 'privacyPolicyCheckbox' is clicked.
+[2020-02-13 06:01:12] [DriverListener.java] [23] [INFO] PASS: element 'loginBtn' is clicked.
+[2020-02-13 06:01:17] [DriverListener.java] [23] [INFO] PASS: element 'leftMenuButton' is clicked.
+[2020-02-13 06:01:20] [DriverListener.java] [23] [INFO] PASS: element 'uiElementsLink' is clicked.
+[2020-02-13 06:01:22] [DriverListener.java] [23] [INFO] PASS: keys cleared in element 'textField'.
+[2020-02-13 06:01:24] [DriverListener.java] [23] [INFO] PASS: keys 'some text' are sent to element 'textField'.
+[2020-02-13 06:01:25] [DriverListener.java] [23] [INFO] PASS: keys cleared in element 'dateField'.
+[2020-02-13 06:01:28] [DriverListener.java] [23] [INFO] PASS: keys '22/10/2018' are sent to element 'dateField'.
+[2020-02-13 06:01:29] [DriverListener.java] [23] [INFO] PASS: keys cleared in element 'emailField'.
+[2020-02-13 06:01:31] [DriverListener.java] [23] [INFO] PASS: keys 'some@email.com' are sent to element 'emailField'.
+[2020-02-13 06:01:34] [MobileUtils.java] [23] [INFO] swiping to element: femaleRadioButton (By.id: radioButton3)
+[2020-02-13 06:01:36] [MobileUtils.java] [23] [INFO] Swipe was executed. Attempts remain: 9
+[2020-02-13 06:01:42] [MobileUtils.java] [23] [INFO] Swipe was executed. Attempts remain: 8
+[2020-02-13 06:01:42] [MobileUtils.java] [23] [INFO] Result: true
+[2020-02-13 06:01:43] [DriverListener.java] [23] [INFO] PASS: element 'checkBoxButton' is clicked.
+[2020-02-13 06:01:45] [DriverListener.java] [23] [INFO] PASS: element 'femaleRadioButton' is clicked.
+[2020-02-13 06:01:46] [DriverListener.java] [23] [INFO] PASS: element 'otherRadioButton' is clicked.
+[2020-02-13 06:01:48] [IMessager.java] [23] [INFO] SM-G610F - 5203e634f40e8329 TEST [Mobile test 3 - testUIElements] PASSED at [18:01:48 2020-02-13]

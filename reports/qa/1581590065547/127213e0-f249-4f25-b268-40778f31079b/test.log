@@ -1,0 +1,33 @@
+[2020-02-13 04:07:52] [IMessager.java] [20] [INFO] SM-J415F - 879ee013 TEST [Mobile test 1 - testWebView] STARTED at [16:07:52 2020-02-13]
+[2020-02-13 04:07:52] [M1CloudActivities.java] [20] [INFO] DeviceName: Samsung_Galaxy_J4_Plus.properties
+[2020-02-13 04:08:11] [DriverListener.java] [20] [INFO] PASS: element 'nextBtn' is clicked.
+[2020-02-13 04:08:14] [DriverListener.java] [20] [INFO] PASS: keys cleared in element 'nameInputField'.
+[2020-02-13 04:08:16] [DriverListener.java] [20] [INFO] PASS: keys 'Test user' are sent to element 'nameInputField'.
+[2020-02-13 04:08:19] [DriverListener.java] [20] [INFO] PASS: keys cleared in element 'passwordInputField'.
+[2020-02-13 04:08:21] [DriverListener.java] [20] [INFO] PASS: keys 'EBysdnFjth' are sent to element 'passwordInputField'.
+[2020-02-13 04:08:23] [DriverListener.java] [20] [INFO] PASS: element 'maleRadioBtn' is clicked.
+[2020-02-13 04:08:26] [DriverListener.java] [20] [INFO] PASS: element 'privacyPolicyCheckbox' is clicked.
+[2020-02-13 04:08:28] [DriverListener.java] [20] [INFO] PASS: element 'loginBtn' is clicked.
+[2020-02-13 04:08:32] [MobileContextUtils.java] [20] [INFO] Existing contexts: 
+[2020-02-13 04:08:32] [MobileContextUtils.java] [20] [INFO] NATIVE_APP
+[2020-02-13 04:08:32] [MobileContextUtils.java] [20] [INFO] WEBVIEW_com.solvd.carinademoapplication
+[2020-02-13 04:08:34] [IMessager.java] [20] [ERROR] SM-J415F - 879ee013 TEST [Mobile test 1 - testWebView] FAILED at [16:08:34 2020-02-13] - Desired context is not present
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'QKNBK474', ip: '10.0.75.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+Driver info: driver.version: unknown
+
+com.qaprosoft.carina.demo.utils.MobileContextUtils.switchMobileContext(MobileContextUtils.java:43)
+com.qaprosoft.carina.demo.MobileSampleTest.testWebView(MobileSampleTest.java:123)
+sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+java.lang.reflect.Method.invoke(Unknown Source)
+org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+java.lang.Thread.run(Unknown Source)
