@@ -1,0 +1,39 @@
+[2020-02-13 03:42:34] [IMessager.java] [20] [INFO]  TEST [Mobile test 1 - testLoginUser] STARTED at [15:42:34 2020-02-13]
+[2020-02-13 03:42:34] [M1CloudActivities.java] [20] [INFO] DeviceName: Samsung_Galaxy_J4_Plus.properties
+[2020-02-13 03:44:09] [DriverListener.java] [20] [INFO] PASS: element 'nextBtn' is clicked.
+[2020-02-13 03:44:12] [DriverListener.java] [20] [INFO] PASS: keys cleared in element 'nameInputField'.
+[2020-02-13 03:44:14] [DriverListener.java] [20] [INFO] PASS: keys 'Test user' are sent to element 'nameInputField'.
+[2020-02-13 03:44:17] [DriverListener.java] [20] [INFO] PASS: keys cleared in element 'passwordInputField'.
+[2020-02-13 03:44:18] [DriverListener.java] [20] [INFO] PASS: keys 'iBUZFxDZHB' are sent to element 'passwordInputField'.
+[2020-02-13 03:44:20] [DriverListener.java] [20] [INFO] PASS: element 'maleRadioBtn' is clicked.
+[2020-02-13 03:44:44] [ExtendedWebElement.java] [20] [ERROR] FAIL: tap - waitCondition for element 'privacyPolicyCheckbox (By.id: checkbox)' not satisfied!
+[2020-02-13 03:44:44] [ExtendedWebElement.java] [20] [ERROR] catched WebDriverException: 
+[2020-02-13 03:44:47] [IMessager.java] [20] [ERROR] SM-J415F - 879ee013 TEST [Mobile test 1 - testLoginUser] FAILED at [15:44:47 2020-02-13] - Unable to detect element: privacyPolicyCheckbox (By.id: checkbox)
+
+com.qaprosoft.carina.core.foundation.webdriver.decorator.ExtendedWebElement.doAction(ExtendedWebElement.java:1391)
+com.qaprosoft.carina.core.foundation.webdriver.decorator.ExtendedWebElement.doAction(ExtendedWebElement.java:1345)
+com.qaprosoft.carina.core.foundation.webdriver.decorator.ExtendedWebElement.click(ExtendedWebElement.java:493)
+com.qaprosoft.carina.core.foundation.webdriver.decorator.ExtendedWebElement.click(ExtendedWebElement.java:481)
+com.qaprosoft.carina.core.foundation.webdriver.decorator.ExtendedWebElement.click(ExtendedWebElement.java:472)
+com.qaprosoft.carina.demo.mobile.gui.pages.android.LoginPage.checkPrivacyPolicyCheckbox(LoginPage.java:57)
+com.qaprosoft.carina.demo.MobileSampleTest.testLoginUser(MobileSampleTest.java:103)
+sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+java.lang.reflect.Method.invoke(Unknown Source)
+org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+org.testng.TestRunner.privateRun(TestRunner.java:648)
+org.testng.TestRunner.run(TestRunner.java:505)
+org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
+org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
+org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+java.util.concurrent.FutureTask.run(Unknown Source)
+java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+java.lang.Thread.run(Unknown Source)

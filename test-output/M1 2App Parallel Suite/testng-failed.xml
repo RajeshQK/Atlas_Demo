@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" guice-stage="DEVELOPMENT" name="Failed suite [M1 2App Parallel Suite]" parallel="classes" data-provider-thread-count="1">
+  <parameter name="suiteOwner" value="qpsdemo"/>
+  <parameter name="zafira_project" value="CarinaTraining"/>
+  <test thread-count="2" name="Mobile test 1(failed)" parallel="classes">
+    <parameter name="deviceName" value="Samsung_Galaxy_J4_Plus.properties"/>
+    <classes>
+      <class name="com.qaprosoft.carina.demo.MobileSampleTest">
+        <methods>
+          <include name="testUIElements" invocation-numbers="0"/>
+          <include name="testWebView" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.qaprosoft.carina.demo.MobileSampleTest -->
+    </classes>
+  </test> <!-- Mobile test 1(failed) -->
+  <test thread-count="2" name="Mobile test 2(failed)" parallel="classes">
+    <parameter name="deviceName" value="OnePlus7.properties"/>
+    <classes>
+      <class name="com.qaprosoft.carina.demo.HDFC_MobileSalesDemo">
+        <methods>
+          <include name="testMobileSalesDiary" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.qaprosoft.carina.demo.HDFC_MobileSalesDemo -->
+    </classes>
+  </test> <!-- Mobile test 2(failed) -->
+</suite> <!-- Failed suite [M1 2App Parallel Suite] -->

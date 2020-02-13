@@ -1,0 +1,2781 @@
+2020-02-12 11:24:39 CarinaListener [INFO] 
+============= Test configuration =============
+url=https://www.gsmarena.com
+env=DEMO
+env_arg_resolver=com.qaprosoft.carina.core.foundation.utils.DefaultEnvArgResolver
+platform=*
+browser=chrome
+browser_version=*
+browser_language=
+selenium_host=http://localhost:4444/wd/hub
+driver_event_listeners=com.qaprosoft.carina.demo.utils.PerfEventHandler
+max_driver_count=3
+custom_capabilities=
+chrome_args=
+chrome_experimental_opts=
+chrome_mobile_emulation_opts=
+firefox_args=
+firefox_preferences=
+app_version=
+proxy_host=
+proxy_port=
+proxy_protocols=http,https,ftp
+browsermob_proxy=false
+browsermob_host=
+browsermob_port=0
+browsermob_ports_range=
+browsermob_disabled_mitm=false
+proxy_set_to_system=false
+report_url=
+email_list=
+failure_email_list=
+track_known_issues=false
+auto_screenshot=true
+implicit_timeout=10
+explicit_timeout=20
+auto_download=false
+auto_download_apps=
+custom_artifacts_folder=
+retry_interval=5
+project_report_directory=./reports/qa
+max_screen_history=10
+max_log_file_size=150
+result_sorting=true
+big_screen_width=-1
+big_screen_height=-1
+small_screen_width=90
+small_screen_height=60
+init_retry_count=0
+init_retry_interval=1
+retry_count=0
+enable_l10n=true
+l10n_encoding=ISO-8859-1
+locale=en_US
+enable_i18n=true
+language=en_US
+thread_count=1
+data_provider_thread_count=-1
+core_log_level=INFO
+core_log_packages=com.qaprosoft.carina.core
+artifacts_expiration_seconds=2592000
+log_all_json=true
+date_format=HH:mm:ss yyyy-MM-dd
+time_format=HH:mm:ss
+suite_name=
+jira_updater=com.qaprosoft.carina.core.foundation.jira.DefaultJiraUpdater
+jira_url=
+jira_user=
+jira_password=
+jira_suite_id=
+jira_project=
+jira_project_short=
+jira_create_new_ticket=false
+test_naming_pattern={method_name}
+optimize_video_recording=false
+testrail_run_name=
+testrail_milestone=
+testrail_assignee=
+qtest_cycle_name=DailyAutomation
+qtest_suite_name=
+s3_bucket_name=
+access_key_id=
+secret_key=
+s3_use_presign_url=false
+s3_local_storage=.
+appcenter_token=
+appcenter_local_storage=.
+add_new_localization=false
+add_new_localization_encoding=utf-8
+add_new_localization_path=
+add_new_localization_property_name=new_custom_messages_
+tls_keysecure_location=
+health_check_class=
+health_check_methods=
+uninstall_related_apps=false
+default_device_timezone=GMT
+default_device_time_format=24
+default_device_language=en_US
+android_screen_record_size=
+android_screen_record_bitrate=
+android_enable_bug_report=true
+ios_screen_record_quality=MEDIUM
+ios_screen_record_codec=libx264
+ios_screen_record_fps=10
+screen_record_duration=180
+video_scale=-2:720
+ignore_ssl=false
+test_run_rules=
+hub_mode=selenium
+extract_sys_log=false
+selenium_host=http://localhost:4444/wd/hub
+
+------------- Driver capabilities -----------
+================================================
+
+2020-02-12 11:24:39 CarinaListener [INFO] Set data_provider_thread_count=1
+2020-02-12 11:24:39 CarinaListener [INFO] CARINA_CORE_VERSION: 6.3.30
+2020-02-12 11:24:39 Messager [INFO]  TEST [Default test - testCompareModels] STARTED at [11:24:39 2020-02-12]
+2020-02-12 11:24:48 DesktopFactory [INFO] Browser window was maximized
+2020-02-12 11:24:48 Messager [INFO] INFO: url 'https://www.gsmarena.com' is being opened...
+2020-02-12 11:24:59 DriverListener [INFO] INFO: url 'https://www.gsmarena.com' is opened.
+2020-02-12 11:25:06 PerfEventHandler [INFO] URL 'https://www.gsmarena.com' opened
+2020-02-12 11:25:10 DriverListener [INFO] PASS: element 'compareLink' is clicked.
+2020-02-12 11:25:16 PerformanceStats [INFO] perf_log_12.02.2020 index is present
+2020-02-12 11:25:16 PerfEventHandler [INFO] Element clicked
+2020-02-12 11:25:19 PerformanceStats [INFO] perf_log_12.02.2020 index is present
+2020-02-12 11:25:19 PerfEventHandler [INFO] Element clicked
+2020-02-12 11:25:21 DriverListener [INFO] PASS: element 'inputField' is clicked.
+2020-02-12 11:25:22 PerformanceStats [INFO] perf_log_12.02.2020 index is present
+2020-02-12 11:25:22 PerfEventHandler [INFO] Element clicked
+2020-02-12 11:25:24 PerformanceStats [INFO] perf_log_12.02.2020 index is present
+2020-02-12 11:25:24 PerfEventHandler [INFO] Element clicked
+2020-02-12 11:25:25 DriverListener [INFO] PASS: keys cleared in element 'inputField'.
+2020-02-12 11:25:26 PerfEventHandler [INFO] Text '' typed
+2020-02-12 11:25:27 DriverListener [INFO] PASS: keys 'Samsung Galaxy J3' are sent to element 'inputField'.
+2020-02-12 11:25:28 PerfEventHandler [INFO] Text 'Samsung Galaxy J3' typed
+2020-02-12 11:25:32 DriverListener [INFO] PASS: element 'Samsung Galaxy J3 (2016)' is clicked.
+2020-02-12 11:25:34 PerformanceStats [INFO] perf_log_12.02.2020 index is present
+2020-02-12 11:25:34 PerfEventHandler [INFO] Element clicked
+2020-02-12 11:25:36 PerformanceStats [INFO] perf_log_12.02.2020 index is present
+2020-02-12 11:25:36 PerfEventHandler [INFO] Element clicked
+2020-02-12 11:25:37 DriverListener [INFO] PASS: element 'inputField' is clicked.
+2020-02-12 11:25:39 PerformanceStats [INFO] perf_log_12.02.2020 index is present
+2020-02-12 11:25:39 PerfEventHandler [INFO] Element clicked
+2020-02-12 11:25:40 PerformanceStats [INFO] perf_log_12.02.2020 index is present
+2020-02-12 11:25:40 PerfEventHandler [INFO] Element clicked
+2020-02-12 11:25:41 DriverListener [INFO] PASS: keys cleared in element 'inputField'.
+2020-02-12 11:25:43 PerfEventHandler [INFO] Text '' typed
+2020-02-12 11:25:44 DriverListener [INFO] PASS: keys 'Samsung Galaxy J5' are sent to element 'inputField'.
+2020-02-12 11:25:45 PerfEventHandler [INFO] Text 'Samsung Galaxy J5' typed
+2020-02-12 11:25:50 DriverListener [INFO] PASS: element 'Samsung Galaxy J5' is clicked.
+2020-02-12 11:25:51 PerformanceStats [INFO] perf_log_12.02.2020 index is present
+2020-02-12 11:25:51 PerfEventHandler [INFO] Element clicked
+2020-02-12 11:25:52 PerformanceStats [INFO] perf_log_12.02.2020 index is present
+2020-02-12 11:25:52 PerfEventHandler [INFO] Element clicked
+2020-02-12 11:25:54 DriverListener [INFO] PASS: element 'inputField' is clicked.
+2020-02-12 11:25:56 PerformanceStats [INFO] perf_log_12.02.2020 index is present
+2020-02-12 11:25:56 PerfEventHandler [INFO] Element clicked
+2020-02-12 11:25:57 PerformanceStats [INFO] perf_log_12.02.2020 index is present
+2020-02-12 11:25:57 PerfEventHandler [INFO] Element clicked
+2020-02-12 11:25:58 DriverListener [INFO] PASS: keys cleared in element 'inputField'.
+2020-02-12 11:37:16 CarinaListener [INFO] 
+============= Test configuration =============
+url=https://www.gsmarena.com
+env=DEMO
+env_arg_resolver=com.qaprosoft.carina.core.foundation.utils.DefaultEnvArgResolver
+platform=*
+browser=chrome
+browser_version=*
+browser_language=
+selenium_host=http://localhost:4444/wd/hub
+driver_event_listeners=com.qaprosoft.carina.demo.utils.PerfEventHandler
+max_driver_count=3
+custom_capabilities=
+chrome_args=
+chrome_experimental_opts=
+chrome_mobile_emulation_opts=
+firefox_args=
+firefox_preferences=
+app_version=
+proxy_host=
+proxy_port=
+proxy_protocols=http,https,ftp
+browsermob_proxy=false
+browsermob_host=
+browsermob_port=0
+browsermob_ports_range=
+browsermob_disabled_mitm=false
+proxy_set_to_system=false
+report_url=
+email_list=
+failure_email_list=
+track_known_issues=false
+auto_screenshot=true
+implicit_timeout=10
+explicit_timeout=20
+auto_download=false
+auto_download_apps=
+custom_artifacts_folder=
+retry_interval=5
+project_report_directory=./reports/qa
+max_screen_history=10
+max_log_file_size=150
+result_sorting=true
+big_screen_width=-1
+big_screen_height=-1
+small_screen_width=90
+small_screen_height=60
+init_retry_count=0
+init_retry_interval=1
+retry_count=0
+enable_l10n=true
+l10n_encoding=ISO-8859-1
+locale=en_US
+enable_i18n=true
+language=en_US
+thread_count=1
+data_provider_thread_count=-1
+core_log_level=INFO
+core_log_packages=com.qaprosoft.carina.core
+artifacts_expiration_seconds=2592000
+log_all_json=true
+date_format=HH:mm:ss yyyy-MM-dd
+time_format=HH:mm:ss
+suite_name=
+jira_updater=com.qaprosoft.carina.core.foundation.jira.DefaultJiraUpdater
+jira_url=
+jira_user=
+jira_password=
+jira_suite_id=
+jira_project=
+jira_project_short=
+jira_create_new_ticket=false
+test_naming_pattern={method_name}
+optimize_video_recording=false
+testrail_run_name=
+testrail_milestone=
+testrail_assignee=
+qtest_cycle_name=DailyAutomation
+qtest_suite_name=
+s3_bucket_name=
+access_key_id=
+secret_key=
+s3_use_presign_url=false
+s3_local_storage=.
+appcenter_token=
+appcenter_local_storage=.
+add_new_localization=false
+add_new_localization_encoding=utf-8
+add_new_localization_path=
+add_new_localization_property_name=new_custom_messages_
+tls_keysecure_location=
+health_check_class=
+health_check_methods=
+uninstall_related_apps=false
+default_device_timezone=GMT
+default_device_time_format=24
+default_device_language=en_US
+android_screen_record_size=
+android_screen_record_bitrate=
+android_enable_bug_report=true
+ios_screen_record_quality=MEDIUM
+ios_screen_record_codec=libx264
+ios_screen_record_fps=10
+screen_record_duration=180
+video_scale=-2:720
+ignore_ssl=false
+test_run_rules=
+hub_mode=selenium
+extract_sys_log=false
+selenium_host=http://localhost:4444/wd/hub
+
+------------- Driver capabilities -----------
+================================================
+
+2020-02-12 11:37:16 CarinaListener [INFO] Set data_provider_thread_count=1
+2020-02-12 11:37:16 CarinaListener [INFO] CARINA_CORE_VERSION: 6.3.30
+2020-02-12 11:37:17 Messager [INFO]  TEST [GSM arena web tests - testCompareModels] STARTED at [11:37:17 2020-02-12]
+2020-02-12 11:37:21 DesktopFactory [INFO] Browser window was maximized
+2020-02-12 11:37:21 Messager [INFO] INFO: url 'https://www.gsmarena.com' is being opened...
+2020-02-12 11:37:28 DriverListener [INFO] INFO: url 'https://www.gsmarena.com' is opened.
+2020-02-12 11:37:30 PerfEventHandler [INFO] URL 'https://www.gsmarena.com' opened
+2020-02-12 11:37:33 DriverListener [INFO] PASS: element 'compareLink' is clicked.
+2020-02-12 11:39:09 CarinaListener [INFO] 
+============= Test configuration =============
+url=https://www.gsmarena.com
+env=DEMO
+env_arg_resolver=com.qaprosoft.carina.core.foundation.utils.DefaultEnvArgResolver
+platform=*
+browser=chrome
+browser_version=*
+browser_language=
+selenium_host=http://localhost:4444/wd/hub
+driver_event_listeners=com.qaprosoft.carina.demo.utils.PerfEventHandler
+max_driver_count=3
+custom_capabilities=
+chrome_args=
+chrome_experimental_opts=
+chrome_mobile_emulation_opts=
+firefox_args=
+firefox_preferences=
+app_version=
+proxy_host=
+proxy_port=
+proxy_protocols=http,https,ftp
+browsermob_proxy=false
+browsermob_host=
+browsermob_port=0
+browsermob_ports_range=
+browsermob_disabled_mitm=false
+proxy_set_to_system=false
+report_url=
+email_list=
+failure_email_list=
+track_known_issues=false
+auto_screenshot=true
+implicit_timeout=10
+explicit_timeout=20
+auto_download=false
+auto_download_apps=
+custom_artifacts_folder=
+retry_interval=5
+project_report_directory=./reports/qa
+max_screen_history=10
+max_log_file_size=150
+result_sorting=true
+big_screen_width=-1
+big_screen_height=-1
+small_screen_width=90
+small_screen_height=60
+init_retry_count=0
+init_retry_interval=1
+retry_count=0
+enable_l10n=true
+l10n_encoding=ISO-8859-1
+locale=en_US
+enable_i18n=true
+language=en_US
+thread_count=1
+data_provider_thread_count=-1
+core_log_level=INFO
+core_log_packages=com.qaprosoft.carina.core
+artifacts_expiration_seconds=2592000
+log_all_json=true
+date_format=HH:mm:ss yyyy-MM-dd
+time_format=HH:mm:ss
+suite_name=
+jira_updater=com.qaprosoft.carina.core.foundation.jira.DefaultJiraUpdater
+jira_url=
+jira_user=
+jira_password=
+jira_suite_id=
+jira_project=
+jira_project_short=
+jira_create_new_ticket=false
+test_naming_pattern={method_name}
+optimize_video_recording=false
+testrail_run_name=
+testrail_milestone=
+testrail_assignee=
+qtest_cycle_name=DailyAutomation
+qtest_suite_name=
+s3_bucket_name=
+access_key_id=
+secret_key=
+s3_use_presign_url=false
+s3_local_storage=.
+appcenter_token=
+appcenter_local_storage=.
+add_new_localization=false
+add_new_localization_encoding=utf-8
+add_new_localization_path=
+add_new_localization_property_name=new_custom_messages_
+tls_keysecure_location=
+health_check_class=
+health_check_methods=
+uninstall_related_apps=false
+default_device_timezone=GMT
+default_device_time_format=24
+default_device_language=en_US
+android_screen_record_size=
+android_screen_record_bitrate=
+android_enable_bug_report=true
+ios_screen_record_quality=MEDIUM
+ios_screen_record_codec=libx264
+ios_screen_record_fps=10
+screen_record_duration=180
+video_scale=-2:720
+ignore_ssl=false
+test_run_rules=
+hub_mode=selenium
+extract_sys_log=false
+selenium_host=http://localhost:4444/wd/hub
+
+------------- Driver capabilities -----------
+================================================
+
+2020-02-12 11:39:09 CarinaListener [INFO] Set data_provider_thread_count=1
+2020-02-12 11:39:09 CarinaListener [INFO] CARINA_CORE_VERSION: 6.3.30
+2020-02-12 11:39:10 WebSamplePerformanceTest [INFO] Suite Name: PT Web Suite
+2020-02-12 11:39:10 WebSamplePerformanceTest [INFO] Test Name: testCompareModels
+2020-02-12 11:39:10 Messager [INFO]  TEST [PT Web Test - testCompareModels] STARTED at [11:39:10 2020-02-12]
+2020-02-12 11:39:15 DesktopFactory [INFO] Browser window was maximized
+2020-02-12 11:39:15 Messager [INFO] INFO: url 'https://www.gsmarena.com' is being opened...
+2020-02-12 11:39:24 DriverListener [INFO] INFO: url 'https://www.gsmarena.com' is opened.
+2020-02-12 11:39:25 PerfEventHandler [INFO] URL 'https://www.gsmarena.com' opened
+2020-02-12 11:39:29 DriverListener [INFO] PASS: element 'compareLink' is clicked.
+2020-02-12 11:39:30 ExtendedWebElement [ERROR] 
+java.lang.NullPointerException
+	at com.qaprosoft.carina.demo.utils.PerfEventHandler.afterClickOn(PerfEventHandler.java:42)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$0(EventFiringWebDriver.java:84)
+	at com.sun.proxy.$Proxy41.afterClickOn(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:418)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at com.sun.proxy.$Proxy45.click(Unknown Source)
+	at com.qaprosoft.carina.core.foundation.webdriver.decorator.ExtendedWebElement$1.doClick(ExtendedWebElement.java:1416)
+	at com.qaprosoft.carina.core.foundation.webdriver.decorator.ExtendedWebElement.executeAction(ExtendedWebElement.java:1263)
+	at com.qaprosoft.carina.core.foundation.webdriver.decorator.ExtendedWebElement.overrideAction(ExtendedWebElement.java:1408)
+	at com.qaprosoft.carina.core.foundation.webdriver.decorator.ExtendedWebElement.doAction(ExtendedWebElement.java:1377)
+	at com.qaprosoft.carina.core.foundation.webdriver.decorator.ExtendedWebElement.doAction(ExtendedWebElement.java:1345)
+	at com.qaprosoft.carina.core.foundation.webdriver.decorator.ExtendedWebElement.click(ExtendedWebElement.java:495)
+	at com.qaprosoft.carina.core.foundation.webdriver.decorator.ExtendedWebElement.click(ExtendedWebElement.java:481)
+	at com.qaprosoft.carina.core.foundation.webdriver.decorator.ExtendedWebElement.click(ExtendedWebElement.java:472)
+	at com.qaprosoft.carina.demo.gui.components.FooterMenu.openComparePage(FooterMenu.java:48)
+	at com.qaprosoft.carina.demo.WebSamplePerformanceTest.testCompareModels(WebSamplePerformanceTest.java:124)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.MethodInvocationHelper$1.runTestMethod(MethodInvocationHelper.java:230)
+	at com.qaprosoft.zafira.listener.ZafiraListener.lambda$run$0(ZafiraListener.java:103)
+	at com.qaprosoft.zafira.listener.ZafiraEventRegistrar.onTestHook(ZafiraEventRegistrar.java:360)
+	at com.qaprosoft.zafira.listener.ZafiraListener.run(ZafiraListener.java:103)
+	at org.testng.internal.MethodInvocationHelper.invokeHookable(MethodInvocationHelper.java:242)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:579)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+2020-02-12 11:41:13 CarinaListener [INFO] 
+============= Test configuration =============
+url=https://www.gsmarena.com
+env=DEMO
+env_arg_resolver=com.qaprosoft.carina.core.foundation.utils.DefaultEnvArgResolver
+platform=WEB
+browser=chrome
+browser_version=*
+browser_language=
+selenium_host=http://localhost:4444/wd/hub
+driver_event_listeners=com.qaprosoft.carina.demo.utils.PerfEventHandler
+max_driver_count=3
+custom_capabilities=
+chrome_args=
+chrome_experimental_opts=
+chrome_mobile_emulation_opts=
+firefox_args=
+firefox_preferences=
+app_version=
+proxy_host=
+proxy_port=
+proxy_protocols=http,https,ftp
+browsermob_proxy=false
+browsermob_host=
+browsermob_port=0
+browsermob_ports_range=
+browsermob_disabled_mitm=false
+proxy_set_to_system=false
+report_url=
+email_list=
+failure_email_list=
+track_known_issues=false
+auto_screenshot=true
+implicit_timeout=10
+explicit_timeout=20
+auto_download=false
+auto_download_apps=
+custom_artifacts_folder=
+retry_interval=5
+project_report_directory=./reports/qa
+max_screen_history=10
+max_log_file_size=150
+result_sorting=true
+big_screen_width=-1
+big_screen_height=-1
+small_screen_width=90
+small_screen_height=60
+init_retry_count=0
+init_retry_interval=1
+retry_count=0
+enable_l10n=true
+l10n_encoding=ISO-8859-1
+locale=en_US
+enable_i18n=true
+language=en_US
+thread_count=1
+data_provider_thread_count=-1
+core_log_level=INFO
+core_log_packages=com.qaprosoft.carina.core
+artifacts_expiration_seconds=2592000
+log_all_json=true
+date_format=HH:mm:ss yyyy-MM-dd
+time_format=HH:mm:ss
+suite_name=
+jira_updater=com.qaprosoft.carina.core.foundation.jira.DefaultJiraUpdater
+jira_url=
+jira_user=
+jira_password=
+jira_suite_id=
+jira_project=
+jira_project_short=
+jira_create_new_ticket=false
+test_naming_pattern={method_name}
+optimize_video_recording=false
+testrail_run_name=
+testrail_milestone=
+testrail_assignee=
+qtest_cycle_name=DailyAutomation
+qtest_suite_name=
+s3_bucket_name=
+access_key_id=
+secret_key=
+s3_use_presign_url=false
+s3_local_storage=.
+appcenter_token=
+appcenter_local_storage=.
+add_new_localization=false
+add_new_localization_encoding=utf-8
+add_new_localization_path=
+add_new_localization_property_name=new_custom_messages_
+tls_keysecure_location=
+health_check_class=
+health_check_methods=
+uninstall_related_apps=false
+default_device_timezone=GMT
+default_device_time_format=24
+default_device_language=en_US
+android_screen_record_size=
+android_screen_record_bitrate=
+android_enable_bug_report=true
+ios_screen_record_quality=MEDIUM
+ios_screen_record_codec=libx264
+ios_screen_record_fps=10
+screen_record_duration=180
+video_scale=-2:720
+ignore_ssl=false
+test_run_rules=
+hub_mode=selenium
+extract_sys_log=false
+selenium_host=http://localhost:4444/wd/hub
+
+------------- Driver capabilities -----------
+================================================
+
+2020-02-12 11:41:14 CarinaListener [INFO] Set data_provider_thread_count=1
+2020-02-12 11:41:14 CarinaListener [INFO] CARINA_CORE_VERSION: 6.3.30
+2020-02-12 11:41:15 WebSamplePerformanceTest [INFO] Suite Name: PT Web Suite
+2020-02-12 11:41:15 WebSamplePerformanceTest [INFO] Test Name: testCompareModels
+2020-02-12 11:41:15 Messager [INFO]  TEST [PT Web Test - testCompareModels] STARTED at [11:41:15 2020-02-12]
+2020-02-12 11:41:19 DesktopFactory [INFO] Browser window was maximized
+2020-02-12 11:41:19 Messager [INFO] INFO: url 'https://www.gsmarena.com' is being opened...
+2020-02-12 11:41:27 DriverListener [INFO] INFO: url 'https://www.gsmarena.com' is opened.
+2020-02-12 11:41:28 PerfEventHandler [INFO] URL 'https://www.gsmarena.com' opened
+2020-02-12 11:41:31 DriverListener [INFO] PASS: element 'compareLink' is clicked.
+2020-02-12 11:41:38 PerformanceStats [INFO] perf_log_12.02.2020 index is present
+2020-02-12 11:41:38 PerformanceStats [INFO] ZafiraRunID: 394
+2020-02-12 11:41:38 PerformanceStats [INFO] SuiteName: PT Web Suite
+2020-02-12 11:41:38 PerformanceStats [INFO] TestCaseID: testCompareModels
+2020-02-12 11:41:43 PerfEventHandler [INFO] Element clicked
+2020-02-12 11:41:45 DriverListener [INFO] PASS: element 'inputField' is clicked.
+2020-02-12 11:41:46 PerformanceStats [INFO] perf_log_12.02.2020 index is present
+2020-02-12 11:41:46 PerformanceStats [INFO] ZafiraRunID: 394
+2020-02-12 11:41:46 PerformanceStats [INFO] SuiteName: PT Web Suite
+2020-02-12 11:41:46 PerformanceStats [INFO] TestCaseID: testCompareModels
+2020-02-12 11:41:46 PerfEventHandler [INFO] Element clicked
+2020-02-12 11:41:47 DriverListener [INFO] PASS: keys cleared in element 'inputField'.
+2020-02-12 11:41:48 PerfEventHandler [INFO] Text '' typed
+2020-02-12 11:41:50 DriverListener [INFO] PASS: keys 'Samsung Galaxy J3' are sent to element 'inputField'.
+2020-02-12 11:41:51 PerfEventHandler [INFO] Text 'Samsung Galaxy J3' typed
+2020-02-12 11:43:25 CarinaListener [INFO] 
+============= Test configuration =============
+url=https://www.gsmarena.com
+env=DEMO
+env_arg_resolver=com.qaprosoft.carina.core.foundation.utils.DefaultEnvArgResolver
+platform=WEB
+browser=chrome
+browser_version=*
+browser_language=
+selenium_host=http://localhost:4444/wd/hub
+driver_event_listeners=com.qaprosoft.carina.demo.utils.PerfEventHandler
+max_driver_count=3
+custom_capabilities=
+chrome_args=
+chrome_experimental_opts=
+chrome_mobile_emulation_opts=
+firefox_args=
+firefox_preferences=
+app_version=
+proxy_host=
+proxy_port=
+proxy_protocols=http,https,ftp
+browsermob_proxy=false
+browsermob_host=
+browsermob_port=0
+browsermob_ports_range=
+browsermob_disabled_mitm=false
+proxy_set_to_system=false
+report_url=
+email_list=
+failure_email_list=
+track_known_issues=false
+auto_screenshot=true
+implicit_timeout=10
+explicit_timeout=20
+auto_download=false
+auto_download_apps=
+custom_artifacts_folder=
+retry_interval=5
+project_report_directory=./reports/qa
+max_screen_history=10
+max_log_file_size=150
+result_sorting=true
+big_screen_width=-1
+big_screen_height=-1
+small_screen_width=90
+small_screen_height=60
+init_retry_count=0
+init_retry_interval=1
+retry_count=0
+enable_l10n=true
+l10n_encoding=ISO-8859-1
+locale=en_US
+enable_i18n=true
+language=en_US
+thread_count=1
+data_provider_thread_count=-1
+core_log_level=INFO
+core_log_packages=com.qaprosoft.carina.core
+artifacts_expiration_seconds=2592000
+log_all_json=true
+date_format=HH:mm:ss yyyy-MM-dd
+time_format=HH:mm:ss
+suite_name=
+jira_updater=com.qaprosoft.carina.core.foundation.jira.DefaultJiraUpdater
+jira_url=
+jira_user=
+jira_password=
+jira_suite_id=
+jira_project=
+jira_project_short=
+jira_create_new_ticket=false
+test_naming_pattern={method_name}
+optimize_video_recording=false
+testrail_run_name=
+testrail_milestone=
+testrail_assignee=
+qtest_cycle_name=DailyAutomation
+qtest_suite_name=
+s3_bucket_name=
+access_key_id=
+secret_key=
+s3_use_presign_url=false
+s3_local_storage=.
+appcenter_token=
+appcenter_local_storage=.
+add_new_localization=false
+add_new_localization_encoding=utf-8
+add_new_localization_path=
+add_new_localization_property_name=new_custom_messages_
+tls_keysecure_location=
+health_check_class=
+health_check_methods=
+uninstall_related_apps=false
+default_device_timezone=GMT
+default_device_time_format=24
+default_device_language=en_US
+android_screen_record_size=
+android_screen_record_bitrate=
+android_enable_bug_report=true
+ios_screen_record_quality=MEDIUM
+ios_screen_record_codec=libx264
+ios_screen_record_fps=10
+screen_record_duration=180
+video_scale=-2:720
+ignore_ssl=false
+test_run_rules=
+hub_mode=selenium
+extract_sys_log=false
+selenium_host=http://localhost:4444/wd/hub
+
+------------- Driver capabilities -----------
+================================================
+
+2020-02-12 11:43:25 CarinaListener [INFO] Set data_provider_thread_count=1
+2020-02-12 11:43:25 CarinaListener [INFO] CARINA_CORE_VERSION: 6.3.30
+2020-02-12 11:43:26 WebSamplePerformanceTest [INFO] Suite Name: PT Web Suite
+2020-02-12 11:43:26 WebSamplePerformanceTest [INFO] Test Name: testCompareModels
+2020-02-12 11:43:26 Messager [INFO]  TEST [PT Web Test - testCompareModels] STARTED at [11:43:26 2020-02-12]
+2020-02-12 11:43:30 DesktopFactory [INFO] Browser window was maximized
+2020-02-12 11:43:30 Messager [INFO] INFO: url 'https://www.gsmarena.com' is being opened...
+2020-02-12 11:43:41 DriverListener [INFO] INFO: url 'https://www.gsmarena.com' is opened.
+2020-02-12 11:43:43 PerfEventHandler [INFO] URL 'https://www.gsmarena.com' opened
+2020-02-12 11:43:46 DriverListener [INFO] PASS: element 'compareLink' is clicked.
+2020-02-12 11:43:48 PerformanceStats [INFO] perf_log_12.02.2020 index is present
+2020-02-12 11:43:48 PerformanceStats [INFO] ZafiraRunID: 395
+2020-02-12 11:43:48 PerformanceStats [INFO] SuiteName: PT Web Suite
+2020-02-12 11:43:48 PerformanceStats [INFO] TestCaseID: testCompareModels
+2020-02-12 11:43:51 PerfEventHandler [INFO] Element clicked
+2020-02-12 11:43:52 DriverListener [INFO] PASS: element 'inputField' is clicked.
+2020-02-12 11:45:05 CarinaListener [INFO] 
+============= Test configuration =============
+url=https://www.gsmarena.com
+env=DEMO
+env_arg_resolver=com.qaprosoft.carina.core.foundation.utils.DefaultEnvArgResolver
+platform=WEB
+browser=chrome
+browser_version=*
+browser_language=
+selenium_host=http://localhost:4444/wd/hub
+driver_event_listeners=com.qaprosoft.carina.demo.utils.PerfEventHandler
+max_driver_count=3
+custom_capabilities=
+chrome_args=
+chrome_experimental_opts=
+chrome_mobile_emulation_opts=
+firefox_args=
+firefox_preferences=
+app_version=
+proxy_host=
+proxy_port=
+proxy_protocols=http,https,ftp
+browsermob_proxy=false
+browsermob_host=
+browsermob_port=0
+browsermob_ports_range=
+browsermob_disabled_mitm=false
+proxy_set_to_system=false
+report_url=
+email_list=
+failure_email_list=
+track_known_issues=false
+auto_screenshot=true
+implicit_timeout=10
+explicit_timeout=20
+auto_download=false
+auto_download_apps=
+custom_artifacts_folder=
+retry_interval=5
+project_report_directory=./reports/qa
+max_screen_history=10
+max_log_file_size=150
+result_sorting=true
+big_screen_width=-1
+big_screen_height=-1
+small_screen_width=90
+small_screen_height=60
+init_retry_count=0
+init_retry_interval=1
+retry_count=0
+enable_l10n=true
+l10n_encoding=ISO-8859-1
+locale=en_US
+enable_i18n=true
+language=en_US
+thread_count=1
+data_provider_thread_count=-1
+core_log_level=INFO
+core_log_packages=com.qaprosoft.carina.core
+artifacts_expiration_seconds=2592000
+log_all_json=true
+date_format=HH:mm:ss yyyy-MM-dd
+time_format=HH:mm:ss
+suite_name=
+jira_updater=com.qaprosoft.carina.core.foundation.jira.DefaultJiraUpdater
+jira_url=
+jira_user=
+jira_password=
+jira_suite_id=
+jira_project=
+jira_project_short=
+jira_create_new_ticket=false
+test_naming_pattern={method_name}
+optimize_video_recording=false
+testrail_run_name=
+testrail_milestone=
+testrail_assignee=
+qtest_cycle_name=DailyAutomation
+qtest_suite_name=
+s3_bucket_name=
+access_key_id=
+secret_key=
+s3_use_presign_url=false
+s3_local_storage=.
+appcenter_token=
+appcenter_local_storage=.
+add_new_localization=false
+add_new_localization_encoding=utf-8
+add_new_localization_path=
+add_new_localization_property_name=new_custom_messages_
+tls_keysecure_location=
+health_check_class=
+health_check_methods=
+uninstall_related_apps=false
+default_device_timezone=GMT
+default_device_time_format=24
+default_device_language=en_US
+android_screen_record_size=
+android_screen_record_bitrate=
+android_enable_bug_report=true
+ios_screen_record_quality=MEDIUM
+ios_screen_record_codec=libx264
+ios_screen_record_fps=10
+screen_record_duration=180
+video_scale=-2:720
+ignore_ssl=false
+test_run_rules=
+hub_mode=selenium
+extract_sys_log=false
+selenium_host=http://localhost:4444/wd/hub
+
+------------- Driver capabilities -----------
+================================================
+
+2020-02-12 11:45:06 CarinaListener [INFO] Set data_provider_thread_count=1
+2020-02-12 11:45:06 CarinaListener [INFO] CARINA_CORE_VERSION: 6.3.30
+2020-02-12 11:45:06 WebSamplePerformanceTest [INFO] Suite Name: PT Web Suite
+2020-02-12 11:45:06 WebSamplePerformanceTest [INFO] Test Name: testCompareModels
+2020-02-12 11:45:06 Messager [INFO]  TEST [PT Web Test - testCompareModels] STARTED at [11:45:06 2020-02-12]
+2020-02-12 11:45:11 DesktopFactory [INFO] Browser window was maximized
+2020-02-12 11:45:11 Messager [INFO] INFO: url 'https://www.gsmarena.com' is being opened...
+2020-02-12 11:45:18 DriverListener [INFO] INFO: url 'https://www.gsmarena.com' is opened.
+2020-02-12 11:45:19 PerfEventHandler [INFO] URL 'https://www.gsmarena.com' opened
+2020-02-12 11:45:22 DriverListener [INFO] PASS: element 'compareLink' is clicked.
+2020-02-12 11:45:24 PerformanceStats [INFO] perf_log_12.02.2020 index is present
+2020-02-12 11:45:24 PerformanceStats [INFO] ZafiraRunID: 396
+2020-02-12 11:45:24 PerformanceStats [INFO] SuiteName: PT Web Suite
+2020-02-12 11:45:24 PerformanceStats [INFO] TestCaseID: testCompareModels
+2020-02-12 11:45:27 PerfEventHandler [INFO] Element clicked
+2020-02-12 11:45:29 DriverListener [INFO] PASS: element 'inputField' is clicked.
+2020-02-12 11:46:02 CarinaListener [INFO] 
+============= Test configuration =============
+url=https://www.gsmarena.com
+env=DEMO
+env_arg_resolver=com.qaprosoft.carina.core.foundation.utils.DefaultEnvArgResolver
+platform=WEB
+browser=chrome
+browser_version=*
+browser_language=
+selenium_host=http://localhost:4444/wd/hub
+driver_event_listeners=com.qaprosoft.carina.demo.utils.PerfEventHandler
+max_driver_count=3
+custom_capabilities=
+chrome_args=
+chrome_experimental_opts=
+chrome_mobile_emulation_opts=
+firefox_args=
+firefox_preferences=
+app_version=
+proxy_host=
+proxy_port=
+proxy_protocols=http,https,ftp
+browsermob_proxy=false
+browsermob_host=
+browsermob_port=0
+browsermob_ports_range=
+browsermob_disabled_mitm=false
+proxy_set_to_system=false
+report_url=
+email_list=
+failure_email_list=
+track_known_issues=false
+auto_screenshot=true
+implicit_timeout=10
+explicit_timeout=20
+auto_download=false
+auto_download_apps=
+custom_artifacts_folder=
+retry_interval=5
+project_report_directory=./reports/qa
+max_screen_history=10
+max_log_file_size=150
+result_sorting=true
+big_screen_width=-1
+big_screen_height=-1
+small_screen_width=90
+small_screen_height=60
+init_retry_count=0
+init_retry_interval=1
+retry_count=0
+enable_l10n=true
+l10n_encoding=ISO-8859-1
+locale=en_US
+enable_i18n=true
+language=en_US
+thread_count=1
+data_provider_thread_count=-1
+core_log_level=INFO
+core_log_packages=com.qaprosoft.carina.core
+artifacts_expiration_seconds=2592000
+log_all_json=true
+date_format=HH:mm:ss yyyy-MM-dd
+time_format=HH:mm:ss
+suite_name=
+jira_updater=com.qaprosoft.carina.core.foundation.jira.DefaultJiraUpdater
+jira_url=
+jira_user=
+jira_password=
+jira_suite_id=
+jira_project=
+jira_project_short=
+jira_create_new_ticket=false
+test_naming_pattern={method_name}
+optimize_video_recording=false
+testrail_run_name=
+testrail_milestone=
+testrail_assignee=
+qtest_cycle_name=DailyAutomation
+qtest_suite_name=
+s3_bucket_name=
+access_key_id=
+secret_key=
+s3_use_presign_url=false
+s3_local_storage=.
+appcenter_token=
+appcenter_local_storage=.
+add_new_localization=false
+add_new_localization_encoding=utf-8
+add_new_localization_path=
+add_new_localization_property_name=new_custom_messages_
+tls_keysecure_location=
+health_check_class=
+health_check_methods=
+uninstall_related_apps=false
+default_device_timezone=GMT
+default_device_time_format=24
+default_device_language=en_US
+android_screen_record_size=
+android_screen_record_bitrate=
+android_enable_bug_report=true
+ios_screen_record_quality=MEDIUM
+ios_screen_record_codec=libx264
+ios_screen_record_fps=10
+screen_record_duration=180
+video_scale=-2:720
+ignore_ssl=false
+test_run_rules=
+hub_mode=selenium
+extract_sys_log=false
+selenium_host=http://localhost:4444/wd/hub
+
+------------- Driver capabilities -----------
+================================================
+
+2020-02-12 11:46:02 CarinaListener [INFO] Set data_provider_thread_count=1
+2020-02-12 11:46:02 CarinaListener [INFO] CARINA_CORE_VERSION: 6.3.30
+2020-02-12 11:46:02 WebSamplePerformanceTest [INFO] Suite Name: PT Web Suite
+2020-02-12 11:46:02 WebSamplePerformanceTest [INFO] Test Name: testCompareModels
+2020-02-12 11:46:02 Messager [INFO]  TEST [PT Web Test - testCompareModels] STARTED at [11:46:02 2020-02-12]
+2020-02-12 11:46:07 DesktopFactory [INFO] Browser window was maximized
+2020-02-12 11:46:07 Messager [INFO] INFO: url 'https://www.gsmarena.com' is being opened...
+2020-02-12 11:46:14 DriverListener [INFO] INFO: url 'https://www.gsmarena.com' is opened.
+2020-02-12 11:46:16 PerfEventHandler [INFO] URL 'https://www.gsmarena.com' opened
+2020-02-12 11:46:20 DriverListener [INFO] PASS: element 'compareLink' is clicked.
+2020-02-12 11:46:22 PerformanceStats [INFO] perf_log_12.02.2020 index is present
+2020-02-12 11:46:22 PerformanceStats [INFO] ZafiraRunID: 397
+2020-02-12 11:46:22 PerformanceStats [INFO] SuiteName: PT Web Suite
+2020-02-12 11:46:22 PerformanceStats [INFO] TestCaseID: testCompareModels
+2020-02-12 11:46:25 PerfEventHandler [INFO] Element clicked
+2020-02-12 11:46:26 DriverListener [INFO] PASS: element 'inputField' is clicked.
+2020-02-12 11:47:31 CarinaListener [INFO] 
+============= Test configuration =============
+url=https://www.gsmarena.com
+env=DEMO
+env_arg_resolver=com.qaprosoft.carina.core.foundation.utils.DefaultEnvArgResolver
+platform=WEB
+browser=chrome
+browser_version=*
+browser_language=
+selenium_host=http://localhost:4444/wd/hub
+driver_event_listeners=com.qaprosoft.carina.demo.utils.PerfEventHandler
+max_driver_count=3
+custom_capabilities=
+chrome_args=
+chrome_experimental_opts=
+chrome_mobile_emulation_opts=
+firefox_args=
+firefox_preferences=
+app_version=
+proxy_host=
+proxy_port=
+proxy_protocols=http,https,ftp
+browsermob_proxy=false
+browsermob_host=
+browsermob_port=0
+browsermob_ports_range=
+browsermob_disabled_mitm=false
+proxy_set_to_system=false
+report_url=
+email_list=
+failure_email_list=
+track_known_issues=false
+auto_screenshot=true
+implicit_timeout=10
+explicit_timeout=20
+auto_download=false
+auto_download_apps=
+custom_artifacts_folder=
+retry_interval=5
+project_report_directory=./reports/qa
+max_screen_history=10
+max_log_file_size=150
+result_sorting=true
+big_screen_width=-1
+big_screen_height=-1
+small_screen_width=90
+small_screen_height=60
+init_retry_count=0
+init_retry_interval=1
+retry_count=0
+enable_l10n=true
+l10n_encoding=ISO-8859-1
+locale=en_US
+enable_i18n=true
+language=en_US
+thread_count=1
+data_provider_thread_count=-1
+core_log_level=INFO
+core_log_packages=com.qaprosoft.carina.core
+artifacts_expiration_seconds=2592000
+log_all_json=true
+date_format=HH:mm:ss yyyy-MM-dd
+time_format=HH:mm:ss
+suite_name=
+jira_updater=com.qaprosoft.carina.core.foundation.jira.DefaultJiraUpdater
+jira_url=
+jira_user=
+jira_password=
+jira_suite_id=
+jira_project=
+jira_project_short=
+jira_create_new_ticket=false
+test_naming_pattern={method_name}
+optimize_video_recording=false
+testrail_run_name=
+testrail_milestone=
+testrail_assignee=
+qtest_cycle_name=DailyAutomation
+qtest_suite_name=
+s3_bucket_name=
+access_key_id=
+secret_key=
+s3_use_presign_url=false
+s3_local_storage=.
+appcenter_token=
+appcenter_local_storage=.
+add_new_localization=false
+add_new_localization_encoding=utf-8
+add_new_localization_path=
+add_new_localization_property_name=new_custom_messages_
+tls_keysecure_location=
+health_check_class=
+health_check_methods=
+uninstall_related_apps=false
+default_device_timezone=GMT
+default_device_time_format=24
+default_device_language=en_US
+android_screen_record_size=
+android_screen_record_bitrate=
+android_enable_bug_report=true
+ios_screen_record_quality=MEDIUM
+ios_screen_record_codec=libx264
+ios_screen_record_fps=10
+screen_record_duration=180
+video_scale=-2:720
+ignore_ssl=false
+test_run_rules=
+hub_mode=selenium
+extract_sys_log=false
+selenium_host=http://localhost:4444/wd/hub
+
+------------- Driver capabilities -----------
+================================================
+
+2020-02-12 11:47:31 CarinaListener [INFO] Set data_provider_thread_count=1
+2020-02-12 11:47:31 CarinaListener [INFO] CARINA_CORE_VERSION: 6.3.30
+2020-02-12 11:47:32 WebSamplePerformanceTest [INFO] Suite Name: PT Web Suite
+2020-02-12 11:47:32 WebSamplePerformanceTest [INFO] Test Name: testCompareModels
+2020-02-12 11:47:32 Messager [INFO]  TEST [PT Web Test - testCompareModels] STARTED at [11:47:32 2020-02-12]
+2020-02-12 11:47:36 DesktopFactory [INFO] Browser window was maximized
+2020-02-12 11:47:36 Messager [INFO] INFO: url 'https://www.gsmarena.com' is being opened...
+2020-02-12 11:47:44 DriverListener [INFO] INFO: url 'https://www.gsmarena.com' is opened.
+2020-02-12 11:47:46 PerfEventHandler [INFO] URL 'https://www.gsmarena.com' opened
+2020-02-12 11:47:50 DriverListener [INFO] PASS: element 'compareLink' is clicked.
+2020-02-12 11:47:52 PerformanceStats [INFO] perf_log_12.02.2020 index is present
+2020-02-12 11:47:52 PerformanceStats [INFO] ZafiraRunID: 398
+2020-02-12 11:47:52 PerformanceStats [INFO] SuiteName: PT Web Suite
+2020-02-12 11:47:52 PerformanceStats [INFO] TestCaseID: testCompareModels
+2020-02-12 11:47:55 PerfEventHandler [INFO] Element clicked
+2020-02-12 11:48:27 CarinaListener [INFO] 
+============= Test configuration =============
+url=https://www.gsmarena.com
+env=DEMO
+env_arg_resolver=com.qaprosoft.carina.core.foundation.utils.DefaultEnvArgResolver
+platform=WEB
+browser=chrome
+browser_version=*
+browser_language=
+selenium_host=http://localhost:4444/wd/hub
+driver_event_listeners=com.qaprosoft.carina.demo.utils.PerfEventHandler
+max_driver_count=3
+custom_capabilities=
+chrome_args=
+chrome_experimental_opts=
+chrome_mobile_emulation_opts=
+firefox_args=
+firefox_preferences=
+app_version=
+proxy_host=
+proxy_port=
+proxy_protocols=http,https,ftp
+browsermob_proxy=false
+browsermob_host=
+browsermob_port=0
+browsermob_ports_range=
+browsermob_disabled_mitm=false
+proxy_set_to_system=false
+report_url=
+email_list=
+failure_email_list=
+track_known_issues=false
+auto_screenshot=true
+implicit_timeout=10
+explicit_timeout=20
+auto_download=false
+auto_download_apps=
+custom_artifacts_folder=
+retry_interval=5
+project_report_directory=./reports/qa
+max_screen_history=10
+max_log_file_size=150
+result_sorting=true
+big_screen_width=-1
+big_screen_height=-1
+small_screen_width=90
+small_screen_height=60
+init_retry_count=0
+init_retry_interval=1
+retry_count=0
+enable_l10n=true
+l10n_encoding=ISO-8859-1
+locale=en_US
+enable_i18n=true
+language=en_US
+thread_count=1
+data_provider_thread_count=-1
+core_log_level=INFO
+core_log_packages=com.qaprosoft.carina.core
+artifacts_expiration_seconds=2592000
+log_all_json=true
+date_format=HH:mm:ss yyyy-MM-dd
+time_format=HH:mm:ss
+suite_name=
+jira_updater=com.qaprosoft.carina.core.foundation.jira.DefaultJiraUpdater
+jira_url=
+jira_user=
+jira_password=
+jira_suite_id=
+jira_project=
+jira_project_short=
+jira_create_new_ticket=false
+test_naming_pattern={method_name}
+optimize_video_recording=false
+testrail_run_name=
+testrail_milestone=
+testrail_assignee=
+qtest_cycle_name=DailyAutomation
+qtest_suite_name=
+s3_bucket_name=
+access_key_id=
+secret_key=
+s3_use_presign_url=false
+s3_local_storage=.
+appcenter_token=
+appcenter_local_storage=.
+add_new_localization=false
+add_new_localization_encoding=utf-8
+add_new_localization_path=
+add_new_localization_property_name=new_custom_messages_
+tls_keysecure_location=
+health_check_class=
+health_check_methods=
+uninstall_related_apps=false
+default_device_timezone=GMT
+default_device_time_format=24
+default_device_language=en_US
+android_screen_record_size=
+android_screen_record_bitrate=
+android_enable_bug_report=true
+ios_screen_record_quality=MEDIUM
+ios_screen_record_codec=libx264
+ios_screen_record_fps=10
+screen_record_duration=180
+video_scale=-2:720
+ignore_ssl=false
+test_run_rules=
+hub_mode=selenium
+extract_sys_log=false
+selenium_host=http://localhost:4444/wd/hub
+
+------------- Driver capabilities -----------
+================================================
+
+2020-02-12 11:48:29 CarinaListener [INFO] Set data_provider_thread_count=1
+2020-02-12 11:48:29 CarinaListener [INFO] CARINA_CORE_VERSION: 6.3.30
+2020-02-12 11:48:29 WebSamplePerformanceTest [INFO] Suite Name: PT Web Suite
+2020-02-12 11:48:29 WebSamplePerformanceTest [INFO] Test Name: testCompareModels
+2020-02-12 11:48:29 Messager [INFO]  TEST [PT Web Test - testCompareModels] STARTED at [11:48:29 2020-02-12]
+2020-02-12 11:48:34 DesktopFactory [INFO] Browser window was maximized
+2020-02-12 11:48:35 Messager [INFO] INFO: url 'https://www.gsmarena.com' is being opened...
+2020-02-12 11:48:41 DriverListener [INFO] INFO: url 'https://www.gsmarena.com' is opened.
+2020-02-12 11:48:43 PerfEventHandler [INFO] URL 'https://www.gsmarena.com' opened
+2020-02-12 11:48:46 DriverListener [INFO] PASS: element 'compareLink' is clicked.
+2020-02-12 11:48:49 PerformanceStats [INFO] perf_log_12.02.2020 index is present
+2020-02-12 11:48:49 PerformanceStats [INFO] ZafiraRunID: 399
+2020-02-12 11:48:49 PerformanceStats [INFO] SuiteName: PT Web Suite
+2020-02-12 11:48:49 PerformanceStats [INFO] TestCaseID: testCompareModels
+2020-02-12 11:48:52 PerfEventHandler [INFO] Element clicked
+2020-02-12 11:48:54 DriverListener [INFO] PASS: element 'inputField' is clicked.
+2020-02-12 12:28:16 CarinaListener [INFO] 
+============= Test configuration =============
+url=https://www.gsmarena.com
+env=DEMO
+env_arg_resolver=com.qaprosoft.carina.core.foundation.utils.DefaultEnvArgResolver
+platform=WEB
+browser=chrome
+browser_version=*
+browser_language=
+selenium_host=http://localhost:4444/wd/hub
+driver_event_listeners=com.qaprosoft.carina.demo.utils.PerfEventHandler
+max_driver_count=3
+custom_capabilities=
+chrome_args=
+chrome_experimental_opts=
+chrome_mobile_emulation_opts=
+firefox_args=
+firefox_preferences=
+app_version=
+proxy_host=
+proxy_port=
+proxy_protocols=http,https,ftp
+browsermob_proxy=false
+browsermob_host=
+browsermob_port=0
+browsermob_ports_range=
+browsermob_disabled_mitm=false
+proxy_set_to_system=false
+report_url=
+email_list=
+failure_email_list=
+track_known_issues=false
+auto_screenshot=true
+implicit_timeout=10
+explicit_timeout=20
+auto_download=false
+auto_download_apps=
+custom_artifacts_folder=
+retry_interval=5
+project_report_directory=./reports/qa
+max_screen_history=10
+max_log_file_size=150
+result_sorting=true
+big_screen_width=-1
+big_screen_height=-1
+small_screen_width=90
+small_screen_height=60
+init_retry_count=0
+init_retry_interval=1
+retry_count=0
+enable_l10n=true
+l10n_encoding=ISO-8859-1
+locale=en_US
+enable_i18n=true
+language=en_US
+thread_count=1
+data_provider_thread_count=-1
+core_log_level=INFO
+core_log_packages=com.qaprosoft.carina.core
+artifacts_expiration_seconds=2592000
+log_all_json=true
+date_format=HH:mm:ss yyyy-MM-dd
+time_format=HH:mm:ss
+suite_name=
+jira_updater=com.qaprosoft.carina.core.foundation.jira.DefaultJiraUpdater
+jira_url=
+jira_user=
+jira_password=
+jira_suite_id=
+jira_project=
+jira_project_short=
+jira_create_new_ticket=false
+test_naming_pattern={method_name}
+optimize_video_recording=false
+testrail_run_name=
+testrail_milestone=
+testrail_assignee=
+qtest_cycle_name=DailyAutomation
+qtest_suite_name=
+s3_bucket_name=
+access_key_id=
+secret_key=
+s3_use_presign_url=false
+s3_local_storage=.
+appcenter_token=
+appcenter_local_storage=.
+add_new_localization=false
+add_new_localization_encoding=utf-8
+add_new_localization_path=
+add_new_localization_property_name=new_custom_messages_
+tls_keysecure_location=
+health_check_class=
+health_check_methods=
+uninstall_related_apps=false
+default_device_timezone=GMT
+default_device_time_format=24
+default_device_language=en_US
+android_screen_record_size=
+android_screen_record_bitrate=
+android_enable_bug_report=true
+ios_screen_record_quality=MEDIUM
+ios_screen_record_codec=libx264
+ios_screen_record_fps=10
+screen_record_duration=180
+video_scale=-2:720
+ignore_ssl=false
+test_run_rules=
+hub_mode=selenium
+extract_sys_log=false
+selenium_host=http://localhost:4444/wd/hub
+
+------------- Driver capabilities -----------
+================================================
+
+2020-02-12 12:28:17 CarinaListener [INFO] Set data_provider_thread_count=1
+2020-02-12 12:28:17 CarinaListener [INFO] CARINA_CORE_VERSION: 6.3.30
+2020-02-12 12:28:18 WebSamplePerformanceTest [INFO] Suite Name: PT Web Suite
+2020-02-12 12:28:18 WebSamplePerformanceTest [INFO] Test Name: testCompareModels
+2020-02-12 12:28:18 Messager [INFO]  TEST [PT Web Test - testCompareModels] STARTED at [12:28:18 2020-02-12]
+2020-02-12 12:28:26 DesktopFactory [INFO] Browser window was maximized
+2020-02-12 12:28:26 Messager [INFO] INFO: url 'https://www.gsmarena.com' is being opened...
+2020-02-12 12:28:30 DriverListener [INFO] INFO: url 'https://www.gsmarena.com' is opened.
+2020-02-12 12:28:34 PerfEventHandler [INFO] URL 'https://www.gsmarena.com' opened
+2020-02-12 12:28:38 DriverListener [INFO] PASS: element 'compareLink' is clicked.
+2020-02-12 12:28:46 PerformanceStats [INFO] perf_log_12.02.2020 index is present
+2020-02-12 12:28:46 PerformanceStats [INFO] ZafiraRunID: 400
+2020-02-12 12:28:46 PerformanceStats [INFO] SuiteName: PT Web Suite
+2020-02-12 12:28:46 PerformanceStats [INFO] TestCaseID: testCompareModels
+2020-02-12 12:28:51 PerfEventHandler [INFO] Element clicked
+2020-02-12 12:29:09 CarinaListener [INFO] 
+============= Test configuration =============
+url=https://www.gsmarena.com
+env=DEMO
+env_arg_resolver=com.qaprosoft.carina.core.foundation.utils.DefaultEnvArgResolver
+platform=WEB
+browser=chrome
+browser_version=*
+browser_language=
+selenium_host=http://localhost:4444/wd/hub
+driver_event_listeners=com.qaprosoft.carina.demo.utils.PerfEventHandler
+max_driver_count=3
+custom_capabilities=
+chrome_args=
+chrome_experimental_opts=
+chrome_mobile_emulation_opts=
+firefox_args=
+firefox_preferences=
+app_version=
+proxy_host=
+proxy_port=
+proxy_protocols=http,https,ftp
+browsermob_proxy=false
+browsermob_host=
+browsermob_port=0
+browsermob_ports_range=
+browsermob_disabled_mitm=false
+proxy_set_to_system=false
+report_url=
+email_list=
+failure_email_list=
+track_known_issues=false
+auto_screenshot=true
+implicit_timeout=10
+explicit_timeout=20
+auto_download=false
+auto_download_apps=
+custom_artifacts_folder=
+retry_interval=5
+project_report_directory=./reports/qa
+max_screen_history=10
+max_log_file_size=150
+result_sorting=true
+big_screen_width=-1
+big_screen_height=-1
+small_screen_width=90
+small_screen_height=60
+init_retry_count=0
+init_retry_interval=1
+retry_count=0
+enable_l10n=true
+l10n_encoding=ISO-8859-1
+locale=en_US
+enable_i18n=true
+language=en_US
+thread_count=1
+data_provider_thread_count=-1
+core_log_level=INFO
+core_log_packages=com.qaprosoft.carina.core
+artifacts_expiration_seconds=2592000
+log_all_json=true
+date_format=HH:mm:ss yyyy-MM-dd
+time_format=HH:mm:ss
+suite_name=
+jira_updater=com.qaprosoft.carina.core.foundation.jira.DefaultJiraUpdater
+jira_url=
+jira_user=
+jira_password=
+jira_suite_id=
+jira_project=
+jira_project_short=
+jira_create_new_ticket=false
+test_naming_pattern={method_name}
+optimize_video_recording=false
+testrail_run_name=
+testrail_milestone=
+testrail_assignee=
+qtest_cycle_name=DailyAutomation
+qtest_suite_name=
+s3_bucket_name=
+access_key_id=
+secret_key=
+s3_use_presign_url=false
+s3_local_storage=.
+appcenter_token=
+appcenter_local_storage=.
+add_new_localization=false
+add_new_localization_encoding=utf-8
+add_new_localization_path=
+add_new_localization_property_name=new_custom_messages_
+tls_keysecure_location=
+health_check_class=
+health_check_methods=
+uninstall_related_apps=false
+default_device_timezone=GMT
+default_device_time_format=24
+default_device_language=en_US
+android_screen_record_size=
+android_screen_record_bitrate=
+android_enable_bug_report=true
+ios_screen_record_quality=MEDIUM
+ios_screen_record_codec=libx264
+ios_screen_record_fps=10
+screen_record_duration=180
+video_scale=-2:720
+ignore_ssl=false
+test_run_rules=
+hub_mode=selenium
+extract_sys_log=false
+selenium_host=http://localhost:4444/wd/hub
+
+------------- Driver capabilities -----------
+================================================
+
+2020-02-12 12:29:09 CarinaListener [INFO] Set data_provider_thread_count=1
+2020-02-12 12:29:09 CarinaListener [INFO] CARINA_CORE_VERSION: 6.3.30
+2020-02-12 12:29:10 WebSamplePerformanceTest [INFO] Suite Name: PT Web Suite
+2020-02-12 12:29:10 WebSamplePerformanceTest [INFO] Test Name: testCompareModels
+2020-02-12 12:29:10 Messager [INFO]  TEST [PT Web Test - testCompareModels] STARTED at [12:29:10 2020-02-12]
+2020-02-12 12:29:16 DesktopFactory [INFO] Browser window was maximized
+2020-02-12 12:29:16 Messager [INFO] INFO: url 'https://www.gsmarena.com' is being opened...
+2020-02-12 12:29:19 DriverListener [INFO] INFO: url 'https://www.gsmarena.com' is opened.
+2020-02-12 12:29:20 PerfEventHandler [INFO] URL 'https://www.gsmarena.com' opened
+2020-02-12 12:29:25 DriverListener [INFO] PASS: element 'compareLink' is clicked.
+2020-02-12 12:29:28 PerformanceStats [INFO] perf_log_12.02.2020 index is present
+2020-02-12 12:29:28 PerformanceStats [INFO] ZafiraRunID: 401
+2020-02-12 12:29:28 PerformanceStats [INFO] SuiteName: PT Web Suite
+2020-02-12 12:29:28 PerformanceStats [INFO] TestCaseID: testCompareModels
+2020-02-12 12:29:30 PerfEventHandler [INFO] Element clicked
+2020-02-12 12:29:33 DriverListener [INFO] PASS: element 'inputField' is clicked.
+2020-02-12 12:29:34 PerformanceStats [INFO] perf_log_12.02.2020 index is present
+2020-02-12 12:29:34 PerformanceStats [INFO] ZafiraRunID: 401
+2020-02-12 12:29:34 PerformanceStats [INFO] SuiteName: PT Web Suite
+2020-02-12 12:29:34 PerformanceStats [INFO] TestCaseID: testCompareModels
+2020-02-12 12:29:34 PerfEventHandler [INFO] Element clicked
+2020-02-12 12:29:36 DriverListener [INFO] PASS: keys cleared in element 'inputField'.
+2020-02-12 12:29:38 PerfEventHandler [INFO] Text '' typed
+2020-02-12 12:29:39 DriverListener [INFO] PASS: keys 'Samsung Galaxy J3' are sent to element 'inputField'.
+2020-02-12 12:29:42 PerfEventHandler [INFO] Text 'Samsung Galaxy J3' typed
+2020-02-12 12:29:48 DriverListener [INFO] PASS: element 'Samsung Galaxy J3 (2016)' is clicked.
+2020-02-12 12:29:50 PerformanceStats [INFO] perf_log_12.02.2020 index is present
+2020-02-12 12:29:50 PerformanceStats [INFO] ZafiraRunID: 401
+2020-02-12 12:29:50 PerformanceStats [INFO] SuiteName: PT Web Suite
+2020-02-12 12:29:50 PerformanceStats [INFO] TestCaseID: testCompareModels
+2020-02-12 12:29:50 PerfEventHandler [INFO] Element clicked
+2020-02-12 12:29:53 DriverListener [INFO] PASS: element 'inputField' is clicked.
+2020-02-12 12:29:54 PerformanceStats [INFO] perf_log_12.02.2020 index is present
+2020-02-12 12:29:54 PerformanceStats [INFO] ZafiraRunID: 401
+2020-02-12 12:29:54 PerformanceStats [INFO] SuiteName: PT Web Suite
+2020-02-12 12:29:54 PerformanceStats [INFO] TestCaseID: testCompareModels
+2020-02-12 12:29:54 PerfEventHandler [INFO] Element clicked
+2020-02-12 12:29:56 DriverListener [INFO] PASS: keys cleared in element 'inputField'.
+2020-02-12 12:29:57 PerfEventHandler [INFO] Text '' typed
+2020-02-12 12:31:11 CarinaListener [INFO] 
+============= Test configuration =============
+url=https://www.gsmarena.com
+env=DEMO
+env_arg_resolver=com.qaprosoft.carina.core.foundation.utils.DefaultEnvArgResolver
+platform=WEB
+browser=chrome
+browser_version=*
+browser_language=
+selenium_host=http://localhost:4444/wd/hub
+driver_event_listeners=com.qaprosoft.carina.demo.utils.PerfEventHandler
+max_driver_count=3
+custom_capabilities=
+chrome_args=
+chrome_experimental_opts=
+chrome_mobile_emulation_opts=
+firefox_args=
+firefox_preferences=
+app_version=
+proxy_host=
+proxy_port=
+proxy_protocols=http,https,ftp
+browsermob_proxy=false
+browsermob_host=
+browsermob_port=0
+browsermob_ports_range=
+browsermob_disabled_mitm=false
+proxy_set_to_system=false
+report_url=
+email_list=
+failure_email_list=
+track_known_issues=false
+auto_screenshot=true
+implicit_timeout=10
+explicit_timeout=20
+auto_download=false
+auto_download_apps=
+custom_artifacts_folder=
+retry_interval=5
+project_report_directory=./reports/qa
+max_screen_history=10
+max_log_file_size=150
+result_sorting=true
+big_screen_width=-1
+big_screen_height=-1
+small_screen_width=90
+small_screen_height=60
+init_retry_count=0
+init_retry_interval=1
+retry_count=0
+enable_l10n=true
+l10n_encoding=ISO-8859-1
+locale=en_US
+enable_i18n=true
+language=en_US
+thread_count=1
+data_provider_thread_count=-1
+core_log_level=INFO
+core_log_packages=com.qaprosoft.carina.core
+artifacts_expiration_seconds=2592000
+log_all_json=true
+date_format=HH:mm:ss yyyy-MM-dd
+time_format=HH:mm:ss
+suite_name=
+jira_updater=com.qaprosoft.carina.core.foundation.jira.DefaultJiraUpdater
+jira_url=
+jira_user=
+jira_password=
+jira_suite_id=
+jira_project=
+jira_project_short=
+jira_create_new_ticket=false
+test_naming_pattern={method_name}
+optimize_video_recording=false
+testrail_run_name=
+testrail_milestone=
+testrail_assignee=
+qtest_cycle_name=DailyAutomation
+qtest_suite_name=
+s3_bucket_name=
+access_key_id=
+secret_key=
+s3_use_presign_url=false
+s3_local_storage=.
+appcenter_token=
+appcenter_local_storage=.
+add_new_localization=false
+add_new_localization_encoding=utf-8
+add_new_localization_path=
+add_new_localization_property_name=new_custom_messages_
+tls_keysecure_location=
+health_check_class=
+health_check_methods=
+uninstall_related_apps=false
+default_device_timezone=GMT
+default_device_time_format=24
+default_device_language=en_US
+android_screen_record_size=
+android_screen_record_bitrate=
+android_enable_bug_report=true
+ios_screen_record_quality=MEDIUM
+ios_screen_record_codec=libx264
+ios_screen_record_fps=10
+screen_record_duration=180
+video_scale=-2:720
+ignore_ssl=false
+test_run_rules=
+hub_mode=selenium
+extract_sys_log=false
+selenium_host=http://localhost:4444/wd/hub
+
+------------- Driver capabilities -----------
+================================================
+
+2020-02-12 12:31:11 CarinaListener [INFO] Set data_provider_thread_count=1
+2020-02-12 12:31:11 CarinaListener [INFO] CARINA_CORE_VERSION: 6.3.30
+2020-02-12 12:31:12 WebSamplePerformanceTest [INFO] Suite Name: PT Web Suite
+2020-02-12 12:31:12 WebSamplePerformanceTest [INFO] Test Name: testCompareModels
+2020-02-12 12:31:12 Messager [INFO]  TEST [PT Web Test - testCompareModels] STARTED at [12:31:12 2020-02-12]
+2020-02-12 12:31:17 DesktopFactory [INFO] Browser window was maximized
+2020-02-12 12:31:17 Messager [INFO] INFO: url 'https://www.gsmarena.com' is being opened...
+2020-02-12 12:31:25 DriverListener [INFO] INFO: url 'https://www.gsmarena.com' is opened.
+2020-02-12 12:31:27 PerfEventHandler [INFO] URL 'https://www.gsmarena.com' opened
+2020-02-12 12:31:32 DriverListener [INFO] PASS: element 'compareLink' is clicked.
+2020-02-12 12:31:35 PerformanceStats [INFO] ZafiraRunID: 402
+2020-02-12 12:31:35 PerformanceStats [INFO] SuiteName: PT Web Suite
+2020-02-12 12:31:35 PerformanceStats [INFO] TestCaseID: testCompareModels
+2020-02-12 12:31:38 PerfEventHandler [INFO] Element clicked
+2020-02-12 12:31:40 DriverListener [INFO] PASS: element 'inputField' is clicked.
+2020-02-12 12:31:42 PerformanceStats [INFO] perf_log_12.02.2020 index is present
+2020-02-12 12:31:42 PerformanceStats [INFO] ZafiraRunID: 402
+2020-02-12 12:31:42 PerformanceStats [INFO] SuiteName: PT Web Suite
+2020-02-12 12:31:42 PerformanceStats [INFO] TestCaseID: testCompareModels
+2020-02-12 12:31:43 PerfEventHandler [INFO] Element clicked
+2020-02-12 12:31:44 DriverListener [INFO] PASS: keys cleared in element 'inputField'.
+2020-02-12 12:31:46 PerfEventHandler [INFO] Text '' typed
+2020-02-12 12:31:47 DriverListener [INFO] PASS: keys 'Samsung Galaxy J3' are sent to element 'inputField'.
+2020-02-12 12:31:50 PerfEventHandler [INFO] Text 'Samsung Galaxy J3' typed
+2020-02-12 12:31:55 DriverListener [INFO] PASS: element 'Samsung Galaxy J3 (2016)' is clicked.
+2020-02-12 12:31:57 PerformanceStats [INFO] perf_log_12.02.2020 index is present
+2020-02-12 12:31:57 PerformanceStats [INFO] ZafiraRunID: 402
+2020-02-12 12:31:57 PerformanceStats [INFO] SuiteName: PT Web Suite
+2020-02-12 12:31:57 PerformanceStats [INFO] TestCaseID: testCompareModels
+2020-02-12 12:31:57 PerfEventHandler [INFO] Element clicked
+2020-02-12 12:31:59 DriverListener [INFO] PASS: element 'inputField' is clicked.
+2020-02-12 12:32:01 PerformanceStats [INFO] perf_log_12.02.2020 index is present
+2020-02-12 12:32:01 PerformanceStats [INFO] ZafiraRunID: 402
+2020-02-12 12:32:01 PerformanceStats [INFO] SuiteName: PT Web Suite
+2020-02-12 12:32:01 PerformanceStats [INFO] TestCaseID: testCompareModels
+2020-02-12 12:32:01 PerfEventHandler [INFO] Element clicked
+2020-02-12 12:32:02 DriverListener [INFO] PASS: keys cleared in element 'inputField'.
+2020-02-12 12:32:04 PerfEventHandler [INFO] Text '' typed
+2020-02-12 12:32:06 DriverListener [INFO] PASS: keys 'Samsung Galaxy J5' are sent to element 'inputField'.
+2020-02-12 12:32:08 PerfEventHandler [INFO] Text 'Samsung Galaxy J5' typed
+2020-02-12 12:32:13 DriverListener [INFO] PASS: element 'Samsung Galaxy J5' is clicked.
+2020-02-12 12:32:15 PerformanceStats [INFO] perf_log_12.02.2020 index is present
+2020-02-12 12:32:15 PerformanceStats [INFO] ZafiraRunID: 402
+2020-02-12 12:32:15 PerformanceStats [INFO] SuiteName: PT Web Suite
+2020-02-12 12:32:15 PerformanceStats [INFO] TestCaseID: testCompareModels
+2020-02-12 12:32:15 PerfEventHandler [INFO] Element clicked
+2020-02-12 12:32:18 DriverListener [INFO] PASS: element 'inputField' is clicked.
+2020-02-12 12:32:19 PerformanceStats [INFO] perf_log_12.02.2020 index is present
+2020-02-12 12:32:19 PerformanceStats [INFO] ZafiraRunID: 402
+2020-02-12 12:32:19 PerformanceStats [INFO] SuiteName: PT Web Suite
+2020-02-12 12:32:19 PerformanceStats [INFO] TestCaseID: testCompareModels
+2020-02-12 12:32:20 PerfEventHandler [INFO] Element clicked
+2020-02-12 12:32:21 DriverListener [INFO] PASS: keys cleared in element 'inputField'.
+2020-02-12 12:32:23 PerfEventHandler [INFO] Text '' typed
+2020-02-12 12:32:24 DriverListener [INFO] PASS: keys 'Samsung Galaxy J7 Pro' are sent to element 'inputField'.
+2020-02-12 12:32:26 PerfEventHandler [INFO] Text 'Samsung Galaxy J7 Pro' typed
+2020-02-12 12:32:32 DriverListener [INFO] PASS: element 'Samsung Galaxy J7 Pro' is clicked.
+2020-02-12 12:32:34 PerformanceStats [INFO] perf_log_12.02.2020 index is present
+2020-02-12 12:32:34 PerformanceStats [INFO] ZafiraRunID: 402
+2020-02-12 12:32:34 PerformanceStats [INFO] SuiteName: PT Web Suite
+2020-02-12 12:32:34 PerformanceStats [INFO] TestCaseID: testCompareModels
+2020-02-12 12:32:34 PerfEventHandler [INFO] Element clicked
+2020-02-12 12:32:36 Messager [INFO]  TEST [PT Web Test - testCompareModels] PASSED at [12:32:36 2020-02-12]
+2020-02-12 12:32:38 WebSamplePerformanceTest [INFO] Suite Name: PT Web Suite
+2020-02-12 12:32:38 WebSamplePerformanceTest [INFO] Test Name: testModelSpecs
+2020-02-12 12:32:38 Messager [INFO]  TEST [GSMA0001 - PT Web Test - testModelSpecs] STARTED at [12:32:38 2020-02-12]
+2020-02-12 12:32:43 DesktopFactory [INFO] Browser window was maximized
+2020-02-12 12:32:43 Messager [INFO] INFO: url 'https://www.gsmarena.com' is being opened...
+2020-02-12 12:32:52 DriverListener [INFO] INFO: url 'https://www.gsmarena.com' is opened.
+2020-02-12 12:32:54 PerfEventHandler [INFO] URL 'https://www.gsmarena.com' opened
+2020-02-12 12:32:57 HomePage [INFO] selecting 'Samsung' brand...
+2020-02-12 12:33:00 HomePage [INFO] currentBrand: PHONE FINDER
+2020-02-12 12:33:00 HomePage [INFO] currentBrand: SAMSUNG
+2020-02-12 12:33:02 DriverListener [INFO] PASS: element 'SAMSUNG' is clicked.
+2020-02-12 12:33:04 PerformanceStats [INFO] perf_log_12.02.2020 index is present
+2020-02-12 12:33:04 PerformanceStats [INFO] ZafiraRunID: 402
+2020-02-12 12:33:04 PerformanceStats [INFO] SuiteName: PT Web Suite
+2020-02-12 12:33:04 PerformanceStats [INFO] TestCaseID: testModelSpecs
+2020-02-12 12:33:04 PerfEventHandler [INFO] Element clicked
+2020-02-12 12:33:28 DriverListener [INFO] PASS: element 'modelLink' is clicked.
+2020-02-12 12:33:30 PerformanceStats [INFO] perf_log_12.02.2020 index is present
+2020-02-12 12:33:30 PerformanceStats [INFO] ZafiraRunID: 402
+2020-02-12 12:33:30 PerformanceStats [INFO] SuiteName: PT Web Suite
+2020-02-12 12:33:30 PerformanceStats [INFO] TestCaseID: testModelSpecs
+2020-02-12 12:33:30 PerfEventHandler [INFO] Element clicked
+2020-02-12 12:33:31 Messager [INFO]  TEST [GSMA0001 - PT Web Test - testModelSpecs] PASSED at [12:33:31 2020-02-12]
+2020-02-12 12:33:32 WebSamplePerformanceTest [INFO] Suite Name: PT Web Suite
+2020-02-12 12:33:32 WebSamplePerformanceTest [INFO] Test Name: testModelSpecs
+2020-02-12 12:33:32 Messager [INFO]  TEST [GSMA0002 - PT Web Test - testModelSpecs] STARTED at [12:33:32 2020-02-12]
+2020-02-12 12:33:36 DesktopFactory [INFO] Browser window was maximized
+2020-02-12 12:33:36 Messager [INFO] INFO: url 'https://www.gsmarena.com' is being opened...
+2020-02-12 12:33:44 DriverListener [INFO] INFO: url 'https://www.gsmarena.com' is opened.
+2020-02-12 12:33:45 PerfEventHandler [INFO] URL 'https://www.gsmarena.com' opened
+2020-02-12 12:33:47 HomePage [INFO] selecting 'Samsung' brand...
+2020-02-12 12:33:49 HomePage [INFO] currentBrand: PHONE FINDER
+2020-02-12 12:33:49 HomePage [INFO] currentBrand: SAMSUNG
+2020-02-12 12:33:53 DriverListener [INFO] PASS: element 'SAMSUNG' is clicked.
+2020-02-12 12:33:55 PerformanceStats [INFO] perf_log_12.02.2020 index is present
+2020-02-12 12:33:55 PerformanceStats [INFO] ZafiraRunID: 402
+2020-02-12 12:33:55 PerformanceStats [INFO] SuiteName: PT Web Suite
+2020-02-12 12:33:55 PerformanceStats [INFO] TestCaseID: testModelSpecs
+2020-02-12 12:33:55 PerfEventHandler [INFO] Element clicked
+2020-02-12 12:34:15 DriverListener [INFO] PASS: element 'modelLink' is clicked.
+2020-02-12 12:34:18 PerformanceStats [INFO] perf_log_12.02.2020 index is present
+2020-02-12 12:34:18 PerformanceStats [INFO] ZafiraRunID: 402
+2020-02-12 12:34:18 PerformanceStats [INFO] SuiteName: PT Web Suite
+2020-02-12 12:34:18 PerformanceStats [INFO] TestCaseID: testModelSpecs
+2020-02-12 12:34:18 PerfEventHandler [INFO] Element clicked
+2020-02-12 12:34:21 Messager [INFO]  TEST [GSMA0002 - PT Web Test - testModelSpecs] PASSED at [12:34:21 2020-02-12]
+2020-02-12 12:34:21 WebSamplePerformanceTest [INFO] Suite Name: PT Web Suite
+2020-02-12 12:34:21 WebSamplePerformanceTest [INFO] Test Name: testModelSpecs
+2020-02-12 12:34:21 Messager [INFO]  TEST [GSMA0003 - PT Web Test - testModelSpecs] STARTED at [12:34:21 2020-02-12]
+2020-02-12 12:34:26 DesktopFactory [INFO] Browser window was maximized
+2020-02-12 12:34:26 Messager [INFO] INFO: url 'https://www.gsmarena.com' is being opened...
+2020-02-12 12:34:35 DriverListener [INFO] INFO: url 'https://www.gsmarena.com' is opened.
+2020-02-12 12:34:38 PerfEventHandler [INFO] URL 'https://www.gsmarena.com' opened
+2020-02-12 12:34:42 HomePage [INFO] selecting 'Samsung' brand...
+2020-02-12 12:34:44 HomePage [INFO] currentBrand: PHONE FINDER
+2020-02-12 12:34:44 HomePage [INFO] currentBrand: SAMSUNG
+2020-02-12 12:34:48 DriverListener [INFO] PASS: element 'SAMSUNG' is clicked.
+2020-02-12 12:34:50 PerformanceStats [INFO] perf_log_12.02.2020 index is present
+2020-02-12 12:34:50 PerformanceStats [INFO] ZafiraRunID: 402
+2020-02-12 12:34:50 PerformanceStats [INFO] SuiteName: PT Web Suite
+2020-02-12 12:34:50 PerformanceStats [INFO] TestCaseID: testModelSpecs
+2020-02-12 12:34:51 PerfEventHandler [INFO] Element clicked
+2020-02-12 12:35:04 DriverListener [INFO] PASS: element 'modelLink' is clicked.
+2020-02-12 12:35:08 PerformanceStats [INFO] perf_log_12.02.2020 index is present
+2020-02-12 12:35:08 PerformanceStats [INFO] ZafiraRunID: 402
+2020-02-12 12:35:08 PerformanceStats [INFO] SuiteName: PT Web Suite
+2020-02-12 12:35:08 PerformanceStats [INFO] TestCaseID: testModelSpecs
+2020-02-12 12:35:08 PerfEventHandler [INFO] Element clicked
+2020-02-12 12:35:11 Messager [INFO]  TEST [GSMA0003 - PT Web Test - testModelSpecs] PASSED at [12:35:11 2020-02-12]
+2020-02-12 12:35:11 WebSamplePerformanceTest [INFO] Suite Name: PT Web Suite
+2020-02-12 12:35:11 WebSamplePerformanceTest [INFO] Test Name: testNewsSearch
+2020-02-12 12:35:11 Messager [INFO]  TEST [PT Web Test - testNewsSearch] STARTED at [12:35:11 2020-02-12]
+2020-02-12 12:35:16 DesktopFactory [INFO] Browser window was maximized
+2020-02-12 12:35:16 Messager [INFO] INFO: url 'https://www.gsmarena.com' is being opened...
+2020-02-12 12:35:24 DriverListener [INFO] INFO: url 'https://www.gsmarena.com' is opened.
+2020-02-12 12:35:27 PerfEventHandler [INFO] URL 'https://www.gsmarena.com' opened
+2020-02-12 12:35:35 DriverListener [INFO] PASS: element 'newsLink' is clicked.
+2020-02-12 12:35:37 PerformanceStats [INFO] perf_log_12.02.2020 index is present
+2020-02-12 12:35:37 PerformanceStats [INFO] ZafiraRunID: 402
+2020-02-12 12:35:37 PerformanceStats [INFO] SuiteName: PT Web Suite
+2020-02-12 12:35:37 PerformanceStats [INFO] TestCaseID: testNewsSearch
+2020-02-12 12:35:38 PerfEventHandler [INFO] Element clicked
+2020-02-12 12:36:00 DriverHelper [WARN] Actual URL differs from expected one. Expected 'https://qkm1.qualitykiosk.com/api/news.php3' but found 'https://www.gsmarena.com/news.php3'
+2020-02-12 12:36:18 Messager [ERROR]  TEST [PT Web Test - testNewsSearch] FAILED at [12:36:18 2020-02-12] - News page is not opened! expected [true] but found [false]
+
+org.testng.Assert.fail(Assert.java:96)
+org.testng.Assert.failNotEquals(Assert.java:776)
+org.testng.Assert.assertTrue(Assert.java:44)
+com.qaprosoft.carina.demo.WebSamplePerformanceTest.testNewsSearch(WebSamplePerformanceTest.java:139)
+sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+java.lang.reflect.Method.invoke(Unknown Source)
+org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+org.testng.internal.MethodInvocationHelper$1.runTestMethod(MethodInvocationHelper.java:230)
+com.qaprosoft.zafira.listener.ZafiraListener.lambda$run$0(ZafiraListener.java:103)
+com.qaprosoft.zafira.listener.ZafiraEventRegistrar.onTestHook(ZafiraEventRegistrar.java:360)
+com.qaprosoft.zafira.listener.ZafiraListener.run(ZafiraListener.java:103)
+org.testng.internal.MethodInvocationHelper.invokeHookable(MethodInvocationHelper.java:242)
+org.testng.internal.Invoker.invokeMethod(Invoker.java:579)
+org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+java.lang.Thread.run(Unknown Source)
+2020-02-12 12:36:19 Messager [INFO] INFO: '**************** Test execution summary ****************'.
+2020-02-12 12:36:19 Messager [INFO] RESULT #1: TEST [PT Web Test - testCompareModels] PASS [screenshots=file://E:\Nikita_workspace\Atlas_Demo\.\reports\qa\1581490871620/c06d7e39-c57a-45aa-9bd5-e8c0eb34c640/report.html | log=file://E:\Nikita_workspace\Atlas_Demo\.\reports\qa\1581490871620/c06d7e39-c57a-45aa-9bd5-e8c0eb34c640/test.log]
+2020-02-12 12:36:19 Messager [INFO] RESULT #2: TEST [GSMA0001 - PT Web Test - testModelSpecs] PASS [screenshots=file://E:\Nikita_workspace\Atlas_Demo\.\reports\qa\1581490871620/a163cfd5-e1c3-4e15-a526-9ada02490cb8/report.html | log=file://E:\Nikita_workspace\Atlas_Demo\.\reports\qa\1581490871620/a163cfd5-e1c3-4e15-a526-9ada02490cb8/test.log]
+2020-02-12 12:36:19 Messager [INFO] RESULT #3: TEST [GSMA0002 - PT Web Test - testModelSpecs] PASS [screenshots=file://E:\Nikita_workspace\Atlas_Demo\.\reports\qa\1581490871620/46b3bd79-0554-42b1-9884-518b85685de3/report.html | log=file://E:\Nikita_workspace\Atlas_Demo\.\reports\qa\1581490871620/46b3bd79-0554-42b1-9884-518b85685de3/test.log]
+2020-02-12 12:36:19 Messager [INFO] RESULT #4: TEST [GSMA0003 - PT Web Test - testModelSpecs] PASS [screenshots=file://E:\Nikita_workspace\Atlas_Demo\.\reports\qa\1581490871620/53a9788b-2e3e-42e5-9bbb-f6318657b328/report.html | log=file://E:\Nikita_workspace\Atlas_Demo\.\reports\qa\1581490871620/53a9788b-2e3e-42e5-9bbb-f6318657b328/test.log]
+2020-02-12 12:36:19 Messager [INFO] RESULT #5: TEST [PT Web Test - testNewsSearch] FAIL [screenshots=file://E:\Nikita_workspace\Atlas_Demo\.\reports\qa\1581490871620/5702bc9b-0658-4a2d-bd99-bd381e8c5e46/report.html | log=file://E:\Nikita_workspace\Atlas_Demo\.\reports\qa\1581490871620/5702bc9b-0658-4a2d-bd99-bd381e8c5e46/test.log]
+2020-02-12 13:12:42 CarinaListener [INFO] 
+============= Test configuration =============
+url=https://www.gsmarena.com
+env=DEMO
+env_arg_resolver=com.qaprosoft.carina.core.foundation.utils.DefaultEnvArgResolver
+platform=WEB
+browser=chrome
+browser_version=*
+browser_language=
+selenium_host=http://localhost:4444/wd/hub
+driver_event_listeners=com.qaprosoft.carina.demo.utils.PerfEventHandler
+max_driver_count=3
+custom_capabilities=
+chrome_args=
+chrome_experimental_opts=
+chrome_mobile_emulation_opts=
+firefox_args=
+firefox_preferences=
+app_version=
+proxy_host=
+proxy_port=
+proxy_protocols=http,https,ftp
+browsermob_proxy=false
+browsermob_host=
+browsermob_port=0
+browsermob_ports_range=
+browsermob_disabled_mitm=false
+proxy_set_to_system=false
+report_url=
+email_list=
+failure_email_list=
+track_known_issues=false
+auto_screenshot=true
+implicit_timeout=10
+explicit_timeout=20
+auto_download=false
+auto_download_apps=
+custom_artifacts_folder=
+retry_interval=5
+project_report_directory=./reports/qa
+max_screen_history=10
+max_log_file_size=150
+result_sorting=true
+big_screen_width=-1
+big_screen_height=-1
+small_screen_width=90
+small_screen_height=60
+init_retry_count=0
+init_retry_interval=1
+retry_count=0
+enable_l10n=true
+l10n_encoding=ISO-8859-1
+locale=en_US
+enable_i18n=true
+language=en_US
+thread_count=1
+data_provider_thread_count=-1
+core_log_level=INFO
+core_log_packages=com.qaprosoft.carina.core
+artifacts_expiration_seconds=2592000
+log_all_json=true
+date_format=HH:mm:ss yyyy-MM-dd
+time_format=HH:mm:ss
+suite_name=
+jira_updater=com.qaprosoft.carina.core.foundation.jira.DefaultJiraUpdater
+jira_url=
+jira_user=
+jira_password=
+jira_suite_id=
+jira_project=
+jira_project_short=
+jira_create_new_ticket=false
+test_naming_pattern={method_name}
+optimize_video_recording=false
+testrail_run_name=
+testrail_milestone=
+testrail_assignee=
+qtest_cycle_name=DailyAutomation
+qtest_suite_name=
+s3_bucket_name=
+access_key_id=
+secret_key=
+s3_use_presign_url=false
+s3_local_storage=.
+appcenter_token=
+appcenter_local_storage=.
+add_new_localization=false
+add_new_localization_encoding=utf-8
+add_new_localization_path=
+add_new_localization_property_name=new_custom_messages_
+tls_keysecure_location=
+health_check_class=
+health_check_methods=
+uninstall_related_apps=false
+default_device_timezone=GMT
+default_device_time_format=24
+default_device_language=en_US
+android_screen_record_size=
+android_screen_record_bitrate=
+android_enable_bug_report=true
+ios_screen_record_quality=MEDIUM
+ios_screen_record_codec=libx264
+ios_screen_record_fps=10
+screen_record_duration=180
+video_scale=-2:720
+ignore_ssl=false
+test_run_rules=
+hub_mode=selenium
+extract_sys_log=false
+selenium_host=http://localhost:4444/wd/hub
+
+------------- Driver capabilities -----------
+================================================
+
+2020-02-12 13:12:42 CarinaListener [INFO] Set data_provider_thread_count=1
+2020-02-12 13:12:42 CarinaListener [INFO] CARINA_CORE_VERSION: 6.3.30
+2020-02-12 13:12:43 WebSamplePerformanceTest [INFO] Suite Name: PT Web Suite
+2020-02-12 13:12:43 WebSamplePerformanceTest [INFO] Test Name: testCompareModels
+2020-02-12 13:12:43 Messager [INFO]  TEST [PT Web Test - testCompareModels] STARTED at [13:12:43 2020-02-12]
+2020-02-12 13:12:51 DesktopFactory [INFO] Browser window was maximized
+2020-02-12 13:13:33 Messager [INFO] INFO: url 'https://www.gsmarena.com' is being opened...
+2020-02-12 13:13:42 DriverListener [INFO] INFO: url 'https://www.gsmarena.com' is opened.
+2020-02-12 13:13:43 PerfEventHandler [INFO] URL 'https://www.gsmarena.com' opened
+2020-02-12 13:13:46 DriverListener [INFO] PASS: element 'compareLink' is clicked.
+2020-02-12 13:14:22 PerformanceStats [INFO] ZafiraRunID: 403
+2020-02-12 13:14:23 PerformanceStats [INFO] SuiteName: PT Web Suite
+2020-02-12 13:14:24 PerformanceStats [INFO] TestCaseID: testCompareModels
+2020-02-12 13:28:08 CarinaListener [INFO] 
+============= Test configuration =============
+url=https://www.gsmarena.com
+env=DEMO
+env_arg_resolver=com.qaprosoft.carina.core.foundation.utils.DefaultEnvArgResolver
+platform=WEB
+browser=chrome
+browser_version=*
+browser_language=
+selenium_host=http://localhost:4444/wd/hub
+driver_event_listeners=com.qaprosoft.carina.demo.utils.PerfEventHandler
+max_driver_count=3
+custom_capabilities=
+chrome_args=
+chrome_experimental_opts=
+chrome_mobile_emulation_opts=
+firefox_args=
+firefox_preferences=
+app_version=
+proxy_host=
+proxy_port=
+proxy_protocols=http,https,ftp
+browsermob_proxy=false
+browsermob_host=
+browsermob_port=0
+browsermob_ports_range=
+browsermob_disabled_mitm=false
+proxy_set_to_system=false
+report_url=
+email_list=
+failure_email_list=
+track_known_issues=false
+auto_screenshot=true
+implicit_timeout=10
+explicit_timeout=20
+auto_download=false
+auto_download_apps=
+custom_artifacts_folder=
+retry_interval=5
+project_report_directory=./reports/qa
+max_screen_history=10
+max_log_file_size=150
+result_sorting=true
+big_screen_width=-1
+big_screen_height=-1
+small_screen_width=90
+small_screen_height=60
+init_retry_count=0
+init_retry_interval=1
+retry_count=0
+enable_l10n=true
+l10n_encoding=ISO-8859-1
+locale=en_US
+enable_i18n=true
+language=en_US
+thread_count=1
+data_provider_thread_count=-1
+core_log_level=INFO
+core_log_packages=com.qaprosoft.carina.core
+artifacts_expiration_seconds=2592000
+log_all_json=true
+date_format=HH:mm:ss yyyy-MM-dd
+time_format=HH:mm:ss
+suite_name=
+jira_updater=com.qaprosoft.carina.core.foundation.jira.DefaultJiraUpdater
+jira_url=
+jira_user=
+jira_password=
+jira_suite_id=
+jira_project=
+jira_project_short=
+jira_create_new_ticket=false
+test_naming_pattern={method_name}
+optimize_video_recording=false
+testrail_run_name=
+testrail_milestone=
+testrail_assignee=
+qtest_cycle_name=DailyAutomation
+qtest_suite_name=
+s3_bucket_name=
+access_key_id=
+secret_key=
+s3_use_presign_url=false
+s3_local_storage=.
+appcenter_token=
+appcenter_local_storage=.
+add_new_localization=false
+add_new_localization_encoding=utf-8
+add_new_localization_path=
+add_new_localization_property_name=new_custom_messages_
+tls_keysecure_location=
+health_check_class=
+health_check_methods=
+uninstall_related_apps=false
+default_device_timezone=GMT
+default_device_time_format=24
+default_device_language=en_US
+android_screen_record_size=
+android_screen_record_bitrate=
+android_enable_bug_report=true
+ios_screen_record_quality=MEDIUM
+ios_screen_record_codec=libx264
+ios_screen_record_fps=10
+screen_record_duration=180
+video_scale=-2:720
+ignore_ssl=false
+test_run_rules=
+hub_mode=selenium
+extract_sys_log=false
+selenium_host=http://localhost:4444/wd/hub
+
+------------- Driver capabilities -----------
+================================================
+
+2020-02-12 13:28:09 CarinaListener [INFO] Set data_provider_thread_count=1
+2020-02-12 13:28:09 CarinaListener [INFO] CARINA_CORE_VERSION: 6.3.30
+2020-02-12 13:28:09 WebSamplePerformanceTest [INFO] Suite Name: PT Web Suite
+2020-02-12 13:28:09 WebSamplePerformanceTest [INFO] Test Name: testCompareModels
+2020-02-12 13:28:09 Messager [INFO]  TEST [PT Web Test - testCompareModels] STARTED at [13:28:09 2020-02-12]
+2020-02-12 13:28:16 DesktopFactory [INFO] Browser window was maximized
+2020-02-12 13:28:21 Messager [INFO] INFO: url 'https://www.gsmarena.com' is being opened...
+2020-02-12 13:28:30 DriverListener [INFO] INFO: url 'https://www.gsmarena.com' is opened.
+2020-02-12 13:28:32 PerfEventHandler [INFO] URL 'https://www.gsmarena.com' opened
+2020-02-12 13:28:36 DriverListener [INFO] PASS: element 'compareLink' is clicked.
+2020-02-12 13:28:46 PerformanceStats [INFO] perf_log_12.02.2020 index is present
+2020-02-12 13:28:46 PerformanceStats [INFO] ZafiraRunID: 404
+2020-02-12 13:28:46 PerformanceStats [INFO] SuiteName: PT Web Suite
+2020-02-12 13:28:46 PerformanceStats [INFO] TestCaseID: testCompareModels
+2020-02-12 13:28:46 PerfEventHandler [INFO] Element clicked
+2020-02-12 13:28:48 DriverListener [INFO] PASS: element 'inputField' is clicked.
+2020-02-12 13:29:15 PerformanceStats [INFO] perf_log_12.02.2020 index is present
+2020-02-12 13:29:15 PerformanceStats [INFO] ZafiraRunID: 404
+2020-02-12 13:29:15 PerformanceStats [INFO] SuiteName: PT Web Suite
+2020-02-12 13:29:15 PerformanceStats [INFO] TestCaseID: testCompareModels
+2020-02-12 13:32:22 CarinaListener [INFO] 
+============= Test configuration =============
+url=https://www.gsmarena.com
+env=DEMO
+env_arg_resolver=com.qaprosoft.carina.core.foundation.utils.DefaultEnvArgResolver
+platform=WEB
+browser=chrome
+browser_version=*
+browser_language=
+selenium_host=http://localhost:4444/wd/hub
+driver_event_listeners=com.qaprosoft.carina.demo.utils.PerfEventHandler
+max_driver_count=3
+custom_capabilities=
+chrome_args=
+chrome_experimental_opts=
+chrome_mobile_emulation_opts=
+firefox_args=
+firefox_preferences=
+app_version=
+proxy_host=
+proxy_port=
+proxy_protocols=http,https,ftp
+browsermob_proxy=false
+browsermob_host=
+browsermob_port=0
+browsermob_ports_range=
+browsermob_disabled_mitm=false
+proxy_set_to_system=false
+report_url=
+email_list=
+failure_email_list=
+track_known_issues=false
+auto_screenshot=true
+implicit_timeout=10
+explicit_timeout=20
+auto_download=false
+auto_download_apps=
+custom_artifacts_folder=
+retry_interval=5
+project_report_directory=./reports/qa
+max_screen_history=10
+max_log_file_size=150
+result_sorting=true
+big_screen_width=-1
+big_screen_height=-1
+small_screen_width=90
+small_screen_height=60
+init_retry_count=0
+init_retry_interval=1
+retry_count=0
+enable_l10n=true
+l10n_encoding=ISO-8859-1
+locale=en_US
+enable_i18n=true
+language=en_US
+thread_count=1
+data_provider_thread_count=-1
+core_log_level=INFO
+core_log_packages=com.qaprosoft.carina.core
+artifacts_expiration_seconds=2592000
+log_all_json=true
+date_format=HH:mm:ss yyyy-MM-dd
+time_format=HH:mm:ss
+suite_name=
+jira_updater=com.qaprosoft.carina.core.foundation.jira.DefaultJiraUpdater
+jira_url=
+jira_user=
+jira_password=
+jira_suite_id=
+jira_project=
+jira_project_short=
+jira_create_new_ticket=false
+test_naming_pattern={method_name}
+optimize_video_recording=false
+testrail_run_name=
+testrail_milestone=
+testrail_assignee=
+qtest_cycle_name=DailyAutomation
+qtest_suite_name=
+s3_bucket_name=
+access_key_id=
+secret_key=
+s3_use_presign_url=false
+s3_local_storage=.
+appcenter_token=
+appcenter_local_storage=.
+add_new_localization=false
+add_new_localization_encoding=utf-8
+add_new_localization_path=
+add_new_localization_property_name=new_custom_messages_
+tls_keysecure_location=
+health_check_class=
+health_check_methods=
+uninstall_related_apps=false
+default_device_timezone=GMT
+default_device_time_format=24
+default_device_language=en_US
+android_screen_record_size=
+android_screen_record_bitrate=
+android_enable_bug_report=true
+ios_screen_record_quality=MEDIUM
+ios_screen_record_codec=libx264
+ios_screen_record_fps=10
+screen_record_duration=180
+video_scale=-2:720
+ignore_ssl=false
+test_run_rules=
+hub_mode=selenium
+extract_sys_log=false
+selenium_host=http://localhost:4444/wd/hub
+
+------------- Driver capabilities -----------
+================================================
+
+2020-02-12 13:32:23 CarinaListener [INFO] Set data_provider_thread_count=1
+2020-02-12 13:32:23 CarinaListener [INFO] CARINA_CORE_VERSION: 6.3.30
+2020-02-12 13:32:23 WebSamplePerformanceTest [INFO] Suite Name: PT Web Suite
+2020-02-12 13:32:23 WebSamplePerformanceTest [INFO] Test Name: testCompareModels
+2020-02-12 13:32:23 Messager [INFO]  TEST [PT Web Test - testCompareModels] STARTED at [13:32:23 2020-02-12]
+2020-02-12 13:32:30 DesktopFactory [INFO] Browser window was maximized
+2020-02-12 13:32:32 Messager [INFO] INFO: url 'https://www.gsmarena.com' is being opened...
+2020-02-12 13:32:40 DriverListener [INFO] INFO: url 'https://www.gsmarena.com' is opened.
+2020-02-12 13:32:42 PerfEventHandler [INFO] URL 'https://www.gsmarena.com' opened
+2020-02-12 13:32:45 DriverListener [INFO] PASS: element 'compareLink' is clicked.
+2020-02-12 13:33:02 PerformanceStats [INFO] perf_log_12.02.2020 index is present
+2020-02-12 13:33:08 PerformanceStats [INFO] ZafiraRunID: 405
+2020-02-12 13:33:08 PerformanceStats [INFO] SuiteName: PT Web Suite
+2020-02-12 13:33:08 PerformanceStats [INFO] TestCaseID: testCompareModels
+2020-02-12 13:33:39 CarinaListener [INFO] 
+============= Test configuration =============
+url=https://www.gsmarena.com
+env=DEMO
+env_arg_resolver=com.qaprosoft.carina.core.foundation.utils.DefaultEnvArgResolver
+platform=WEB
+browser=chrome
+browser_version=*
+browser_language=
+selenium_host=http://localhost:4444/wd/hub
+driver_event_listeners=com.qaprosoft.carina.demo.utils.PerfEventHandler
+max_driver_count=3
+custom_capabilities=
+chrome_args=
+chrome_experimental_opts=
+chrome_mobile_emulation_opts=
+firefox_args=
+firefox_preferences=
+app_version=
+proxy_host=
+proxy_port=
+proxy_protocols=http,https,ftp
+browsermob_proxy=false
+browsermob_host=
+browsermob_port=0
+browsermob_ports_range=
+browsermob_disabled_mitm=false
+proxy_set_to_system=false
+report_url=
+email_list=
+failure_email_list=
+track_known_issues=false
+auto_screenshot=true
+implicit_timeout=10
+explicit_timeout=20
+auto_download=false
+auto_download_apps=
+custom_artifacts_folder=
+retry_interval=5
+project_report_directory=./reports/qa
+max_screen_history=10
+max_log_file_size=150
+result_sorting=true
+big_screen_width=-1
+big_screen_height=-1
+small_screen_width=90
+small_screen_height=60
+init_retry_count=0
+init_retry_interval=1
+retry_count=0
+enable_l10n=true
+l10n_encoding=ISO-8859-1
+locale=en_US
+enable_i18n=true
+language=en_US
+thread_count=1
+data_provider_thread_count=-1
+core_log_level=INFO
+core_log_packages=com.qaprosoft.carina.core
+artifacts_expiration_seconds=2592000
+log_all_json=true
+date_format=HH:mm:ss yyyy-MM-dd
+time_format=HH:mm:ss
+suite_name=
+jira_updater=com.qaprosoft.carina.core.foundation.jira.DefaultJiraUpdater
+jira_url=
+jira_user=
+jira_password=
+jira_suite_id=
+jira_project=
+jira_project_short=
+jira_create_new_ticket=false
+test_naming_pattern={method_name}
+optimize_video_recording=false
+testrail_run_name=
+testrail_milestone=
+testrail_assignee=
+qtest_cycle_name=DailyAutomation
+qtest_suite_name=
+s3_bucket_name=
+access_key_id=
+secret_key=
+s3_use_presign_url=false
+s3_local_storage=.
+appcenter_token=
+appcenter_local_storage=.
+add_new_localization=false
+add_new_localization_encoding=utf-8
+add_new_localization_path=
+add_new_localization_property_name=new_custom_messages_
+tls_keysecure_location=
+health_check_class=
+health_check_methods=
+uninstall_related_apps=false
+default_device_timezone=GMT
+default_device_time_format=24
+default_device_language=en_US
+android_screen_record_size=
+android_screen_record_bitrate=
+android_enable_bug_report=true
+ios_screen_record_quality=MEDIUM
+ios_screen_record_codec=libx264
+ios_screen_record_fps=10
+screen_record_duration=180
+video_scale=-2:720
+ignore_ssl=false
+test_run_rules=
+hub_mode=selenium
+extract_sys_log=false
+selenium_host=http://localhost:4444/wd/hub
+
+------------- Driver capabilities -----------
+================================================
+
+2020-02-12 13:33:40 CarinaListener [INFO] Set data_provider_thread_count=1
+2020-02-12 13:33:40 CarinaListener [INFO] CARINA_CORE_VERSION: 6.3.30
+2020-02-12 13:33:41 WebSamplePerformanceTest [INFO] Suite Name: PT Web Suite
+2020-02-12 13:33:41 WebSamplePerformanceTest [INFO] Test Name: testCompareModels
+2020-02-12 13:33:41 Messager [INFO]  TEST [PT Web Test - testCompareModels] STARTED at [13:33:41 2020-02-12]
+2020-02-12 13:33:46 DesktopFactory [INFO] Browser window was maximized
+2020-02-12 13:33:46 Messager [INFO] INFO: url 'https://www.gsmarena.com' is being opened...
+2020-02-12 13:33:53 DriverListener [INFO] INFO: url 'https://www.gsmarena.com' is opened.
+2020-02-12 13:33:55 PerfEventHandler [INFO] URL 'https://www.gsmarena.com' opened
+2020-02-12 13:33:58 DriverListener [INFO] PASS: element 'compareLink' is clicked.
+2020-02-12 13:34:00 PerformanceStats [INFO] perf_log_12.02.2020 index is present
+2020-02-12 13:34:00 PerformanceStats [INFO] ZafiraRunID: 406
+2020-02-12 13:34:00 PerformanceStats [INFO] SuiteName: PT Web Suite
+2020-02-12 13:34:00 PerformanceStats [INFO] TestCaseID: testCompareModels
+2020-02-12 13:34:01 PerfEventHandler [INFO] Element clicked
+2020-02-12 13:34:03 DriverListener [INFO] PASS: element 'inputField' is clicked.
+2020-02-12 13:34:04 PerformanceStats [INFO] perf_log_12.02.2020 index is present
+2020-02-12 13:34:04 PerformanceStats [INFO] ZafiraRunID: 406
+2020-02-12 13:34:04 PerformanceStats [INFO] SuiteName: PT Web Suite
+2020-02-12 13:34:04 PerformanceStats [INFO] TestCaseID: testCompareModels
+2020-02-12 13:34:05 PerfEventHandler [INFO] Element clicked
+2020-02-12 13:34:06 DriverListener [INFO] PASS: keys cleared in element 'inputField'.
+2020-02-12 13:34:07 PerfEventHandler [INFO] Text '' typed
+2020-02-12 13:34:08 DriverListener [INFO] PASS: keys 'Samsung Galaxy J3' are sent to element 'inputField'.
+2020-02-12 13:34:10 PerfEventHandler [INFO] Text 'Samsung Galaxy J3' typed
+2020-02-12 13:34:14 DriverListener [INFO] PASS: element 'Samsung Galaxy J3 (2016)' is clicked.
+2020-02-12 13:34:15 PerformanceStats [INFO] perf_log_12.02.2020 index is present
+2020-02-12 13:34:15 PerformanceStats [INFO] ZafiraRunID: 406
+2020-02-12 13:34:15 PerformanceStats [INFO] SuiteName: PT Web Suite
+2020-02-12 13:34:15 PerformanceStats [INFO] TestCaseID: testCompareModels
+2020-02-12 13:34:15 PerfEventHandler [INFO] Element clicked
+2020-02-12 13:34:17 DriverListener [INFO] PASS: element 'inputField' is clicked.
+2020-02-12 13:34:18 PerformanceStats [INFO] perf_log_12.02.2020 index is present
+2020-02-12 13:34:18 PerformanceStats [INFO] ZafiraRunID: 406
+2020-02-12 13:34:18 PerformanceStats [INFO] SuiteName: PT Web Suite
+2020-02-12 13:34:18 PerformanceStats [INFO] TestCaseID: testCompareModels
+2020-02-12 13:34:18 PerfEventHandler [INFO] Element clicked
+2020-02-12 13:34:20 DriverListener [INFO] PASS: keys cleared in element 'inputField'.
+2020-02-12 13:34:21 PerfEventHandler [INFO] Text '' typed
+2020-02-12 13:34:22 DriverListener [INFO] PASS: keys 'Samsung Galaxy J5' are sent to element 'inputField'.
+2020-02-12 13:34:24 PerfEventHandler [INFO] Text 'Samsung Galaxy J5' typed
+2020-02-12 13:34:28 DriverListener [INFO] PASS: element 'Samsung Galaxy J5' is clicked.
+2020-02-12 13:34:29 PerformanceStats [INFO] perf_log_12.02.2020 index is present
+2020-02-12 13:34:29 PerformanceStats [INFO] ZafiraRunID: 406
+2020-02-12 13:34:29 PerformanceStats [INFO] SuiteName: PT Web Suite
+2020-02-12 13:34:29 PerformanceStats [INFO] TestCaseID: testCompareModels
+2020-02-12 13:34:29 PerfEventHandler [INFO] Element clicked
+2020-02-12 13:34:32 DriverListener [INFO] PASS: element 'inputField' is clicked.
+2020-02-12 13:34:33 PerformanceStats [INFO] perf_log_12.02.2020 index is present
+2020-02-12 13:34:33 PerformanceStats [INFO] ZafiraRunID: 406
+2020-02-12 13:34:33 PerformanceStats [INFO] SuiteName: PT Web Suite
+2020-02-12 13:34:33 PerformanceStats [INFO] TestCaseID: testCompareModels
+2020-02-12 13:34:33 PerfEventHandler [INFO] Element clicked
+2020-02-12 13:34:34 DriverListener [INFO] PASS: keys cleared in element 'inputField'.
+2020-02-12 13:34:37 PerfEventHandler [INFO] Text '' typed
+2020-02-12 13:34:39 DriverListener [INFO] PASS: keys 'Samsung Galaxy J7 Pro' are sent to element 'inputField'.
+2020-02-12 13:34:40 PerfEventHandler [INFO] Text 'Samsung Galaxy J7 Pro' typed
+2020-02-12 13:34:44 DriverListener [INFO] PASS: element 'Samsung Galaxy J7 Pro' is clicked.
+2020-02-12 13:34:46 PerformanceStats [INFO] perf_log_12.02.2020 index is present
+2020-02-12 13:34:46 PerformanceStats [INFO] ZafiraRunID: 406
+2020-02-12 13:34:46 PerformanceStats [INFO] SuiteName: PT Web Suite
+2020-02-12 13:34:46 PerformanceStats [INFO] TestCaseID: testCompareModels
+2020-02-12 13:34:46 PerfEventHandler [INFO] Element clicked
+2020-02-12 13:34:47 Messager [INFO]  TEST [PT Web Test - testCompareModels] PASSED at [13:34:47 2020-02-12]
+2020-02-12 13:34:49 WebSamplePerformanceTest [INFO] Suite Name: PT Web Suite
+2020-02-12 13:34:49 WebSamplePerformanceTest [INFO] Test Name: testModelSpecs
+2020-02-12 13:34:49 Messager [INFO]  TEST [GSMA0001 - PT Web Test - testModelSpecs] STARTED at [13:34:49 2020-02-12]
+2020-02-12 13:34:53 DesktopFactory [INFO] Browser window was maximized
+2020-02-12 13:34:53 Messager [INFO] INFO: url 'https://www.gsmarena.com' is being opened...
+2020-02-12 13:35:03 DriverListener [INFO] INFO: url 'https://www.gsmarena.com' is opened.
+2020-02-12 13:35:06 PerfEventHandler [INFO] URL 'https://www.gsmarena.com' opened
+2020-02-12 13:35:08 HomePage [INFO] selecting 'Samsung' brand...
+2020-02-12 13:35:09 HomePage [INFO] currentBrand: PHONE FINDER
+2020-02-12 13:35:09 HomePage [INFO] currentBrand: SAMSUNG
+2020-02-12 13:35:12 DriverListener [INFO] PASS: element 'SAMSUNG' is clicked.
+2020-02-12 13:35:14 PerformanceStats [INFO] perf_log_12.02.2020 index is present
+2020-02-12 13:35:14 PerformanceStats [INFO] ZafiraRunID: 406
+2020-02-12 13:35:14 PerformanceStats [INFO] SuiteName: PT Web Suite
+2020-02-12 13:35:14 PerformanceStats [INFO] TestCaseID: testModelSpecs
+2020-02-12 13:35:14 PerfEventHandler [INFO] Element clicked
+2020-02-12 13:35:29 DriverListener [INFO] PASS: element 'modelLink' is clicked.
+2020-02-12 13:35:31 PerformanceStats [INFO] perf_log_12.02.2020 index is present
+2020-02-12 13:35:31 PerformanceStats [INFO] ZafiraRunID: 406
+2020-02-12 13:35:31 PerformanceStats [INFO] SuiteName: PT Web Suite
+2020-02-12 13:35:31 PerformanceStats [INFO] TestCaseID: testModelSpecs
+2020-02-12 13:35:31 PerfEventHandler [INFO] Element clicked
+2020-02-12 13:35:32 Messager [INFO]  TEST [GSMA0001 - PT Web Test - testModelSpecs] PASSED at [13:35:32 2020-02-12]
+2020-02-12 13:35:32 WebSamplePerformanceTest [INFO] Suite Name: PT Web Suite
+2020-02-12 13:35:32 WebSamplePerformanceTest [INFO] Test Name: testModelSpecs
+2020-02-12 13:35:32 Messager [INFO]  TEST [GSMA0002 - PT Web Test - testModelSpecs] STARTED at [13:35:32 2020-02-12]
+2020-02-12 13:35:38 DesktopFactory [INFO] Browser window was maximized
+2020-02-12 13:35:38 Messager [INFO] INFO: url 'https://www.gsmarena.com' is being opened...
+2020-02-12 13:35:47 DriverListener [INFO] INFO: url 'https://www.gsmarena.com' is opened.
+2020-02-12 13:35:49 PerfEventHandler [INFO] URL 'https://www.gsmarena.com' opened
+2020-02-12 13:35:50 HomePage [INFO] selecting 'Samsung' brand...
+2020-02-12 13:35:51 HomePage [INFO] currentBrand: PHONE FINDER
+2020-02-12 13:35:51 HomePage [INFO] currentBrand: SAMSUNG
+2020-02-12 13:35:57 DriverListener [INFO] PASS: element 'SAMSUNG' is clicked.
+2020-02-12 13:35:59 PerformanceStats [INFO] perf_log_12.02.2020 index is present
+2020-02-12 13:35:59 PerformanceStats [INFO] ZafiraRunID: 406
+2020-02-12 13:35:59 PerformanceStats [INFO] SuiteName: PT Web Suite
+2020-02-12 13:35:59 PerformanceStats [INFO] TestCaseID: testModelSpecs
+2020-02-12 13:35:59 PerfEventHandler [INFO] Element clicked
+2020-02-12 13:36:55 DriverListener [INFO] PASS: element 'modelLink' is clicked.
+2020-02-12 13:36:57 PerformanceStats [INFO] perf_log_12.02.2020 index is present
+2020-02-12 13:36:57 PerformanceStats [INFO] ZafiraRunID: 406
+2020-02-12 13:36:57 PerformanceStats [INFO] SuiteName: PT Web Suite
+2020-02-12 13:36:57 PerformanceStats [INFO] TestCaseID: testModelSpecs
+2020-02-12 13:36:57 PerfEventHandler [INFO] Element clicked
+2020-02-12 13:36:59 Messager [INFO]  TEST [GSMA0002 - PT Web Test - testModelSpecs] PASSED at [13:36:59 2020-02-12]
+2020-02-12 13:36:59 WebSamplePerformanceTest [INFO] Suite Name: PT Web Suite
+2020-02-12 13:36:59 WebSamplePerformanceTest [INFO] Test Name: testModelSpecs
+2020-02-12 13:36:59 Messager [INFO]  TEST [GSMA0003 - PT Web Test - testModelSpecs] STARTED at [13:36:59 2020-02-12]
+2020-02-12 13:37:03 DesktopFactory [INFO] Browser window was maximized
+2020-02-12 13:37:03 Messager [INFO] INFO: url 'https://www.gsmarena.com' is being opened...
+2020-02-12 13:37:10 DriverListener [INFO] INFO: url 'https://www.gsmarena.com' is opened.
+2020-02-12 13:37:13 PerfEventHandler [INFO] URL 'https://www.gsmarena.com' opened
+2020-02-12 13:37:14 HomePage [INFO] selecting 'Samsung' brand...
+2020-02-12 13:37:15 HomePage [INFO] currentBrand: PHONE FINDER
+2020-02-12 13:37:15 HomePage [INFO] currentBrand: SAMSUNG
+2020-02-12 13:37:23 DriverListener [INFO] PASS: element 'SAMSUNG' is clicked.
+2020-02-12 13:37:24 PerformanceStats [INFO] perf_log_12.02.2020 index is present
+2020-02-12 13:37:24 PerformanceStats [INFO] ZafiraRunID: 406
+2020-02-12 13:37:24 PerformanceStats [INFO] SuiteName: PT Web Suite
+2020-02-12 13:37:24 PerformanceStats [INFO] TestCaseID: testModelSpecs
+2020-02-12 13:37:25 PerfEventHandler [INFO] Element clicked
+2020-02-12 13:37:33 DriverListener [INFO] PASS: element 'modelLink' is clicked.
+2020-02-12 13:37:34 PerformanceStats [INFO] perf_log_12.02.2020 index is present
+2020-02-12 13:37:34 PerformanceStats [INFO] ZafiraRunID: 406
+2020-02-12 13:37:34 PerformanceStats [INFO] SuiteName: PT Web Suite
+2020-02-12 13:37:34 PerformanceStats [INFO] TestCaseID: testModelSpecs
+2020-02-12 13:37:35 PerfEventHandler [INFO] Element clicked
+2020-02-12 13:37:36 Messager [INFO]  TEST [GSMA0003 - PT Web Test - testModelSpecs] PASSED at [13:37:36 2020-02-12]
+2020-02-12 13:37:36 WebSamplePerformanceTest [INFO] Suite Name: PT Web Suite
+2020-02-12 13:37:36 WebSamplePerformanceTest [INFO] Test Name: testNewsSearch
+2020-02-12 13:37:36 Messager [INFO]  TEST [PT Web Test - testNewsSearch] STARTED at [13:37:36 2020-02-12]
+2020-02-12 13:37:40 DesktopFactory [INFO] Browser window was maximized
+2020-02-12 13:37:40 Messager [INFO] INFO: url 'https://www.gsmarena.com' is being opened...
+2020-02-12 13:37:47 DriverListener [INFO] INFO: url 'https://www.gsmarena.com' is opened.
+2020-02-12 13:37:49 PerfEventHandler [INFO] URL 'https://www.gsmarena.com' opened
+2020-02-12 13:37:55 DriverListener [INFO] PASS: element 'newsLink' is clicked.
+2020-02-12 13:37:56 PerformanceStats [INFO] perf_log_12.02.2020 index is present
+2020-02-12 13:37:56 PerformanceStats [INFO] ZafiraRunID: 406
+2020-02-12 13:37:56 PerformanceStats [INFO] SuiteName: PT Web Suite
+2020-02-12 13:37:56 PerformanceStats [INFO] TestCaseID: testNewsSearch
+2020-02-12 13:37:56 PerfEventHandler [INFO] Element clicked
+2020-02-12 13:38:18 DriverHelper [WARN] Actual URL differs from expected one. Expected 'https://qkm1.qualitykiosk.com/api/news.php3' but found 'https://www.gsmarena.com/news.php3'
+2020-02-12 13:38:27 Messager [ERROR]  TEST [PT Web Test - testNewsSearch] FAILED at [13:38:27 2020-02-12] - News page is not opened! expected [true] but found [false]
+
+org.testng.Assert.fail(Assert.java:96)
+org.testng.Assert.failNotEquals(Assert.java:776)
+org.testng.Assert.assertTrue(Assert.java:44)
+com.qaprosoft.carina.demo.WebSamplePerformanceTest.testNewsSearch(WebSamplePerformanceTest.java:139)
+sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+java.lang.reflect.Method.invoke(Unknown Source)
+org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+org.testng.internal.MethodInvocationHelper$1.runTestMethod(MethodInvocationHelper.java:230)
+com.qaprosoft.zafira.listener.ZafiraListener.lambda$run$0(ZafiraListener.java:103)
+com.qaprosoft.zafira.listener.ZafiraEventRegistrar.onTestHook(ZafiraEventRegistrar.java:360)
+com.qaprosoft.zafira.listener.ZafiraListener.run(ZafiraListener.java:103)
+org.testng.internal.MethodInvocationHelper.invokeHookable(MethodInvocationHelper.java:242)
+org.testng.internal.Invoker.invokeMethod(Invoker.java:579)
+org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+java.lang.Thread.run(Unknown Source)
+2020-02-12 13:38:28 Messager [INFO] INFO: '**************** Test execution summary ****************'.
+2020-02-12 13:38:28 Messager [INFO] RESULT #1: TEST [PT Web Test - testCompareModels] PASS [screenshots=file://E:\Nikita_workspace\Atlas_Demo\.\reports\qa\1581494620896/1d361bbf-60ba-4cba-add8-26d169137ebd/report.html | log=file://E:\Nikita_workspace\Atlas_Demo\.\reports\qa\1581494620896/1d361bbf-60ba-4cba-add8-26d169137ebd/test.log]
+2020-02-12 13:38:28 Messager [INFO] RESULT #2: TEST [GSMA0001 - PT Web Test - testModelSpecs] PASS [screenshots=file://E:\Nikita_workspace\Atlas_Demo\.\reports\qa\1581494620896/252240b4-a6f6-4754-8131-7c4645186f04/report.html | log=file://E:\Nikita_workspace\Atlas_Demo\.\reports\qa\1581494620896/252240b4-a6f6-4754-8131-7c4645186f04/test.log]
+2020-02-12 13:38:28 Messager [INFO] RESULT #3: TEST [GSMA0002 - PT Web Test - testModelSpecs] PASS [screenshots=file://E:\Nikita_workspace\Atlas_Demo\.\reports\qa\1581494620896/e44b39d7-bbfe-48ba-aea2-4f045c226046/report.html | log=file://E:\Nikita_workspace\Atlas_Demo\.\reports\qa\1581494620896/e44b39d7-bbfe-48ba-aea2-4f045c226046/test.log]
+2020-02-12 13:38:28 Messager [INFO] RESULT #4: TEST [GSMA0003 - PT Web Test - testModelSpecs] PASS [screenshots=file://E:\Nikita_workspace\Atlas_Demo\.\reports\qa\1581494620896/f01d2cf1-119e-4035-ba8f-b478fc79c129/report.html | log=file://E:\Nikita_workspace\Atlas_Demo\.\reports\qa\1581494620896/f01d2cf1-119e-4035-ba8f-b478fc79c129/test.log]
+2020-02-12 13:38:28 Messager [INFO] RESULT #5: TEST [PT Web Test - testNewsSearch] FAIL [screenshots=file://E:\Nikita_workspace\Atlas_Demo\.\reports\qa\1581494620896/c0f949c9-f183-46c9-914d-625222df3877/report.html | log=file://E:\Nikita_workspace\Atlas_Demo\.\reports\qa\1581494620896/c0f949c9-f183-46c9-914d-625222df3877/test.log]
+2020-02-12 13:39:19 CarinaListener [INFO] 
+============= Test configuration =============
+url=https://www.gsmarena.com
+env=DEMO
+env_arg_resolver=com.qaprosoft.carina.core.foundation.utils.DefaultEnvArgResolver
+platform=WEB
+browser=chrome
+browser_version=*
+browser_language=
+selenium_host=http://localhost:4444/wd/hub
+driver_event_listeners=com.qaprosoft.carina.demo.utils.PerfEventHandler
+max_driver_count=3
+custom_capabilities=
+chrome_args=
+chrome_experimental_opts=
+chrome_mobile_emulation_opts=
+firefox_args=
+firefox_preferences=
+app_version=
+proxy_host=
+proxy_port=
+proxy_protocols=http,https,ftp
+browsermob_proxy=false
+browsermob_host=
+browsermob_port=0
+browsermob_ports_range=
+browsermob_disabled_mitm=false
+proxy_set_to_system=false
+report_url=
+email_list=
+failure_email_list=
+track_known_issues=false
+auto_screenshot=true
+implicit_timeout=10
+explicit_timeout=20
+auto_download=false
+auto_download_apps=
+custom_artifacts_folder=
+retry_interval=5
+project_report_directory=./reports/qa
+max_screen_history=10
+max_log_file_size=150
+result_sorting=true
+big_screen_width=-1
+big_screen_height=-1
+small_screen_width=90
+small_screen_height=60
+init_retry_count=0
+init_retry_interval=1
+retry_count=0
+enable_l10n=true
+l10n_encoding=ISO-8859-1
+locale=en_US
+enable_i18n=true
+language=en_US
+thread_count=1
+data_provider_thread_count=-1
+core_log_level=INFO
+core_log_packages=com.qaprosoft.carina.core
+artifacts_expiration_seconds=2592000
+log_all_json=true
+date_format=HH:mm:ss yyyy-MM-dd
+time_format=HH:mm:ss
+suite_name=
+jira_updater=com.qaprosoft.carina.core.foundation.jira.DefaultJiraUpdater
+jira_url=
+jira_user=
+jira_password=
+jira_suite_id=
+jira_project=
+jira_project_short=
+jira_create_new_ticket=false
+test_naming_pattern={method_name}
+optimize_video_recording=false
+testrail_run_name=
+testrail_milestone=
+testrail_assignee=
+qtest_cycle_name=DailyAutomation
+qtest_suite_name=
+s3_bucket_name=
+access_key_id=
+secret_key=
+s3_use_presign_url=false
+s3_local_storage=.
+appcenter_token=
+appcenter_local_storage=.
+add_new_localization=false
+add_new_localization_encoding=utf-8
+add_new_localization_path=
+add_new_localization_property_name=new_custom_messages_
+tls_keysecure_location=
+health_check_class=
+health_check_methods=
+uninstall_related_apps=false
+default_device_timezone=GMT
+default_device_time_format=24
+default_device_language=en_US
+android_screen_record_size=
+android_screen_record_bitrate=
+android_enable_bug_report=true
+ios_screen_record_quality=MEDIUM
+ios_screen_record_codec=libx264
+ios_screen_record_fps=10
+screen_record_duration=180
+video_scale=-2:720
+ignore_ssl=false
+test_run_rules=
+hub_mode=selenium
+extract_sys_log=false
+selenium_host=http://localhost:4444/wd/hub
+
+------------- Driver capabilities -----------
+================================================
+
+2020-02-12 13:39:19 CarinaListener [INFO] Set data_provider_thread_count=1
+2020-02-12 13:39:19 CarinaListener [INFO] CARINA_CORE_VERSION: 6.3.30
+2020-02-12 13:39:19 WebSamplePerformanceTest [INFO] Suite Name: PT Web Suite
+2020-02-12 13:39:19 WebSamplePerformanceTest [INFO] Test Name: testCompareModels
+2020-02-12 13:39:19 Messager [INFO]  TEST [PT Web Test - testCompareModels] STARTED at [13:39:19 2020-02-12]
+2020-02-12 13:39:24 DesktopFactory [INFO] Browser window was maximized
+2020-02-12 13:39:24 Messager [INFO] INFO: url 'https://www.gsmarena.com' is being opened...
+2020-02-12 13:39:27 DriverListener [INFO] INFO: url 'https://www.gsmarena.com' is opened.
+2020-02-12 13:39:28 PerfEventHandler [INFO] URL 'https://www.gsmarena.com' opened
+2020-02-12 13:39:31 DriverListener [INFO] PASS: element 'compareLink' is clicked.
+2020-02-12 13:39:34 PerformanceStats [INFO] perf_log_12.02.2020 index is present
+2020-02-12 13:39:34 PerformanceStats [INFO] ZafiraRunID: 407
+2020-02-12 13:39:34 PerformanceStats [INFO] SuiteName: PT Web Suite
+2020-02-12 13:39:34 PerformanceStats [INFO] TestCaseID: testCompareModels
+2020-02-12 13:39:35 PerfEventHandler [INFO] Element clicked
+2020-02-12 13:39:37 DriverListener [INFO] PASS: element 'inputField' is clicked.
+2020-02-12 13:39:38 PerformanceStats [INFO] perf_log_12.02.2020 index is present
+2020-02-12 13:39:38 PerformanceStats [INFO] ZafiraRunID: 407
+2020-02-12 13:39:38 PerformanceStats [INFO] SuiteName: PT Web Suite
+2020-02-12 13:39:38 PerformanceStats [INFO] TestCaseID: testCompareModels
+2020-02-12 13:39:38 PerfEventHandler [INFO] Element clicked
+2020-02-12 13:39:39 DriverListener [INFO] PASS: keys cleared in element 'inputField'.
+2020-02-12 13:39:40 PerfEventHandler [INFO] Text '' typed
+2020-02-12 13:39:41 DriverListener [INFO] PASS: keys 'Samsung Galaxy J3' are sent to element 'inputField'.
+2020-02-12 13:39:42 PerfEventHandler [INFO] Text 'Samsung Galaxy J3' typed
+2020-02-12 13:39:47 DriverListener [INFO] PASS: element 'Samsung Galaxy J3 (2016)' is clicked.
+2020-02-12 13:39:48 PerformanceStats [INFO] perf_log_12.02.2020 index is present
+2020-02-12 13:39:48 PerformanceStats [INFO] ZafiraRunID: 407
+2020-02-12 13:39:48 PerformanceStats [INFO] SuiteName: PT Web Suite
+2020-02-12 13:39:48 PerformanceStats [INFO] TestCaseID: testCompareModels
+2020-02-12 13:39:50 PerfEventHandler [INFO] Element clicked
+2020-02-12 13:39:51 DriverListener [INFO] PASS: element 'inputField' is clicked.
+2020-02-12 13:39:53 PerformanceStats [INFO] perf_log_12.02.2020 index is present
+2020-02-12 13:39:53 PerformanceStats [INFO] ZafiraRunID: 407
+2020-02-12 13:39:53 PerformanceStats [INFO] SuiteName: PT Web Suite
+2020-02-12 13:39:53 PerformanceStats [INFO] TestCaseID: testCompareModels
+2020-02-12 13:39:53 PerfEventHandler [INFO] Element clicked
+2020-02-12 13:39:55 DriverListener [INFO] PASS: keys cleared in element 'inputField'.
+2020-02-12 13:39:56 PerfEventHandler [INFO] Text '' typed
+2020-02-12 13:39:57 DriverListener [INFO] PASS: keys 'Samsung Galaxy J5' are sent to element 'inputField'.
+2020-02-12 13:39:58 PerfEventHandler [INFO] Text 'Samsung Galaxy J5' typed
+2020-02-12 13:40:02 DriverListener [INFO] PASS: element 'Samsung Galaxy J5' is clicked.
+2020-02-12 13:40:03 PerformanceStats [INFO] perf_log_12.02.2020 index is present
+2020-02-12 13:40:03 PerformanceStats [INFO] ZafiraRunID: 407
+2020-02-12 13:40:03 PerformanceStats [INFO] SuiteName: PT Web Suite
+2020-02-12 13:40:03 PerformanceStats [INFO] TestCaseID: testCompareModels
+2020-02-12 13:40:04 PerfEventHandler [INFO] Element clicked
+2020-02-12 13:40:05 DriverListener [INFO] PASS: element 'inputField' is clicked.
+2020-02-12 13:40:07 PerformanceStats [INFO] perf_log_12.02.2020 index is present
+2020-02-12 13:40:07 PerformanceStats [INFO] ZafiraRunID: 407
+2020-02-12 13:40:07 PerformanceStats [INFO] SuiteName: PT Web Suite
+2020-02-12 13:40:07 PerformanceStats [INFO] TestCaseID: testCompareModels
+2020-02-12 13:40:07 PerfEventHandler [INFO] Element clicked
+2020-02-12 13:40:08 DriverListener [INFO] PASS: keys cleared in element 'inputField'.
+2020-02-12 13:40:09 PerfEventHandler [INFO] Text '' typed
+2020-02-12 13:40:10 DriverListener [INFO] PASS: keys 'Samsung Galaxy J7 Pro' are sent to element 'inputField'.
+2020-02-12 13:40:12 PerfEventHandler [INFO] Text 'Samsung Galaxy J7 Pro' typed
+2020-02-12 13:40:16 DriverListener [INFO] PASS: element 'Samsung Galaxy J7 Pro' is clicked.
+2020-02-12 13:40:17 PerformanceStats [INFO] perf_log_12.02.2020 index is present
+2020-02-12 13:40:17 PerformanceStats [INFO] ZafiraRunID: 407
+2020-02-12 13:40:17 PerformanceStats [INFO] SuiteName: PT Web Suite
+2020-02-12 13:40:17 PerformanceStats [INFO] TestCaseID: testCompareModels
+2020-02-12 13:40:17 PerfEventHandler [INFO] Element clicked
+2020-02-12 13:40:19 Messager [INFO]  TEST [PT Web Test - testCompareModels] PASSED at [13:40:19 2020-02-12]
+2020-02-12 13:40:19 WebSamplePerformanceTest [INFO] Suite Name: PT Web Suite
+2020-02-12 13:40:20 WebSamplePerformanceTest [INFO] Test Name: testModelSpecs
+2020-02-12 13:40:20 Messager [INFO]  TEST [GSMA0001 - PT Web Test - testModelSpecs] STARTED at [13:40:20 2020-02-12]
+2020-02-12 13:40:24 DesktopFactory [INFO] Browser window was maximized
+2020-02-12 13:40:24 Messager [INFO] INFO: url 'https://www.gsmarena.com' is being opened...
+2020-02-12 13:40:32 DriverListener [INFO] INFO: url 'https://www.gsmarena.com' is opened.
+2020-02-12 13:40:34 PerfEventHandler [INFO] URL 'https://www.gsmarena.com' opened
+2020-02-12 13:40:35 HomePage [INFO] selecting 'Samsung' brand...
+2020-02-12 13:40:36 HomePage [INFO] currentBrand: PHONE FINDER
+2020-02-12 13:40:36 HomePage [INFO] currentBrand: SAMSUNG
+2020-02-12 13:41:02 DriverListener [INFO] PASS: element 'SAMSUNG' is clicked.
+2020-02-12 13:41:04 PerformanceStats [INFO] perf_log_12.02.2020 index is present
+2020-02-12 13:41:04 PerformanceStats [INFO] ZafiraRunID: 407
+2020-02-12 13:41:04 PerformanceStats [INFO] SuiteName: PT Web Suite
+2020-02-12 13:41:04 PerformanceStats [INFO] TestCaseID: testModelSpecs
+2020-02-12 13:41:04 PerfEventHandler [INFO] Element clicked
+2020-02-12 13:41:15 DriverListener [INFO] PASS: element 'modelLink' is clicked.
+2020-02-12 13:41:16 PerformanceStats [INFO] perf_log_12.02.2020 index is present
+2020-02-12 13:41:16 PerformanceStats [INFO] ZafiraRunID: 407
+2020-02-12 13:41:16 PerformanceStats [INFO] SuiteName: PT Web Suite
+2020-02-12 13:41:16 PerformanceStats [INFO] TestCaseID: testModelSpecs
+2020-02-12 13:41:16 PerfEventHandler [INFO] Element clicked
+2020-02-12 13:41:18 Messager [INFO]  TEST [GSMA0001 - PT Web Test - testModelSpecs] PASSED at [13:41:18 2020-02-12]
+2020-02-12 13:41:18 WebSamplePerformanceTest [INFO] Suite Name: PT Web Suite
+2020-02-12 13:41:18 WebSamplePerformanceTest [INFO] Test Name: testModelSpecs
+2020-02-12 13:41:18 Messager [INFO]  TEST [GSMA0002 - PT Web Test - testModelSpecs] STARTED at [13:41:18 2020-02-12]
+2020-02-12 13:41:22 DesktopFactory [INFO] Browser window was maximized
+2020-02-12 13:41:22 Messager [INFO] INFO: url 'https://www.gsmarena.com' is being opened...
+2020-02-12 13:41:29 DriverListener [INFO] INFO: url 'https://www.gsmarena.com' is opened.
+2020-02-12 13:41:31 PerfEventHandler [INFO] URL 'https://www.gsmarena.com' opened
+2020-02-12 13:41:33 HomePage [INFO] selecting 'Samsung' brand...
+2020-02-12 13:41:34 HomePage [INFO] currentBrand: PHONE FINDER
+2020-02-12 13:41:34 HomePage [INFO] currentBrand: SAMSUNG
+2020-02-12 13:41:41 DriverListener [INFO] PASS: element 'SAMSUNG' is clicked.
+2020-02-12 13:41:42 PerformanceStats [INFO] perf_log_12.02.2020 index is present
+2020-02-12 13:41:42 PerformanceStats [INFO] ZafiraRunID: 407
+2020-02-12 13:41:42 PerformanceStats [INFO] SuiteName: PT Web Suite
+2020-02-12 13:41:42 PerformanceStats [INFO] TestCaseID: testModelSpecs
+2020-02-12 13:41:42 PerfEventHandler [INFO] Element clicked
+2020-02-12 13:41:58 DriverListener [INFO] PASS: element 'modelLink' is clicked.
+2020-02-12 13:42:00 PerformanceStats [INFO] perf_log_12.02.2020 index is present
+2020-02-12 13:42:00 PerformanceStats [INFO] ZafiraRunID: 407
+2020-02-12 13:42:00 PerformanceStats [INFO] SuiteName: PT Web Suite
+2020-02-12 13:42:00 PerformanceStats [INFO] TestCaseID: testModelSpecs
+2020-02-12 13:42:00 PerfEventHandler [INFO] Element clicked
+2020-02-12 13:42:01 Messager [INFO]  TEST [GSMA0002 - PT Web Test - testModelSpecs] PASSED at [13:42:01 2020-02-12]
+2020-02-12 13:42:01 WebSamplePerformanceTest [INFO] Suite Name: PT Web Suite
+2020-02-12 13:42:01 WebSamplePerformanceTest [INFO] Test Name: testModelSpecs
+2020-02-12 13:42:01 Messager [INFO]  TEST [GSMA0003 - PT Web Test - testModelSpecs] STARTED at [13:42:01 2020-02-12]
+2020-02-12 13:42:05 DesktopFactory [INFO] Browser window was maximized
+2020-02-12 13:42:05 Messager [INFO] INFO: url 'https://www.gsmarena.com' is being opened...
+2020-02-12 13:42:12 DriverListener [INFO] INFO: url 'https://www.gsmarena.com' is opened.
+2020-02-12 13:42:13 PerfEventHandler [INFO] URL 'https://www.gsmarena.com' opened
+2020-02-12 13:42:15 HomePage [INFO] selecting 'Samsung' brand...
+2020-02-12 13:42:16 HomePage [INFO] currentBrand: PHONE FINDER
+2020-02-12 13:42:16 HomePage [INFO] currentBrand: SAMSUNG
+2020-02-12 13:42:41 DriverListener [INFO] PASS: element 'SAMSUNG' is clicked.
+2020-02-12 13:42:42 PerformanceStats [INFO] perf_log_12.02.2020 index is present
+2020-02-12 13:42:42 PerformanceStats [INFO] ZafiraRunID: 407
+2020-02-12 13:42:42 PerformanceStats [INFO] SuiteName: PT Web Suite
+2020-02-12 13:42:42 PerformanceStats [INFO] TestCaseID: testModelSpecs
+2020-02-12 13:42:43 PerfEventHandler [INFO] Element clicked
+2020-02-12 13:42:50 DriverListener [INFO] PASS: element 'modelLink' is clicked.
+2020-02-12 13:42:52 PerformanceStats [INFO] perf_log_12.02.2020 index is present
+2020-02-12 13:42:52 PerformanceStats [INFO] ZafiraRunID: 407
+2020-02-12 13:42:52 PerformanceStats [INFO] SuiteName: PT Web Suite
+2020-02-12 13:42:52 PerformanceStats [INFO] TestCaseID: testModelSpecs
+2020-02-12 13:42:52 PerfEventHandler [INFO] Element clicked
+2020-02-12 13:42:54 Messager [INFO]  TEST [GSMA0003 - PT Web Test - testModelSpecs] PASSED at [13:42:54 2020-02-12]
+2020-02-12 13:42:54 WebSamplePerformanceTest [INFO] Suite Name: PT Web Suite
+2020-02-12 13:42:54 WebSamplePerformanceTest [INFO] Test Name: testNewsSearch
+2020-02-12 13:42:54 Messager [INFO]  TEST [PT Web Test - testNewsSearch] STARTED at [13:42:54 2020-02-12]
+2020-02-12 13:42:58 DesktopFactory [INFO] Browser window was maximized
+2020-02-12 13:42:58 Messager [INFO] INFO: url 'https://www.gsmarena.com' is being opened...
+2020-02-12 13:43:06 DriverListener [INFO] INFO: url 'https://www.gsmarena.com' is opened.
+2020-02-12 13:43:07 PerfEventHandler [INFO] URL 'https://www.gsmarena.com' opened
+2020-02-12 13:43:11 DriverListener [INFO] PASS: element 'newsLink' is clicked.
+2020-02-12 13:43:13 PerformanceStats [INFO] perf_log_12.02.2020 index is present
+2020-02-12 13:43:13 PerformanceStats [INFO] ZafiraRunID: 407
+2020-02-12 13:43:13 PerformanceStats [INFO] SuiteName: PT Web Suite
+2020-02-12 13:43:13 PerformanceStats [INFO] TestCaseID: testNewsSearch
+2020-02-12 13:43:13 PerfEventHandler [INFO] Element clicked
+2020-02-12 13:43:34 DriverHelper [WARN] Actual URL differs from expected one. Expected 'https://qkm1.qualitykiosk.com/api/news.php3' but found 'https://www.gsmarena.com/news.php3'
+2020-02-12 13:43:44 Messager [ERROR]  TEST [PT Web Test - testNewsSearch] FAILED at [13:43:44 2020-02-12] - News page is not opened! expected [true] but found [false]
+
+org.testng.Assert.fail(Assert.java:96)
+org.testng.Assert.failNotEquals(Assert.java:776)
+org.testng.Assert.assertTrue(Assert.java:44)
+com.qaprosoft.carina.demo.WebSamplePerformanceTest.testNewsSearch(WebSamplePerformanceTest.java:139)
+sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+java.lang.reflect.Method.invoke(Unknown Source)
+org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+org.testng.internal.MethodInvocationHelper$1.runTestMethod(MethodInvocationHelper.java:230)
+com.qaprosoft.zafira.listener.ZafiraListener.lambda$run$0(ZafiraListener.java:103)
+com.qaprosoft.zafira.listener.ZafiraEventRegistrar.onTestHook(ZafiraEventRegistrar.java:360)
+com.qaprosoft.zafira.listener.ZafiraListener.run(ZafiraListener.java:103)
+org.testng.internal.MethodInvocationHelper.invokeHookable(MethodInvocationHelper.java:242)
+org.testng.internal.Invoker.invokeMethod(Invoker.java:579)
+org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+java.lang.Thread.run(Unknown Source)
+2020-02-12 13:43:44 Messager [INFO] INFO: '**************** Test execution summary ****************'.
+2020-02-12 13:43:44 Messager [INFO] RESULT #1: TEST [PT Web Test - testCompareModels] PASS [screenshots=file://E:\Nikita_workspace\Atlas_Demo\.\reports\qa\1581494959108/4f8f857e-7427-46cb-8c4a-1caa38f47f11/report.html | log=file://E:\Nikita_workspace\Atlas_Demo\.\reports\qa\1581494959108/4f8f857e-7427-46cb-8c4a-1caa38f47f11/test.log]
+2020-02-12 13:43:44 Messager [INFO] RESULT #2: TEST [GSMA0001 - PT Web Test - testModelSpecs] PASS [screenshots=file://E:\Nikita_workspace\Atlas_Demo\.\reports\qa\1581494959108/627228d4-336c-407f-9951-04c2d229c714/report.html | log=file://E:\Nikita_workspace\Atlas_Demo\.\reports\qa\1581494959108/627228d4-336c-407f-9951-04c2d229c714/test.log]
+2020-02-12 13:43:44 Messager [INFO] RESULT #3: TEST [GSMA0002 - PT Web Test - testModelSpecs] PASS [screenshots=file://E:\Nikita_workspace\Atlas_Demo\.\reports\qa\1581494959108/a1783b09-6b67-4e74-9fd2-ee49d1054a8d/report.html | log=file://E:\Nikita_workspace\Atlas_Demo\.\reports\qa\1581494959108/a1783b09-6b67-4e74-9fd2-ee49d1054a8d/test.log]
+2020-02-12 13:43:44 Messager [INFO] RESULT #4: TEST [GSMA0003 - PT Web Test - testModelSpecs] PASS [screenshots=file://E:\Nikita_workspace\Atlas_Demo\.\reports\qa\1581494959108/6af77703-291f-402f-9689-1fe350754a09/report.html | log=file://E:\Nikita_workspace\Atlas_Demo\.\reports\qa\1581494959108/6af77703-291f-402f-9689-1fe350754a09/test.log]
+2020-02-12 13:43:44 Messager [INFO] RESULT #5: TEST [PT Web Test - testNewsSearch] FAIL [screenshots=file://E:\Nikita_workspace\Atlas_Demo\.\reports\qa\1581494959108/52a87bc3-bdaa-4dd2-9f7e-6f66d95b5d89/report.html | log=file://E:\Nikita_workspace\Atlas_Demo\.\reports\qa\1581494959108/52a87bc3-bdaa-4dd2-9f7e-6f66d95b5d89/test.log]

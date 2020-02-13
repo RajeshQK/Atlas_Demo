@@ -1,0 +1,11 @@
+[2020-02-13 04:04:25] [IMessager.java] [20] [INFO]  TEST [Mobile test 1 - testLoginUser] STARTED at [16:04:25 2020-02-13]
+[2020-02-13 04:04:25] [M1CloudActivities.java] [20] [INFO] DeviceName: Samsung_Galaxy_J4_Plus.properties
+[2020-02-13 04:05:43] [DriverListener.java] [20] [INFO] PASS: element 'nextBtn' is clicked.
+[2020-02-13 04:05:46] [DriverListener.java] [20] [INFO] PASS: keys cleared in element 'nameInputField'.
+[2020-02-13 04:05:48] [DriverListener.java] [20] [INFO] PASS: keys 'Test user' are sent to element 'nameInputField'.
+[2020-02-13 04:05:50] [DriverListener.java] [20] [INFO] PASS: keys cleared in element 'passwordInputField'.
+[2020-02-13 04:05:51] [DriverListener.java] [20] [INFO] PASS: keys 'MiGoqDkDEf' are sent to element 'passwordInputField'.
+[2020-02-13 04:05:52] [DriverListener.java] [20] [INFO] PASS: element 'maleRadioBtn' is clicked.
+[2020-02-13 04:05:54] [DriverListener.java] [20] [INFO] PASS: element 'privacyPolicyCheckbox' is clicked.
+[2020-02-13 04:05:56] [DriverListener.java] [20] [INFO] PASS: element 'loginBtn' is clicked.
+[2020-02-13 04:06:03] [IMessager.java] [20] [INFO] SM-J415F - 879ee013 TEST [Mobile test 1 - testLoginUser] PASSED at [16:06:03 2020-02-13]
