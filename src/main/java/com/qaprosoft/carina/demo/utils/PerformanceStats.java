@@ -167,10 +167,10 @@ public class PerformanceStats extends AbstractPage {
 	}
 
 	public void createIndex() {
-//		RestAssured.baseURI = "http://atlas.corp.qualitykiosk.com:9200/" + index_name;
+		RestAssured.baseURI = "http://atlas.corp.qualitykiosk.com:9200/" + index_name;
 		// RestAssured.baseURI =
 		// "http://atlas.corp.qualitykiosk.com:9200/early_pt";
-		RestAssured.baseURI = "http://192.168.2.17:9200/" + index_name;
+//		RestAssured.baseURI = "http://192.168.2.17:9200/" + index_name;
 		RequestSpecification httpRequest = RestAssured.given();
 
 		Response verify_index = httpRequest.request().get();

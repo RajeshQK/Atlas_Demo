@@ -1,14 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="1" ignored="0" total="3" passed="2">
+<testng-results skipped="0" failed="1" ignored="0" total="5" passed="4">
   <reporter-output>
     <line>
-      <![CDATA[SM-J810G - 86ef9023 TEST [Mobile test 2 - testWebView] FAILED at [18:01:14 2020-02-13] - Desired context is not present
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'QKNBK474', ip: '10.0.75.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
-Driver info: driver.version: unknown
+      <![CDATA[ TEST [PT Web Test - testNewsSearch] FAILED at [15:50:55 2020-02-19] - News page is not opened! expected [true] but found [false]
 
-com.qaprosoft.carina.demo.utils.MobileContextUtils.switchMobileContext(MobileContextUtils.java:43)
-com.qaprosoft.carina.demo.MobileSampleTest2.testWebView(MobileSampleTest2.java:41)
+org.testng.Assert.fail(Assert.java:96)
+org.testng.Assert.failNotEquals(Assert.java:776)
+org.testng.Assert.assertTrue(Assert.java:44)
+com.qaprosoft.carina.demo.WebSamplePerformanceTest.testNewsSearch(WebSamplePerformanceTest.java:139)
 sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -24,45 +23,144 @@ org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
 org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
 org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
 org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-org.testng.TestRunner.privateRun(TestRunner.java:648)
-org.testng.TestRunner.run(TestRunner.java:505)
-org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
-org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
-org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
-java.util.concurrent.FutureTask.run(Unknown Source)
 java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
 java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
 java.lang.Thread.run(Unknown Source)]]>
     </line>
   </reporter-output>
-  <suite name="M1 Parallel Suite" duration-ms="95250" started-at="2020-02-13T12:30:13Z" finished-at="2020-02-13T12:31:48Z">
+  <suite name="PT Web Suite" duration-ms="350857" started-at="2020-02-19T10:15:04Z" finished-at="2020-02-19T10:20:55Z">
     <groups>
     </groups>
-    <test name="Mobile test 2" duration-ms="61664" started-at="2020-02-13T12:30:13Z" finished-at="2020-02-13T12:31:15Z">
-      <class name="com.qaprosoft.carina.demo.MobileSampleTest2">
-        <test-method status="FAIL" signature="testWebView(java.lang.String)[pri:0, instance:com.qaprosoft.carina.demo.MobileSampleTest2@15ca7889]" name="testWebView" duration-ms="60249" started-at="2020-02-13T12:30:13Z" finished-at="2020-02-13T12:31:13Z">
+    <test name="PT Web Test" duration-ms="350857" started-at="2020-02-19T10:15:04Z" finished-at="2020-02-19T10:20:55Z">
+      <class name="com.qaprosoft.carina.demo.WebSamplePerformanceTest">
+        <test-method status="PASS" signature="beforeMethod(org.testng.ITestContext, java.lang.reflect.Method)[pri:0, instance:com.qaprosoft.carina.demo.WebSamplePerformanceTest@48ae9b55]" name="beforeMethod" is-config="true" duration-ms="36" started-at="2020-02-19T10:15:04Z" finished-at="2020-02-19T10:15:04Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[Samsung_Galaxy_J8.properties]]>
+                <![CDATA[org.testng.TestRunner@6bffbc6d]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.qaprosoft.carina.demo.WebSamplePerformanceTest.testCompareModels()]]>
               </value>
             </param>
           </params>
-          <exception class="org.openqa.selenium.NotFoundException">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testCompareModels()[pri:0, instance:com.qaprosoft.carina.demo.WebSamplePerformanceTest@48ae9b55]" name="testCompareModels" duration-ms="116965" started-at="2020-02-19T10:15:04Z" description="JIRA#AUTO-0009" finished-at="2020-02-19T10:17:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCompareModels -->
+        <test-method status="PASS" signature="beforeMethod(org.testng.ITestContext, java.lang.reflect.Method)[pri:0, instance:com.qaprosoft.carina.demo.WebSamplePerformanceTest@48ae9b55]" name="beforeMethod" is-config="true" duration-ms="31" started-at="2020-02-19T10:17:06Z" finished-at="2020-02-19T10:17:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@6bffbc6d]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.qaprosoft.carina.demo.WebSamplePerformanceTest.testModelSpecs(java.util.HashMap)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testModelSpecs(java.util.HashMap)[pri:0, instance:com.qaprosoft.carina.demo.WebSamplePerformanceTest@48ae9b55]" name="testModelSpecs" duration-ms="68666" started-at="2020-02-19T10:17:06Z" description="JIRA#AUTO-0008" data-provider="SingleDataProvider" finished-at="2020-02-19T10:18:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Execute=Y, display=6.4", model=Galaxy S10+, TUID=GSMA0001, camera=16MP, battery=4100mAh, brand=Samsung, ram=12GB RAM}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testModelSpecs -->
+        <test-method status="PASS" signature="beforeMethod(org.testng.ITestContext, java.lang.reflect.Method)[pri:0, instance:com.qaprosoft.carina.demo.WebSamplePerformanceTest@48ae9b55]" name="beforeMethod" is-config="true" duration-ms="2" started-at="2020-02-19T10:18:16Z" finished-at="2020-02-19T10:18:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@6bffbc6d]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.qaprosoft.carina.demo.WebSamplePerformanceTest.testModelSpecs(java.util.HashMap)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testModelSpecs(java.util.HashMap)[pri:0, instance:com.qaprosoft.carina.demo.WebSamplePerformanceTest@48ae9b55]" name="testModelSpecs" duration-ms="56512" started-at="2020-02-19T10:18:16Z" description="JIRA#AUTO-0008" data-provider="SingleDataProvider" finished-at="2020-02-19T10:19:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Execute=Y, display=6.1", model=Galaxy S10, TUID=GSMA0002, camera=16MP, battery=3400mAh, brand=Samsung, ram=8GB RAM}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testModelSpecs -->
+        <test-method status="PASS" signature="beforeMethod(org.testng.ITestContext, java.lang.reflect.Method)[pri:0, instance:com.qaprosoft.carina.demo.WebSamplePerformanceTest@48ae9b55]" name="beforeMethod" is-config="true" duration-ms="3" started-at="2020-02-19T10:19:13Z" finished-at="2020-02-19T10:19:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@6bffbc6d]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.qaprosoft.carina.demo.WebSamplePerformanceTest.testModelSpecs(java.util.HashMap)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testModelSpecs(java.util.HashMap)[pri:0, instance:com.qaprosoft.carina.demo.WebSamplePerformanceTest@48ae9b55]" name="testModelSpecs" duration-ms="55203" started-at="2020-02-19T10:19:13Z" description="JIRA#AUTO-0008" data-provider="SingleDataProvider" finished-at="2020-02-19T10:20:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Execute=Y, display=17.3", model=Galaxy View2, TUID=GSMA0003, camera=NO, battery=12000mAh, brand=Samsung, ram=3GB RAM}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testModelSpecs -->
+        <test-method status="PASS" signature="beforeMethod(org.testng.ITestContext, java.lang.reflect.Method)[pri:0, instance:com.qaprosoft.carina.demo.WebSamplePerformanceTest@48ae9b55]" name="beforeMethod" is-config="true" duration-ms="2" started-at="2020-02-19T10:20:09Z" finished-at="2020-02-19T10:20:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@6bffbc6d]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.qaprosoft.carina.demo.WebSamplePerformanceTest.testNewsSearch()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="FAIL" signature="testNewsSearch()[pri:0, instance:com.qaprosoft.carina.demo.WebSamplePerformanceTest@48ae9b55]" name="testNewsSearch" duration-ms="45164" started-at="2020-02-19T10:20:09Z" description="JIRA#AUTO-0010" finished-at="2020-02-19T10:20:54Z">
+          <exception class="java.lang.AssertionError">
             <message>
-              <![CDATA[Desired context is not present
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'QKNBK474', ip: '10.0.75.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
-Driver info: driver.version: unknown]]>
+              <![CDATA[News page is not opened! expected [true] but found [false]]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NotFoundException: Desired context is not present
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'QKNBK474', ip: '10.0.75.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
-Driver info: driver.version: unknown
-at com.qaprosoft.carina.demo.utils.MobileContextUtils.switchMobileContext(MobileContextUtils.java:43)
-at com.qaprosoft.carina.demo.MobileSampleTest2.testWebView(MobileSampleTest2.java:41)
+              <![CDATA[java.lang.AssertionError: News page is not opened! expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertTrue(Assert.java:44)
+at com.qaprosoft.carina.demo.WebSamplePerformanceTest.testNewsSearch(WebSamplePerformanceTest.java:139)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -78,28 +176,20 @@ at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
 at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
 at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
 at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
-at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
-at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
-at java.util.concurrent.FutureTask.run(Unknown Source)
 at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
 at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
 at java.lang.Thread.run(Unknown Source)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NotFoundException -->
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
             <line>
-              <![CDATA[SM-J810G - 86ef9023 TEST [Mobile test 2 - testWebView] FAILED at [18:01:14 2020-02-13] - Desired context is not present
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'QKNBK474', ip: '10.0.75.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
-Driver info: driver.version: unknown
+              <![CDATA[ TEST [PT Web Test - testNewsSearch] FAILED at [15:50:55 2020-02-19] - News page is not opened! expected [true] but found [false]
 
-com.qaprosoft.carina.demo.utils.MobileContextUtils.switchMobileContext(MobileContextUtils.java:43)
-com.qaprosoft.carina.demo.MobileSampleTest2.testWebView(MobileSampleTest2.java:41)
+org.testng.Assert.fail(Assert.java:96)
+org.testng.Assert.failNotEquals(Assert.java:776)
+org.testng.Assert.assertTrue(Assert.java:44)
+com.qaprosoft.carina.demo.WebSamplePerformanceTest.testNewsSearch(WebSamplePerformanceTest.java:139)
 sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -115,50 +205,13 @@ org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
 org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
 org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
 org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-org.testng.TestRunner.privateRun(TestRunner.java:648)
-org.testng.TestRunner.run(TestRunner.java:505)
-org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
-org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
-org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
-java.util.concurrent.FutureTask.run(Unknown Source)
 java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
 java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
 java.lang.Thread.run(Unknown Source)]]>
             </line>
           </reporter-output>
-        </test-method> <!-- testWebView -->
-      </class> <!-- com.qaprosoft.carina.demo.MobileSampleTest2 -->
-    </test> <!-- Mobile test 2 -->
-    <test name="Mobile test 1" duration-ms="82907" started-at="2020-02-13T12:30:13Z" finished-at="2020-02-13T12:31:36Z">
-      <class name="com.qaprosoft.carina.demo.MobileSampleTest1">
-        <test-method status="PASS" signature="testLoginUser(java.lang.String)[pri:0, instance:com.qaprosoft.carina.demo.MobileSampleTest1@1622f1b]" name="testLoginUser" duration-ms="81877" started-at="2020-02-13T12:30:13Z" finished-at="2020-02-13T12:31:35Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Samsung_Galaxy_J4_Plus.properties]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testLoginUser -->
-      </class> <!-- com.qaprosoft.carina.demo.MobileSampleTest1 -->
-    </test> <!-- Mobile test 1 -->
-    <test name="Mobile test 3" duration-ms="95250" started-at="2020-02-13T12:30:13Z" finished-at="2020-02-13T12:31:48Z">
-      <class name="com.qaprosoft.carina.demo.MobileSampleTest3">
-        <test-method status="PASS" signature="testUIElements(java.lang.String)[pri:0, instance:com.qaprosoft.carina.demo.MobileSampleTest3@6a2b953e]" name="testUIElements" duration-ms="94740" started-at="2020-02-13T12:30:13Z" finished-at="2020-02-13T12:31:48Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Samsung_Galaxy_J7_Prime.properties]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testUIElements -->
-      </class> <!-- com.qaprosoft.carina.demo.MobileSampleTest3 -->
-    </test> <!-- Mobile test 3 -->
-  </suite> <!-- M1 Parallel Suite -->
+        </test-method> <!-- testNewsSearch -->
+      </class> <!-- com.qaprosoft.carina.demo.WebSamplePerformanceTest -->
+    </test> <!-- PT Web Test -->
+  </suite> <!-- PT Web Suite -->
 </testng-results>

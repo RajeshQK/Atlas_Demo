@@ -8,23 +8,17 @@
 <body>
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
-<tr><th colspan="7">M1 Parallel Suite</th></tr>
-<tr><td><a href="#t0">Mobile test 2</a></td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">61,664</td><td></td><td></td></tr>
-<tr class="stripe"><td><a href="#t1">Mobile test 1</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num">82,907</td><td></td><td></td></tr>
-<tr><td><a href="#t2">Mobile test 3</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num">95,250</td><td></td><td></td></tr>
-<tr><th>Total</th><th class="num">2</th><th class="num">0</th><th class="num attn">1</th><th class="num">239,821</th><th colspan="2"></th></tr>
+<tr><th colspan="7">PT Web Suite</th></tr>
+<tr><td><a href="#t0">PT Web Test</a></td><td class="num">4</td><td class="num">0</td><td class="num attn">1</td><td class="num">350,857</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">M1 Parallel Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Mobile test 2 &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">com.qaprosoft.carina.demo.MobileSampleTest2</td><td><a href="#m0">testWebView</a></td><td rowspan="1">1581597013439</td><td rowspan="1">60249</td></tr></tbody>
-<tbody id="t1"><tr><th colspan="4">Mobile test 1 &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">com.qaprosoft.carina.demo.MobileSampleTest1</td><td><a href="#m1">testLoginUser</a></td><td rowspan="1">1581597013439</td><td rowspan="1">81877</td></tr></tbody>
-<tbody id="t2"><tr><th colspan="4">Mobile test 3 &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">com.qaprosoft.carina.demo.MobileSampleTest3</td><td><a href="#m2">testUIElements</a></td><td rowspan="1">1581597013439</td><td rowspan="1">94740</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">PT Web Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">PT Web Test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">com.qaprosoft.carina.demo.WebSamplePerformanceTest</td><td><a href="#m0">testNewsSearch</a></td><td rowspan="1">1582107609696</td><td rowspan="1">45164</td></tr><tr><th colspan="4">PT Web Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="4">com.qaprosoft.carina.demo.WebSamplePerformanceTest</td><td><a href="#m1">testCompareModels</a></td><td rowspan="1">1582107304646</td><td rowspan="1">116965</td></tr><tr class="passedeven"><td><a href="#m2">testModelSpecs</a></td><td rowspan="3">1582107496318</td><td rowspan="3">56512</td></tr><tr class="passedeven"><td><a href="#m3">testModelSpecs</a></td></tr><tr class="passedeven"><td><a href="#m4">testModelSpecs</a></td></tr></tbody>
 </table>
-<h2>Mobile test 2</h2><h3 id="m0">com.qaprosoft.carina.demo.MobileSampleTest2#testWebView</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>Samsung_Galaxy_J8.properties</td></tr><tr><th>Messages</th></tr><tr><td><div class="messages">SM-J810G - 86ef9023 TEST [Mobile test 2 - testWebView] FAILED at [18:01:14 2020-02-13] - Desired context is not present
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'QKNBK474', ip: '10.0.75.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
-Driver info: driver.version: unknown
+<h2>PT Web Test</h2><h3 id="m0">com.qaprosoft.carina.demo.WebSamplePerformanceTest#testNewsSearch</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages"> TEST [PT Web Test - testNewsSearch] FAILED at [15:50:55 2020-02-19] - News page is not opened! expected [true] but found [false]
 
-com.qaprosoft.carina.demo.utils.MobileContextUtils.switchMobileContext(MobileContextUtils.java:43)
-com.qaprosoft.carina.demo.MobileSampleTest2.testWebView(MobileSampleTest2.java:41)
+org.testng.Assert.fail(Assert.java:96)
+org.testng.Assert.failNotEquals(Assert.java:776)
+org.testng.Assert.assertTrue(Assert.java:44)
+com.qaprosoft.carina.demo.WebSamplePerformanceTest.testNewsSearch(WebSamplePerformanceTest.java:139)
 sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -40,30 +34,20 @@ org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
 org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
 org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
 org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-org.testng.TestRunner.privateRun(TestRunner.java:648)
-org.testng.TestRunner.run(TestRunner.java:505)
-org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
-org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
-org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
-java.util.concurrent.FutureTask.run(Unknown Source)
 java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
 java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
-java.lang.Thread.run(Unknown Source)</div></td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NotFoundException: Desired context is not present
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;QKNBK474&apos;, ip: &apos;10.0.75.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_131&apos;
-Driver info: driver.version: unknown
-	at com.qaprosoft.carina.demo.utils.MobileContextUtils.switchMobileContext(MobileContextUtils.java:43)
-	at com.qaprosoft.carina.demo.MobileSampleTest2.testWebView(MobileSampleTest2.java:41)
+java.lang.Thread.run(Unknown Source)</div></td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: News page is not opened! expected [true] but found [false]
+	at com.qaprosoft.carina.demo.WebSamplePerformanceTest.testNewsSearch(WebSamplePerformanceTest.java:139)
 	at com.qaprosoft.zafira.listener.ZafiraListener.lambda$run$0(ZafiraListener.java:103)
 	at com.qaprosoft.zafira.listener.ZafiraEventRegistrar.onTestHook(ZafiraEventRegistrar.java:360)
 	at com.qaprosoft.zafira.listener.ZafiraListener.run(ZafiraListener.java:103)
-	at java.util.concurrent.FutureTask.run(Unknown Source)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
 	at java.lang.Thread.run(Unknown Source)
-... Removed 18 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h2>Mobile test 1</h2><h3 id="m1">com.qaprosoft.carina.demo.MobileSampleTest1#testLoginUser</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>Samsung_Galaxy_J4_Plus.properties</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h2>Mobile test 3</h2><h3 id="m2">com.qaprosoft.carina.demo.MobileSampleTest3#testUIElements</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>Samsung_Galaxy_J7_Prime.properties</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+... Removed 15 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">com.qaprosoft.carina.demo.WebSamplePerformanceTest#testCompareModels</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">com.qaprosoft.carina.demo.WebSamplePerformanceTest#testModelSpecs</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>{Execute=Y, display=6.1&quot;, model=Galaxy S10, TUID=GSMA0002, camera=16MP, battery=3400mAh, brand=Samsung, ram=8GB RAM}</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">com.qaprosoft.carina.demo.WebSamplePerformanceTest#testModelSpecs</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>{Execute=Y, display=6.4&quot;, model=Galaxy S10+, TUID=GSMA0001, camera=16MP, battery=4100mAh, brand=Samsung, ram=12GB RAM}</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">com.qaprosoft.carina.demo.WebSamplePerformanceTest#testModelSpecs</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>{Execute=Y, display=17.3&quot;, model=Galaxy View2, TUID=GSMA0003, camera=NO, battery=12000mAh, brand=Samsung, ram=3GB RAM}</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>
