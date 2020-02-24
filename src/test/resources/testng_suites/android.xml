@@ -4,7 +4,7 @@
 	data-provider-thread-count="1" annotations="JDK">
 
 	<parameter name="suiteOwner" value="qpsdemo" />
-	<parameter name="zafira_project" value="UNKNOWN" />
+	<parameter name="zafira_project" value="TataMotors" />
 	<parameter name="jenkinsJobCreation" value="true" />
 	<parameter name="jenkinsJobName" value="Mobile-Android-Demo-Test" />
 	<parameter name="jenkinsJobType" value="android" />
